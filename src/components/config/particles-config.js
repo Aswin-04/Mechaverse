@@ -2,7 +2,7 @@ export const customizedOptions  =  {
   autoPlay: true,
   background: {
     color: {
-      value: "#000000"
+      value: "#020809"
     },
     image: "",
     position: "",

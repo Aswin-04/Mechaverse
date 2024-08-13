@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +14,7 @@
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
   --font-grotesk: "Space Grotesk", sans-serif;
-  color-scheme: "dark";
+  color-scheme: dark;
 }
 
 * {
@@ -29,9 +30,9 @@
     margin: 0 auto;
   }
 
-  .input {
+  /* .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
-  }
+  } */
 }
 
 @layer utilities {
@@ -65,5 +66,25 @@
 
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+  
+  .h1 {
+    @apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem];
+  }
+
+  .h2 {
+    @apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight;
+  }
+
+  .h3 {
+    @apply text-[2rem] leading-normal md:text-[2.5rem];
+  }
+
+  .button {
+    @apply font-code text-xs font-bold uppercase tracking-wider;
+  }
+
+  .border-test {
+    @apply border-2 border-red-700;
   }
 }

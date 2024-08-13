@@ -35,6 +35,7 @@ const ParticlesBg = () => {
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
+        className="absolute top-0 left-0 -z-1 "
       />
     );
   }
