@@ -1,4 +1,11 @@
 import NavBar from "../components/NavBar"
+import  {
+  About,
+  Contact,
+  Events,
+  Footer,
+  Hero
+} from '../sections'
 
 const HomePage = () => {
   return (
@@ -7,25 +14,25 @@ const HomePage = () => {
       
       <NavBar/>
       
-      {/* <section>
-        Hero
+      <section className="padding-x">
+        <Hero/>
       </section>
 
-      <section>
-        About
+      <section className="padding">
+        <About/>
       </section>
 
-      <section>
-        Events
+      <section className="padding">
+        <Events/>
       </section>
 
-      <section>
-        Contact us
+      <section className="padding">
+        <Contact/>
       </section>
 
-      <section>
-        Footer
-      </section> */}
+      <section className="padding">
+        <Footer/>
+      </section>
 
     </main>
   )

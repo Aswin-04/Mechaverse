@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
 
-    <header className="w-full padding-x py-2 fixed z-50 backdrop-blur-sm bg-[#020809]/50 border-b-[1px] border-white/30">
+    <header className="w-full padding-x py-2 fixed top-0 left-0 z-50 backdrop-blur-sm bg-[#020809]/50 border-b-[1px] border-white/30">
       <nav className="max-container flex">
 
         <NavLink to='/' className="flex items-center mr-auto">
