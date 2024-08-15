@@ -14,7 +14,7 @@ const Events = () => {
         </div>
         <div className="flex flex-col items-center  px-4 py-8 rounded-xl  bg-[#020809]/50 border-[1px] border-white/30">
           <div className="">
-            <img src={eventsImg} alt="events" width={380} className="rounded-3xl"/>
+            <img src={eventsImg} alt="events" width={320} className="rounded-3xl"/>
           </div>
           <p className="font-montserrat leading-8 text-hc max-lg:max-w-lg max-md:max-w-md mt-8">Explore the fascinating world of 3D printing with us! Our events focus on Mechanical Engineering, Robotics, and more, ensuring you gain a deep understanding of these cutting-edge fields. Secure your spot by filling out the registration form and embark on this exciting journey into innovation and creativity.</p>
           <div className="inline-flex max-w-sm mx-auto mt-6">
@@ -25,7 +25,7 @@ const Events = () => {
       </div>
 
       {/* for large screens */}
-      <div className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30">
+      <div className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30 py-4">
         <div className="min-w-[45%] pl-8 flex justify-center items-center">
             <img src={eventsImg} alt="events" width={320} className="rounded-3xl"/>
         </div>
