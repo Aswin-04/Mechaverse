@@ -1,6 +1,4 @@
 import { contactUsImg } from "../assets/images"
-import { Link } from "react-router-dom"
-import { ArrowRight } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -46,7 +44,7 @@ const Contact = () => {
       </div>
 
       {/* for large screens */}
-      <div className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30 py-4">
+      <div className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30 py-4 justify-center ">
         <div className="min-w-[40%] px-4 flex justify-center items-center">
             <img src={contactUsImg} alt="events" width={350} className="rounded-3xl"/>
         </div>
