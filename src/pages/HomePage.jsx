@@ -19,12 +19,13 @@ const HomePage = () => {
       </section>
 
       <section className="padding">
+        <Events/>
+      </section>
+      
+      <section className="padding">
         <About/>
       </section>
 
-      <section className="padding">
-        <Events/>
-      </section>
 
       <section className="padding">
         <Contact/>

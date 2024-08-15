@@ -1,7 +1,7 @@
 
 const Events = () => {
   return (
-    <section className="max-container">
+    <section className="max-container border-test">
       Events
     </section>
   )
