@@ -24,6 +24,24 @@
   scroll-behavior: smooth;
 }
 
+@layer base {
+  :root {
+    --text-50: #eafbf9;
+    --text-100: #d5f6f4;
+    --text-200: #abede9;
+    --text-300: #81e4de;
+    --text-400: #57dbd2;
+    --text-500: #2dd2c7;
+    --text-600: #24a89f;
+    --text-700: #1b7e78;
+    --text-800: #125450;
+    --text-900: #092a28;
+    --text-950: #041514;
+  }
+}
+
+
+
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -92,4 +110,5 @@
   .border-test {
     @apply border-2 border-red-700;
   }
+
 }

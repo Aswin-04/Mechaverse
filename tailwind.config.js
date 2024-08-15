@@ -26,6 +26,19 @@ export default {
         grotesk: "var(--font-grotesk)",
       },
       colors: {
+        'clr': {
+          50: 'var(--text-50)',
+          100: 'var(--text-100)',
+          200: 'var(--text-200)',
+          300: 'var(--text-300)',
+          400: 'var(--text-400)',
+          500: 'var(--text-500)',
+          600: 'var(--text-600)',
+          700: 'var(--text-700)',
+          800: 'var(--text-800)',
+          900: 'var(--text-900)',
+          950: 'var(--text-950)',
+        },
         'primary': "#90e7e9",
         "secondary": "#1d3392",
         "accent": "#5341d9",
@@ -54,8 +67,6 @@ export default {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       backgroundImage: {
-        // 'hero': "url('assets/images/collection-background.svg')",
-        // 'card': "url('assets/images/thumbnail-background.svg')",
         'linear-primary-secondary': 'linear-gradient(#90e8e9, #1d3291)',
         'linear-primary-accent': 'linear-gradient(#90e8e9, #513fd9)',
         'linear-secondary-accent': 'linear-gradient(#1d3291, #513fd9)',
