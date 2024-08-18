@@ -11,7 +11,7 @@ const EventDetails1 = () => {
       <NavBar></NavBar>
       <section className="max-container mx-auto">
         <div className=" flex justify-center items-center md:h-screen padding-x max-md:pt-[6.688rem]">
-          <div className="mt-12 flex flex-col md:flex-row md:h-[calc(100vh-20rem)] overflow-hidden bg-card text-hc pl-6 max-md:pl-0">
+          <div className="mt-12 flex flex-col md:flex-row md:h-[calc(100vh-20rem)] overflow-hidden bg-card text-hc pl-6 max-md:px-4 max-md:pb-8">
             <div className="md:flex-shrink-0 md:w-1/3 md:min-w-[300px] md:h-full flex items-center justify-center p-4 bg-card max-md:max-w-[400px] max-md:self-center max-md:mt-8 max-xs:mt-4">
               <img
                 src={event.logo}
