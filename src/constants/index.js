@@ -86,6 +86,7 @@ export const reachUs =   {
 
 export const allEvents = [
   {
+    id: 1,
     title: "3D Printing",
     logo: tdPrintingLogo,
     linkTo: "/events",
@@ -93,6 +94,7 @@ export const allEvents = [
   },
 
   {
+    id: 2,
     title: "Aqua Strike",
     logo: aquaStrikeLogo,
     linkTo: "/events",
@@ -100,6 +102,7 @@ export const allEvents = [
   },
 
   {
+    id: 3,
     title: "Brain Tease",
     logo: brainTeaseLogo,
     linkTo: "/events",
@@ -107,6 +110,7 @@ export const allEvents = [
   },
 
   {
+    id: 4,
     title: "Colloquium Talk",
     logo: colloquiumTalkLogo,
     linkTo: "/events",
@@ -114,6 +118,7 @@ export const allEvents = [
   },
 
   {
+    id: 5,
     title: "Cricket Auction",
     logo: cricketAuctionLogo,
     linkTo: "/events",
@@ -121,6 +126,7 @@ export const allEvents = [
   },
 
   {
+    id: 6,
     title: "Drone Zone",
     logo: droneZoneLogo,
     linkTo: "/events",
@@ -128,6 +134,7 @@ export const allEvents = [
   },
 
   {
+    id: 7,
     title: "Machinist",
     logo: machinistLogo,
     linkTo: "/events",
@@ -135,6 +142,7 @@ export const allEvents = [
   },
 
   {
+    id: 8,
     title: "Pixel Perfect",
     logo: pixelPerfectLogo,
     linkTo: "/events",
@@ -142,6 +150,7 @@ export const allEvents = [
   },
 
   {
+    id: 9,
     title: "Rc Da Corsa",
     logo: rcDaCorsaLogo,
     linkTo: "/events",
@@ -149,6 +158,7 @@ export const allEvents = [
   },
 
   {
+    id: 10,
     title: "Shape Shifters",
     logo: shapeShiftersLogo,
     linkTo: "/events",
@@ -156,6 +166,7 @@ export const allEvents = [
   },
 
   {
+    id: 11,
     title: "Stumble Guys",
     logo: stumbleGuysLogo,
     linkTo: "/events",
@@ -163,16 +174,26 @@ export const allEvents = [
   },
 
   {
+    id: 12,
     title: "Vr Cricket",
     logo: vrCricketLogo,
     linkTo: "/events",
     linkLabel: "View Details",
+
   },
 
   {
+    id: 13,
     title: "Together We Can",
     logo: sdgLogo,
     linkTo: "/events",
     linkLabel: "View Details",
   },
 ];
+
+
+export const eventsById = allEvents.reduce((acc, event) => {
+  acc[event.id] = event;
+  return acc;
+}, {});
+

@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 import EventsPage from './pages/EventsPage';
 import AboutUs from './pages/AboutUs';
 import OurTeam from './pages/OurTeam';
+import EventDetails1 from './pages/EventDetails/EventDetails1';
 
 function App() {
 
@@ -20,6 +21,12 @@ function App() {
       path: "/events",
       element: <EventsPage/>,
     },
+
+    {
+      path: "/events/:id",
+      element: <EventDetails1/>,
+    },
+
     {
       path: "/about",
       element: <AboutUs/>,
