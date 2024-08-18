@@ -1,5 +1,21 @@
 import {eventsImg} from '../assets/images'
 
+import {  
+  aquaStrikeLogo,
+  brainTeaseLogo,
+  colloquiumTalkLogo,
+  cricketAuctionLogo,
+  droneZoneLogo,
+  machinistLogo,
+  pixelPerfectLogo,
+  rcDaCorsaLogo,
+  shapeShiftersLogo,
+  stumbleGuysLogo,
+  sdgLogo,
+  tdPrintingLogo,
+  vrCricketLogo,
+} from '../assets/images'
+
 export const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
@@ -35,3 +51,102 @@ export const eventsContent = {
   imgAlt: "events",
   imgWidth: 320,
 };
+
+export const allEvents = [
+
+  {
+    title: "3D Printing",
+    logo: tdPrintingLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Aqua Strike",
+    logo: aquaStrikeLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Brain Tease",
+    logo: brainTeaseLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Colloquium Talk",
+    logo: colloquiumTalkLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Cricket Auction",
+    logo: cricketAuctionLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Drone Zone",
+    logo: droneZoneLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Machinist",
+    logo: machinistLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Pixel Perfect",
+    logo: pixelPerfectLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Rc Da Corsa",
+    logo: rcDaCorsaLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Shape Shifters",
+    logo: shapeShiftersLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Stumble Guys",
+    logo: stumbleGuysLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Vr Cricket",
+    logo: vrCricketLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+  {
+    title: "Together We Can",
+    logo: sdgLogo,
+    linkTo : "/events", 
+    linkLabel: "View Details",
+  },
+
+
+] 
+
+
+

@@ -74,6 +74,8 @@ export default {
         'radial-primary-accent': 'radial-gradient(#90e8e9, #513fd9)',
         'radial-secondary-accent': 'radial-gradient(#1d3291, #513fd9)',
         'custom-gradient-120': 'linear-gradient(120deg, rgb(144, 232, 233), rgb(81, 63, 217))',
+        'custom-gradient-180': 'linear-gradient(180deg, rgb(144, 232, 233), rgb(81, 63, 217))',
+
       },
 
       screens: {
