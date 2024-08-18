@@ -1,4 +1,6 @@
 import {eventsImg} from '../assets/images'
+import { aboutUsImg } from "../assets/images"
+
 
 import {  
   aquaStrikeLogo,
@@ -24,6 +26,28 @@ export const navLinks = [
 ];
 
 
+export const eventsContent = {
+  title: "Exciting Events",
+  description:
+  "Explore the fascinating world of 3D printing with us! Our events focus on Mechanical Engineering, Robotics, and more, ensuring you gain a deep understanding of these cutting-edge fields. Secure your spot by filling out the registration form and embark on this exciting journey into innovation and creativity.",
+  linkLabel: "Explore Events",
+  linkTo: "/events",
+  img: eventsImg,
+  imgAlt: "events",
+  imgWidth: 320,
+};
+
+export const aboutContent = {
+  title: "About Us",
+  img: aboutUsImg,
+  imgAlt: "events",
+  imgWidth: 380,
+  description:
+  "Sri Sairam Engineering College, Chennai, established by MJF.Ln.Leo Muthu, is a non-profit institution affiliated with Anna University and approved by AICTE. Spanning a vast campus, it features advanced facilities including labs, a digital library, and a sports complex. With top certifications and accreditations, the college is committed to providing quality technical education and nurturing leaders with a global perspective. The institution also includes Sri Sairam Institute of Management and has expanded into medical sciences and community services.",
+  linkTo: "/about",
+  linkLabel: "Learn More",
+};
+
 export const contactDetails = [
   {
     title: "Event Coordinators",
@@ -41,19 +65,8 @@ export const contactDetails = [
   },
 ];
 
-export const eventsContent = {
-  title: "Exciting Events",
-  description:
-    "Explore the fascinating world of 3D printing with us! Our events focus on Mechanical Engineering, Robotics, and more, ensuring you gain a deep understanding of these cutting-edge fields. Secure your spot by filling out the registration form and embark on this exciting journey into innovation and creativity.",
-  linkLabel: "Explore Events",
-  linkTo: "/events",
-  img: eventsImg,
-  imgAlt: "events",
-  imgWidth: 320,
-};
-
 export const allEvents = [
-
+  
   {
     title: "3D Printing",
     logo: tdPrintingLogo,
