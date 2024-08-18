@@ -111,4 +111,8 @@
     @apply border-2 border-red-700;
   }
 
+  .h3-text {
+    @apply text-xl mb-4 font-medium
+  }
+
 }
