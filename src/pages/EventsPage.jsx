@@ -1,3 +1,5 @@
+import { Footer } from "../sections";
+
 import { allEvents } from "../constants";
 import EventCard from "../components/EventCard";
 import NavBar from "../components/NavBar";
@@ -18,6 +20,10 @@ const EventsPage = () => {
           ))}
         </div>
       </div>
+
+      <section className="border-t border-white/30 mt-32 max-sm:mt-24">
+        <Footer/>
+      </section>
     </section>
   );
 };

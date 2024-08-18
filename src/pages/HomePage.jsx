@@ -31,7 +31,7 @@ const HomePage = () => {
         <Contact/>
       </section>
 
-      <section className="padding">
+      <section className="border-t border-white/30">
         <Footer/>
       </section>
 
