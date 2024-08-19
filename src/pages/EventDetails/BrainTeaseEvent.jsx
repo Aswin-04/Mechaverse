@@ -80,9 +80,9 @@
 import EventDetailsRenderer from "../../components/EventDetailsRenderer1";
 import { brainTeaseEvent } from "../../constants";
 
-const EventDetails3 = () => {
+const BrainTeaseEvent = () => {
   return <EventDetailsRenderer event={brainTeaseEvent} />;
 };
 
-export default EventDetails3;
+export default BrainTeaseEvent;
 

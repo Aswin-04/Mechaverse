@@ -91,10 +91,10 @@
 // export default EventDetailsPage;
 
 import EventDetailsRenderer2 from "../../components/EventDetailsRenderer2";
-import { tdPrintingEvent } from "../../constants";
+import { tdPrintingWorkshop } from "../../constants";
 
 const EventDetails2 = () => {
-  return <EventDetailsRenderer2 event={tdPrintingEvent} />;
+  return <EventDetailsRenderer2 event={tdPrintingWorkshop} />;
 };
 
 export default EventDetails2;

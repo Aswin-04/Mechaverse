@@ -199,7 +199,7 @@ export const eventsById = allEvents.reduce((acc, event) => {
   return acc;
 }, {});
 
-export const tdPrintingEvent = {
+export const tdPrintingWorkshop = {
   id: 1,
   title: "3D Printing Workshop",
   logo: tdPrintingLogo,  // Replace with the correct path to the event logo
@@ -257,5 +257,35 @@ export const brainTeaseEvent = {
      }
   ]
 }
+
+
+export const droneZoneWorkshop = {
+  id: 6,
+  title: "Drone Zone Workshop",
+  logo: droneZoneLogo, // Add the appropriate logo variable here
+  description: "Welcome to Drone Zone, brought to you by LMES (Let's Make Education Simple)! Get ready for an exciting adventure where you'll dive into the world of drones. Today, you'll learn how these amazing flying machines work, build your very own drone, and master the art of flying. With LMES, our expert instructors make complex concepts easy to understand through fun, hands-on activities. Whether you're a beginner or have some experience, Drone Zone is the perfect place to unleash your creativity, learn safely, and have a blast all while LMES simplifies your educational journey!",
+
+  rules: [
+    "Each participant is instructed to register through Google Form provided.",
+    "First come first served (Only first 30 members are expected).",
+    "After the workshop, a quiz will be conducted to test your knowledge.",
+    "No team participation is allowed for the quiz, only individual participation.",
+    "Winners will be provided with certificates and cash awards.",
+    "Participation certificates will be provided to all."
+  ],
+  venue: "", // Add the venue details here if available
+  timing: "", // Add the timing details here if available
+  coordinators: [
+    {
+      name: "Nagaraj", // Adjust if different coordinators are involved
+      img: aadhiImg, // Replace with appropriate image variable
+    },
+    {
+      name: "Gopal", // Adjust if different coordinators are involved
+      img: aadhiImg, // Replace with appropriate image variable
+    }
+  ]
+}
+
 
 
