@@ -89,7 +89,7 @@ export const allEvents = [
     id: 1,
     title: "3D Printing",
     logo: tdPrintingLogo,
-    linkTo: "/events",
+    linkTo: "/events/1",
     linkLabel: "View Details",
   },
 
@@ -97,7 +97,7 @@ export const allEvents = [
     id: 2,
     title: "Aqua Strike",
     logo: aquaStrikeLogo,
-    linkTo: "/events",
+    linkTo: "/events/2",
     linkLabel: "View Details",
   },
 
@@ -105,7 +105,7 @@ export const allEvents = [
     id: 3,
     title: "Brain Tease",
     logo: brainTeaseLogo,
-    linkTo: "/events",
+    linkTo: "/events/3",
     linkLabel: "View Details",
   },
 
@@ -113,7 +113,7 @@ export const allEvents = [
     id: 4,
     title: "Colloquium Talk",
     logo: colloquiumTalkLogo,
-    linkTo: "/events",
+    linkTo: "/events/4",
     linkLabel: "View Details",
   },
 
@@ -121,7 +121,7 @@ export const allEvents = [
     id: 5,
     title: "Cricket Auction",
     logo: cricketAuctionLogo,
-    linkTo: "/events",
+    linkTo: "/events/5",
     linkLabel: "View Details",
   },
 
@@ -129,7 +129,7 @@ export const allEvents = [
     id: 6,
     title: "Drone Zone",
     logo: droneZoneLogo,
-    linkTo: "/events",
+    linkTo: "/events/6",
     linkLabel: "View Details",
   },
 
@@ -137,7 +137,7 @@ export const allEvents = [
     id: 7,
     title: "Machinist",
     logo: machinistLogo,
-    linkTo: "/events",
+    linkTo: "/events/7",
     linkLabel: "View Details",
   },
 
@@ -145,7 +145,7 @@ export const allEvents = [
     id: 8,
     title: "Pixel Perfect",
     logo: pixelPerfectLogo,
-    linkTo: "/events",
+    linkTo: "/events/8",
     linkLabel: "View Details",
   },
 
@@ -153,7 +153,7 @@ export const allEvents = [
     id: 9,
     title: "Rc Da Corsa",
     logo: rcDaCorsaLogo,
-    linkTo: "/events",
+    linkTo: "/events/9",
     linkLabel: "View Details",
   },
 
@@ -161,7 +161,7 @@ export const allEvents = [
     id: 10,
     title: "Shape Shifters",
     logo: shapeShiftersLogo,
-    linkTo: "/events",
+    linkTo: "/events/10",
     linkLabel: "View Details",
   },
 
@@ -169,7 +169,7 @@ export const allEvents = [
     id: 11,
     title: "Stumble Guys",
     logo: stumbleGuysLogo,
-    linkTo: "/events",
+    linkTo: "/events/11",
     linkLabel: "View Details",
   },
 
@@ -177,7 +177,7 @@ export const allEvents = [
     id: 12,
     title: "Vr Cricket",
     logo: vrCricketLogo,
-    linkTo: "/events",
+    linkTo: "/events/12",
     linkLabel: "View Details",
 
   },
@@ -186,7 +186,7 @@ export const allEvents = [
     id: 13,
     title: "Together We Can",
     logo: sdgLogo,
-    linkTo: "/events",
+    linkTo: "/events/13",
     linkLabel: "View Details",
   },
 ];

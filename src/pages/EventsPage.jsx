@@ -21,7 +21,7 @@ const EventsPage = () => {
         </div>
       </div>
 
-      <section className="border-t border-white/30 mt-32 max-sm:mt-24">
+      <section className="mt-32 max-sm:mt-24">
         <Footer/>
       </section>
     </section>

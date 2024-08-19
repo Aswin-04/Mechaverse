@@ -31,7 +31,7 @@ const HomePage = () => {
         <Contact/>
       </section>
 
-      <section className="border-t border-white/30">
+      <section>
         <Footer/>
       </section>
 

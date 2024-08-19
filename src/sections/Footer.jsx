@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
 
-    <section className="padding">
+    <section className="padding bg-card">
 
       <footer className="max-container">
         <div className="flex flex-col gap-16 lg:flex-row lg:justify-between lg:gap-0 wide:justify-around">
@@ -42,7 +42,7 @@ const Footer = () => {
             </h4>
             <ul className="font-sans">
               {quickLinks.links.map((link) => (
-                <li className="mt-2 text-white-400  hover:text-primary transition duration-250 ease-in-out">
+                <li key={link.name} className="mt-2 text-white-400  hover:text-primary transition duration-250 ease-in-out">
                   <Link to={link.linkTo}>{link.name}</Link>
                 </li>
               ))}
@@ -55,7 +55,7 @@ const Footer = () => {
             </h4>
             <ul className="font-sans">
               {reachUs.links.map((link) => (
-                <li className="mt-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
+                <li key={link.name} className="mt-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
                   <a href={link.linkTo} target="blank">
                     {link.name}
                   </a>
