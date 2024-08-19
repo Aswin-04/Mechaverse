@@ -199,6 +199,36 @@ export const eventsById = allEvents.reduce((acc, event) => {
   return acc;
 }, {});
 
+export const tdPrintingEvent = {
+  id: 1,
+  title: "3D Printing Workshop",
+  logo: tdPrintingLogo,  // Replace with the correct path to the event logo
+  description: `Step into the future of technology at our immersive 3D Printing Workshop! Whether you're a tech enthusiast, a creative professional, or just curious about the world of 3D printing, this workshop is designed for you.
+  Join us for a hands-on experience where you'll:
+  - Learn the Basics: Get an overview of 3D printing technology, including how it works and its various applications.
+  - Hands-On Demonstrations: Watch live demonstrations of different 3D printers and materials in action.
+  - Interactive Sessions: Engage in interactive activities to understand the design process and how to create your own 3D models.`,
+  guidelines: [
+    "Each participant is instructed to register through Google Form provided.",
+    "First come first served (Only first 30 members are expected).",
+    "After the workshop, a quiz will be conducted to test your knowledge.",
+    "No team participation is allowed for the quiz, only individual participation.",
+    "Winners will be provided with certificates and cash awards.",
+    "Participation certificates will be provided to all."
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Raj Kumar",
+      img: aadhiImg
+    },
+    {
+      name: "Praveen Kumar",
+      img: aadhiImg
+    }
+  ]
+};
 
 export const brainTeaseEvent = {
   id: 3,
@@ -229,33 +259,3 @@ export const brainTeaseEvent = {
 }
 
 
-export const eventDetails = {
-  id: 1,
-  title: "3D Printing Workshop",
-  logo: tdPrintingLogo,  // Replace with the correct path to the event logo
-  description: `Step into the future of technology at our immersive 3D Printing Workshop! Whether you're a tech enthusiast, a creative professional, or just curious about the world of 3D printing, this workshop is designed for you.
-  Join us for a hands-on experience where you'll:
-  - Learn the Basics: Get an overview of 3D printing technology, including how it works and its various applications.
-  - Hands-On Demonstrations: Watch live demonstrations of different 3D printers and materials in action.
-  - Interactive Sessions: Engage in interactive activities to understand the design process and how to create your own 3D models.`,
-  guidelines: [
-    "Each participant is instructed to register through Google Form provided.",
-    "First come first served (Only first 30 members are expected).",
-    "After the workshop, a quiz will be conducted to test your knowledge.",
-    "No team participation is allowed for the quiz, only individual participation.",
-    "Winners will be provided with certificates and cash awards.",
-    "Participation certificates will be provided to all."
-  ],
-  venue: "VRR Hall",
-  timing: "10:30 AM",
-  coordinators: [
-    {
-      name: "Raj Kumar",
-      img: aadhiImg
-    },
-    {
-      name: "Praveen Kumar",
-      img: aadhiImg
-    }
-  ]
-};
