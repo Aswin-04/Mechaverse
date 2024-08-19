@@ -1,5 +1,7 @@
 import { eventsImg } from "../assets/images";
 import { aboutUsImg } from "../assets/images";
+import aadhiImg from "../assets/icons/aadhi-Img.jpeg";
+
 
 import {
   aquaStrikeLogo,
@@ -196,4 +198,33 @@ export const eventsById = allEvents.reduce((acc, event) => {
   acc[event.id] = event;
   return acc;
 }, {});
+
+
+export const brainTeaseEvent = {
+  id: 3,
+  title: "Brain Tease",
+  logo: brainTeaseLogo,
+  description: "Ready to test-drive your brain? Buckle up for our automotive quiz! Whether you're a gearhead who dreams in horsepower or someone who thinks a spark plug is a new dance move, this quiz is the pit stop for laughs and learning. Let's see if you can steer clear of wrong answers or if you'll need a tow truck by the end!",
+
+  rules: [
+    "Teams can have a minimum of two and a maximum of three people.",
+    "Questions can be multiple choice, true or false, or specific answer.",
+    "There may be multiple rounds",
+    "There may be a time limit for answering questions. For example, a team may have 1 minutes to answer each question",
+    "Teams may be eliminated based on their scores in each round",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+     },
+
+     {
+      name: "Gopal",
+      img: aadhiImg
+     }
+  ]
+}
 
