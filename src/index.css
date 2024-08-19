@@ -112,7 +112,7 @@
   }
 
   .h3-text {
-    @apply text-xl mb-4 font-medium
+    @apply text-xl mb-4 font-medium text-gray-200
   }
 
 }
