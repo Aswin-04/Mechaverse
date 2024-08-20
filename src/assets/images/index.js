@@ -21,6 +21,7 @@ import stumbleGuysLogo from './event-logos/stumble-guys.png'
 import sdgLogo from './event-logos/together-we-can.png'
 import tdPrintingLogo from './event-logos/3d-printing.png'
 import vrCricketLogo from './event-logos/vr-cricket.png'
+import senateSparLogo from './event-logos/senate-spar.png'
 
 
 
@@ -48,5 +49,6 @@ export {
   sdgLogo,
   tdPrintingLogo,
   vrCricketLogo,
+  senateSparLogo,
   
 }

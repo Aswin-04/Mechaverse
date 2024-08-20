@@ -1,4 +1,4 @@
-import { eventsImg } from "../assets/images";
+import { eventsImg, senateSparLogo } from "../assets/images";
 import { aboutUsImg } from "../assets/images";
 import aadhiImg from "../assets/icons/aadhi-Img.jpeg";
 
@@ -189,6 +189,14 @@ export const allEvents = [
     title: "Together We Can",
     logo: sdgLogo,
     linkTo: "/events/13",
+    linkLabel: "View Details",
+  },
+
+  {
+    id: 14,
+    title: "Senate Spar",
+    logo: senateSparLogo,
+    linkTo: "/events/14",
     linkLabel: "View Details",
   },
 ];
