@@ -4,7 +4,7 @@ import BrainTeaseEvent from "./BrainTeaseEvent";
 import EventDetails4 from "./EventDetails4";
 import EventDetails5 from "./EventDetails5";
 import DroneZoneWorkshop from "./DroneZoneWorkshop";
-import EventDetails7 from "./EventDetails7";
+import MachinistEvent from "./MachinistEvent";
 import EventDetails8 from "./EventDetails8";
 import EventDetails9 from "./EventDetails9";
 import EventDetails10 from "./EventDetails10";
@@ -19,7 +19,7 @@ export const eventDetailRoutes = {
   4: EventDetails4,
   5: EventDetails5,
   6: DroneZoneWorkshop,
-  7: EventDetails7,
+  7: MachinistEvent,
   8: EventDetails8,
   9: EventDetails9,
   10: EventDetails10,

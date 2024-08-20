@@ -210,7 +210,7 @@ export const eventsById = allEvents.reduce((acc, event) => {
 export const tdPrintingWorkshop = {
   id: 1,
   title: "3D Printing Workshop",
-  logo: tdPrintingLogo,  // Replace with the correct path to the event logo
+  logo: tdPrintingLogo,  
   description: `Step into the future of technology at our immersive 3D Printing Workshop! Whether you're a tech enthusiast, a creative professional, or just curious about the world of 3D printing, this workshop is designed for you.
   Join us for a hands-on experience where you'll:
   - Learn the Basics: Get an overview of 3D printing technology, including how it works and its various applications.
@@ -270,7 +270,7 @@ export const brainTeaseEvent = {
 export const droneZoneWorkshop = {
   id: 6,
   title: "Drone Zone Workshop",
-  logo: droneZoneLogo, // Add the appropriate logo variable here
+  logo: droneZoneLogo, 
   description: "Welcome to Drone Zone, brought to you by LMES (Let's Make Education Simple)! Get ready for an exciting adventure where you'll dive into the world of drones. Today, you'll learn how these amazing flying machines work, build your very own drone, and master the art of flying. With LMES, our expert instructors make complex concepts easy to understand through fun, hands-on activities. Whether you're a beginner or have some experience, Drone Zone is the perfect place to unleash your creativity, learn safely, and have a blast all while LMES simplifies your educational journey!",
 
   rules: [
@@ -281,19 +281,48 @@ export const droneZoneWorkshop = {
     "Winners will be provided with certificates and cash awards.",
     "Participation certificates will be provided to all."
   ],
-  venue: "", // Add the venue details here if available
-  timing: "", // Add the timing details here if available
+  venue: "", 
+  timing: "", 
   coordinators: [
     {
-      name: "Nagaraj", // Adjust if different coordinators are involved
-      img: aadhiImg, // Replace with appropriate image variable
+      name: "Nagaraj", 
+      img: aadhiImg, 
     },
     {
-      name: "Gopal", // Adjust if different coordinators are involved
-      img: aadhiImg, // Replace with appropriate image variable
+      name: "Gopal", 
+      img: aadhiImg, 
     }
   ]
 }
+
+
+export const machinistEvent = {
+  id: 7,
+  title: "Machinist",
+  logo: machinistLogo, 
+  description: "Join us for Machinist (Lathe Machining), a fundamental process in mechanical engineering primarily used for shaping materials, typically metals, by removing excess material. The workpiece is rotated about its axis, while a cutting tool is applied to it to create cylindrical, conical, or even complex shapes with high precision. Participants can showcase their talents, compete for exciting prizes, and receive feedback from a panel of esteemed judges at our mechanical symposium. This event offers attendees insights into both the fundamental principles and the latest innovations in the field.",
+
+  rules: [
+    "Each team can consist of 2-3 members.",
+    "Each team will be given a specific time of 15-30 minutes to complete their task.",
+    "The material to be machined will be provided by the organizers.",
+    "Participants will be given a specified design and dimensions.",
+    "Judging will be based on accuracy, surface finish, and time management."
+  ],
+  venue: "", 
+  timing: "", 
+  coordinators: [
+    {
+      name: "Nagaraj", 
+      img: aadhiImg, 
+    },
+    {
+      name: "Gopal", 
+      img: aadhiImg, 
+    }
+  ]
+}
+
 
 
 

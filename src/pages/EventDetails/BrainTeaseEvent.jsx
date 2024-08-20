@@ -77,11 +77,11 @@
 // export default EventDetails3;
 
 
-import EventDetailsRenderer from "../../components/EventDetailsRenderer1";
+import EventDetailsRenderer1 from "../../components/EventDetailsRenderer1";
 import { brainTeaseEvent } from "../../constants";
 
 const BrainTeaseEvent = () => {
-  return <EventDetailsRenderer event={brainTeaseEvent} />;
+  return <EventDetailsRenderer1 event={brainTeaseEvent} />;
 };
 
 export default BrainTeaseEvent;
