@@ -1,53 +1,81 @@
+import React from "react";
+import { createBrowserRouter, RouterProvider, ScrollRestoration } from "react-router-dom";
 import ParticlesBg from "./components/Particles";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 import HomePage from "./pages/HomePage";
 import EventsPage from "./pages/EventsPage";
 import AboutUs from "./pages/AboutUs";
 import OurTeam from "./pages/OurTeam";
-
 import { eventDetailRoutes } from "./pages/EventDetails";
-import React from "react";
 
+// Root Layout Component
+function RootLayout({ children }) {
+  return (
+    <div className="relative h-screen">
+      <ScrollRestoration />
+      <div className="relative z-10">
+        {children}
+      </div>
+    </div>
+  );
+}
+
+// Define the routes
 const routes = [
   {
     path: "/",
-    element: <HomePage />,
+    element: (
+      <RootLayout>
+        <HomePage />
+      </RootLayout>
+    ),
   },
-
   {
     path: "/events",
-    element: <EventsPage />,
+    element: (
+      <RootLayout>
+        <EventsPage />
+      </RootLayout>
+    ),
   },
-
   {
     path: "/about",
-    element: <AboutUs />,
+    element: (
+      <RootLayout>
+        <AboutUs />
+      </RootLayout>
+    ),
   },
-
   {
     path: "/our-team",
-    element: <OurTeam />,
+    element: (
+      <RootLayout>
+        <OurTeam />
+      </RootLayout>
+    ),
   },
 ];
 
+// Add event detail routes
 Object.keys(eventDetailRoutes).forEach((id) => {
   routes.push({
     path: `/events/${id}`,
-    element: React.createElement(eventDetailRoutes[id]),
+    element: (
+      <RootLayout>
+        {React.createElement(eventDetailRoutes[id])}
+      </RootLayout>
+    ),
   });
 });
 
+// Create the router
 const router = createBrowserRouter(routes);
 
 function App() {
   return (
-    <div className="relative h-screen">
+    <>
       <ParticlesBg />
-      <div className="relative z-10">
-        <RouterProvider router={router} />
-      </div>
-    </div>
+      <RouterProvider router={router} />
+    </>
   );
 }
 
