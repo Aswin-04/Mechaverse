@@ -1,5 +1,5 @@
 import TDPrintingWorkshop from "./TDPrintingWorkshop";
-import EventDetails2 from "./EventDetails2";
+import AquaStrikeEvent from "./AquaStrikeEvent";
 import BrainTeaseEvent from "./BrainTeaseEvent";
 import EventDetails4 from "./EventDetails4";
 import CricketAuctionEvent from "./CricketAuctionEvent";
@@ -15,7 +15,7 @@ import SenateSparEvent from "./SenateSparEvent";
 
 export const eventDetailRoutes = {
   1: TDPrintingWorkshop,
-  2: EventDetails2,
+  2: AquaStrikeEvent,
   3: BrainTeaseEvent,
   4: EventDetails4,
   5: CricketAuctionEvent,

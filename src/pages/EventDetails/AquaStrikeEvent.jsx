@@ -90,11 +90,11 @@
 
 // export default EventDetailsPage;
 
-import EventDetailsRenderer2 from "../../components/EventDetailsRenderer2";
-import { tdPrintingWorkshop } from "../../constants";
+import EventDetailsRenderer1 from "../../components/EventDetailsRenderer2";
+import { aquaStrikeEvent } from "../../constants";
 
-const EventDetails2 = () => {
-  return <EventDetailsRenderer2 event={tdPrintingWorkshop} />;
+const AquaStrikeEvent = () => {
+  return <EventDetailsRenderer1 event={aquaStrikeEvent} />;
 };
 
-export default EventDetails2;
+export default AquaStrikeEvent;

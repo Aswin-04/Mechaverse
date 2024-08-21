@@ -401,3 +401,33 @@ export const senateSparEvent = {
     },
   ],
 };
+
+
+
+export const aquaStrikeEvent = {
+  id: 2,
+  title: "Aqua Strike",
+  logo: aquaStrikeLogo,
+  description:
+    "BLAST OFF INTO HYDRO-MADNESS! Where creativity meets propulsion and innovation meets fun. Compete against rival rocketeers in a battle of wits, skill, and water pressure, and experience the THRILL OF LIFTOFF and the agony of defeat. Don't miss this SPLASH-TACULAR event, where you'll go HYDRO-WILD and make a splash with fellow rocket enthusiasts. Register now and get ready for liftoff!",
+
+  guidelines: [
+    "Each team must have 2 members.",
+    "The event will be conducted in 2 rounds.",
+    "Teams eligible to play the second round will be decided based on the number of points secured in the first round.",
+    "Cash rewards will be given to the top 3 teams.",
+    "All participants will receive a participation certificate.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+    },
+    {
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
