@@ -1,7 +1,6 @@
-import { eventsImg, senateSparLogo } from "../assets/images";
+import { eventsImg } from "../assets/images";
 import { aboutUsImg } from "../assets/images";
 import aadhiImg from "../assets/icons/aadhi-Img.jpeg";
-
 
 import {
   aquaStrikeLogo,
@@ -17,6 +16,7 @@ import {
   sdgLogo,
   tdPrintingLogo,
   vrCricketLogo,
+  senateSparLogo,
 } from "../assets/images";
 
 export const navLinks = [
@@ -65,8 +65,6 @@ export const contactDetails = [
   },
 ];
 
-
-
 export const quickLinks = {
   title: "Quick Links",
   links: [
@@ -77,14 +75,13 @@ export const quickLinks = {
   ],
 };
 
-export const reachUs =   {
+export const reachUs = {
   title: "Reach Us",
   links: [
     { name: "Instagram", linkTo: "mailto:customer@nike.com" },
     { name: "Email", linkTo: "tel:+92554862354" },
   ],
-}
-
+};
 
 export const allEvents = [
   {
@@ -181,7 +178,6 @@ export const allEvents = [
     logo: vrCricketLogo,
     linkTo: "/events/12",
     linkLabel: "View Details",
-
   },
 
   {
@@ -201,7 +197,6 @@ export const allEvents = [
   },
 ];
 
-
 export const eventsById = allEvents.reduce((acc, event) => {
   acc[event.id] = event;
   return acc;
@@ -210,7 +205,7 @@ export const eventsById = allEvents.reduce((acc, event) => {
 export const tdPrintingWorkshop = {
   id: 1,
   title: "3D Printing Workshop",
-  logo: tdPrintingLogo,  
+  logo: tdPrintingLogo,
   description: `Step into the future of technology at our immersive 3D Printing Workshop! Whether you're a tech enthusiast, a creative professional, or just curious about the world of 3D printing, this workshop is designed for you.
   Join us for a hands-on experience where you'll:
   - Learn the Basics: Get an overview of 3D printing technology, including how it works and its various applications.
@@ -222,29 +217,30 @@ export const tdPrintingWorkshop = {
     "After the workshop, a quiz will be conducted to test your knowledge.",
     "No team participation is allowed for the quiz, only individual participation.",
     "Winners will be provided with certificates and cash awards.",
-    "Participation certificates will be provided to all."
+    "Participation certificates will be provided to all.",
   ],
   venue: "",
   timing: "",
   coordinators: [
     {
       name: "Raj Kumar",
-      img: aadhiImg
+      img: aadhiImg,
     },
     {
       name: "Praveen Kumar",
-      img: aadhiImg
-    }
-  ]
+      img: aadhiImg,
+    },
+  ],
 };
 
 export const brainTeaseEvent = {
   id: 3,
   title: "Brain Tease",
   logo: brainTeaseLogo,
-  description: "Ready to test-drive your brain? Buckle up for our automotive quiz! Whether you're a gearhead who dreams in horsepower or someone who thinks a spark plug is a new dance move, this quiz is the pit stop for laughs and learning. Let's see if you can steer clear of wrong answers or if you'll need a tow truck by the end!",
+  description:
+    "Ready to test-drive your brain? Buckle up for our automotive quiz! Whether you're a gearhead who dreams in horsepower or someone who thinks a spark plug is a new dance move, this quiz is the pit stop for laughs and learning. Let's see if you can steer clear of wrong answers or if you'll need a tow truck by the end!",
 
-  rules: [
+  guidelines: [
     "Teams can have a minimum of two and a maximum of three people.",
     "Questions can be multiple choice, true or false, or specific answer.",
     "There may be multiple rounds",
@@ -257,72 +253,151 @@ export const brainTeaseEvent = {
     {
       name: "Nagaraj",
       img: aadhiImg,
-     },
+    },
 
-     {
+    {
       name: "Gopal",
-      img: aadhiImg
-     }
-  ]
-}
-
+      img: aadhiImg,
+    },
+  ],
+};
 
 export const droneZoneWorkshop = {
   id: 6,
   title: "Drone Zone Workshop",
-  logo: droneZoneLogo, 
-  description: "Welcome to Drone Zone, brought to you by LMES (Let's Make Education Simple)! Get ready for an exciting adventure where you'll dive into the world of drones. Today, you'll learn how these amazing flying machines work, build your very own drone, and master the art of flying. With LMES, our expert instructors make complex concepts easy to understand through fun, hands-on activities. Whether you're a beginner or have some experience, Drone Zone is the perfect place to unleash your creativity, learn safely, and have a blast all while LMES simplifies your educational journey!",
+  logo: droneZoneLogo,
+  description:
+    "Welcome to Drone Zone, brought to you by LMES (Let's Make Education Simple)! Get ready for an exciting adventure where you'll dive into the world of drones. Today, you'll learn how these amazing flying machines work, build your very own drone, and master the art of flying. With LMES, our expert instructors make complex concepts easy to understand through fun, hands-on activities. Whether you're a beginner or have some experience, Drone Zone is the perfect place to unleash your creativity, learn safely, and have a blast all while LMES simplifies your educational journey!",
 
-  rules: [
+  guidelines: [
     "Each participant is instructed to register through Google Form provided.",
     "First come first served (Only first 30 members are expected).",
     "After the workshop, a quiz will be conducted to test your knowledge.",
     "No team participation is allowed for the quiz, only individual participation.",
     "Winners will be provided with certificates and cash awards.",
-    "Participation certificates will be provided to all."
+    "Participation certificates will be provided to all.",
   ],
-  venue: "", 
-  timing: "", 
+  venue: "",
+  timing: "",
   coordinators: [
     {
-      name: "Nagaraj", 
-      img: aadhiImg, 
+      name: "Nagaraj",
+      img: aadhiImg,
     },
     {
-      name: "Gopal", 
-      img: aadhiImg, 
-    }
-  ]
-}
-
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
 
 export const machinistEvent = {
   id: 7,
   title: "Machinist",
-  logo: machinistLogo, 
-  description: "Join us for Machinist (Lathe Machining), a fundamental process in mechanical engineering primarily used for shaping materials, typically metals, by removing excess material. The workpiece is rotated about its axis, while a cutting tool is applied to it to create cylindrical, conical, or even complex shapes with high precision. Participants can showcase their talents, compete for exciting prizes, and receive feedback from a panel of esteemed judges at our mechanical symposium. This event offers attendees insights into both the fundamental principles and the latest innovations in the field.",
+  logo: machinistLogo,
+  description:
+    "Join us for Machinist (Lathe Machining), a fundamental process in mechanical engineering primarily used for shaping materials, typically metals, by removing excess material. The workpiece is rotated about its axis, while a cutting tool is applied to it to create cylindrical, conical, or even complex shapes with high precision. Participants can showcase their talents, compete for exciting prizes, and receive feedback from a panel of esteemed judges at our mechanical symposium. This event offers attendees insights into both the fundamental principles and the latest innovations in the field.",
 
-  rules: [
+  guidelines: [
     "Each team can consist of 2-3 members.",
     "Each team will be given a specific time of 15-30 minutes to complete their task.",
     "The material to be machined will be provided by the organizers.",
     "Participants will be given a specified design and dimensions.",
-    "Judging will be based on accuracy, surface finish, and time management."
+    "Judging will be based on accuracy, surface finish, and time management.",
   ],
-  venue: "", 
-  timing: "", 
+  venue: "",
+  timing: "",
   coordinators: [
     {
-      name: "Nagaraj", 
-      img: aadhiImg, 
+      name: "Nagaraj",
+      img: aadhiImg,
     },
     {
-      name: "Gopal", 
-      img: aadhiImg, 
-    }
-  ]
-}
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
 
+export const cricketAuctionEvent = {
+  id: 5,
+  title: "Cricket Auction",
+  logo: cricketAuctionLogo,
+  description:
+    "Experience the ultimate high-stakes fantasy cricket showdown, where fortunes are won or lost in a heartbeat. Fierce bidders compete for top players as the auctioneer’s rapid-fire calls fuel the excitement. Get ready for a thrilling game where every decision counts.",
 
+  guidelines: [
+    "A team can have a maximum of 3 and a minimum of 2 members.",
+    "Each team should pick 7 players. The rules to pick the 7 players are 2 batters, 2 bowlers, 2 all-rounders, and 1 wicketkeeper.",
+    "There will be three tiers of players in the auction; as per the tier of the players, points should vary.",
+    "The judge's decision is final and no appeal will be entertained.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+    },
+    {
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
 
+export const rcDaCorsaEvent = {
+  id: 9,
+  title: "RC Da Corsa",
+  logo: rcDaCorsaLogo,
+  description: `RC Racing for cars specifically involves racing remote-controlled vehicles designed to mimic full-sized cars. These RC cars come in various types, including on-road cars for smooth surfaces and off-road cars for dirt tracks, grass, and other rugged terrains.\n\nRC car racing requires skillful handling as drivers must maneuver their cars through tight turns, high-speed straights, and sometimes over jumps, all while competing against other racers. The cars are powered by electric motors offering different speeds and performance characteristics.\n\nRaces can range from short sprints to longer endurance events, with some competitions incorporating time trials or knockout rounds.`,
+  guidelines: [
+    "A team can comprise a maximum of 2 members.",
+    "Participants must bring their own RC cars.",
+    "Initial inspection will be done.",
+    "The race track will be a dirt track with hairpin bends and S-shaped curves.",
+    "Each team is permitted to have a maximum of 2 penalties, after which the team will be disqualified.",
+    "We will not be held responsible for any damage to the car during the race.",
+    "Each team will be allowed one trial session.",
+    "Judge’s decision will be final.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+    },
+    {
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
 
+export const senateSparEvent = {
+  id: 14,
+  title: "Senate Spar: The Big Debate",
+  logo: senateSparLogo,
+  description: `Get ready for the battle of wits and ideas as the highest minds come together for a thrilling house of representative competition! This event promises to be an electrifying exchange of arguments, counterarguments, and perspectives on thought-provoking topics.`,
+  guidelines: [
+    "Teams of two or three students will be allowed.",
+    "Each team will represent a state.",
+    "The states for each team will be announced two days before the event.",
+    "Each team must give an introduction about their respective states.",
+    "After the introduction part, the argument session between the states will begin.",
+    "Cash prize and certificates will be provided.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+    },
+    {
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};

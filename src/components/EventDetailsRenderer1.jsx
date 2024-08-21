@@ -27,7 +27,7 @@ const EventDetailsRenderer1 = ({ event }) => {
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
                 <h3 className="h3-text">Guidelines</h3>
                 <ol className="list-decimal list-inside pl-4">
-                  {event.rules.map((rule, index) => (
+                  {event.guidelines.map((rule, index) => (
                     <li className="mb-2" key={index} style={{ listStylePosition: "outside" }}>
                       {rule}
                     </li>
