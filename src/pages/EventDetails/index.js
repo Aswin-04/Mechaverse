@@ -5,10 +5,10 @@ import EventDetails4 from "./EventDetails4";
 import CricketAuctionEvent from "./CricketAuctionEvent";
 import DroneZoneWorkshop from "./DroneZoneWorkshop";
 import MachinistEvent from "./MachinistEvent";
-import EventDetails8 from "./EventDetails8";
+import PixelPerfectEvent from "./PixelPerfectEvent";
 import RcDaCorsaEvent from "./RcDaCorsaEvent";
-import EventDetails10 from "./EventDetails10";
-import EventDetails11 from "./EventDetails11";
+import ShapeShiftersEvent from "./ShapeShiftersEvent";
+import StumbleGuysEvent from "./StumbleGuysEvent";
 import EventDetails12 from "./EventDetails12";
 import EventDetails13 from "./EventDetails13";
 import SenateSparEvent from "./SenateSparEvent";
@@ -21,10 +21,10 @@ export const eventDetailRoutes = {
   5: CricketAuctionEvent,
   6: DroneZoneWorkshop,
   7: MachinistEvent,
-  8: EventDetails8,
+  8: PixelPerfectEvent,
   9: RcDaCorsaEvent,
-  10: EventDetails10,
-  11: EventDetails11,
+  10: ShapeShiftersEvent,
+  11: StumbleGuysEvent,
   12: EventDetails12,
   13: EventDetails13,
   14: SenateSparEvent,

@@ -431,3 +431,123 @@ export const aquaStrikeEvent = {
     },
   ],
 };
+
+
+export const pixelPerfectEvent = {
+  id: 8,
+  title: "Pixel Perfect",
+  logo: pixelPerfectLogo,
+  description:
+    "Join us for 'Pixel Perfect,' a premier photography contest where creativity meets precision. This event invites photographers of all skill levels to capture the essence of life through their lenses. Whether it's a breathtaking landscape, an evocative portrait, or a striking abstract, we're looking for images that tell compelling stories. Participants can showcase their talents, compete for exciting prizes, and receive feedback from a panel of esteemed judges. Unleash your imagination, sharpen your focus, and make every pixel count in this celebration of visual artistry!",
+
+  guidelines: [
+    "Each participant is instructed to upload their photo in the Google Form for the first round with the theme 'Urban Life.'",
+    "Out of those, the top 20 are selected for the second round, where photos are submitted under the theme 'Environmental Issues.'",
+    "Participants are instructed not to take photos inside the college premises.",
+    "Cash prizes and certificates will be given to the top three participants.",
+    "Participation certificates will be provided to the top 20 participants.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+    },
+    {
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
+
+
+
+export const shapeShiftersEvent = {
+  id: 10,
+  title: "Shape Shifters",
+  logo: shapeShiftersLogo,
+  description:
+    "The 3D CAD Modeling Competition is a platform for aspiring engineers and designers to showcase their proficiency in creating detailed and accurate digital models. Participants will be tasked with designing a complex object or assembly within a specified time frame, using any CAD software of their choice. The competition will test their technical skills, creativity, and ability to adhere to design specifications.",
+
+  guidelines: [
+    "Each team may consist of a maximum of 2 members.",
+    "The total duration of 1 round is 30 minutes.",
+    "The event will be conducted in 2 rounds.",
+    "A maximum of 10 teams can participate in the event.",
+    "Cash awards will be given to the top 3 winners.",
+    "All participants will receive a participation certificate.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+    },
+    {
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
+
+
+export const stumbleGuysEvent = {
+  id: 11,
+  title: "Stumble Guys",
+  logo: stumbleGuysLogo,
+  description:
+    "Welcome to Stumble Guys! Experience a thrilling sequence of chaotic obstacle courses and mini-games as part of our action-packed 'Stumble Guys' tournament! Inspired by the viral sensation, this event promises lots of laughter, fast-paced excitement, and unforeseen obstacles. This tournament is the ideal way to demonstrate your abilities, take on other fans, and have some friendly competition—regardless of your level of experience. Don't miss the opportunity to become the Stumble Guys champion!",
+
+  guidelines: [
+    "Each participant is instructed to register through the Google Form provided.",
+    "First come, first served (Only the first 60 members are accepted).",
+    "4 games will be conducted (Each game includes 15 members).",
+    "Each game will select 7 to 8 members for the final round.",
+    "In the final round, the top 3 members will be selected.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+    },
+    {
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
+
+
+export const sdgAwarenessEvent = {
+  id: 13,
+  title: "SDG Awareness",
+  logo: sdgLogo,
+  description:
+    "An engaging experience that combines knowledge with impact! In this exciting event, we welcome you to journey through layers of knowledge and creativity, with each step bringing you closer to understanding and advocating the Sustainable Development Goals (SDGs). Prepare to engage your thoughts as we embark on a series of engaging exercises meant to raise your understanding of global identities and long-term change.",
+
+  guidelines: [
+    "Engineering students from any discipline and any year can participate.",
+    "Participants must adhere to the time limits.",
+    "General knowledge and basic knowledge of SDG goals are required.",
+    "Smartphones and other electronic gadgets are prohibited.",
+    "All participants will receive participation E-certificates.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Nagaraj",
+      img: aadhiImg,
+    },
+    {
+      name: "Gopal",
+      img: aadhiImg,
+    },
+  ],
+};
+
+
