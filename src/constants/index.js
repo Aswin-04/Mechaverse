@@ -86,36 +86,36 @@ export const reachUs = {
 export const allEvents = [
   {
     id: 1,
-    title: "3D Printing",
-    logo: tdPrintingLogo,
+    title: "Colloquium Talk",
+    logo: colloquiumTalkLogo,
     linkTo: "/events/1",
     linkLabel: "View Details",
   },
-
+  
   {
     id: 2,
-    title: "Aqua Strike",
-    logo: aquaStrikeLogo,
+    title: "Brain Tease",
+    logo: brainTeaseLogo,
     linkTo: "/events/2",
     linkLabel: "View Details",
   },
-
+  
   {
     id: 3,
-    title: "Brain Tease",
-    logo: brainTeaseLogo,
+    title: "Shape Shifters",
+    logo: shapeShiftersLogo,
     linkTo: "/events/3",
     linkLabel: "View Details",
   },
-
+  
   {
     id: 4,
-    title: "Colloquium Talk",
-    logo: colloquiumTalkLogo,
+    title: "Machinist",
+    logo: machinistLogo,
     linkTo: "/events/4",
     linkLabel: "View Details",
   },
-
+  
   {
     id: 5,
     title: "Cricket Auction",
@@ -123,27 +123,27 @@ export const allEvents = [
     linkTo: "/events/5",
     linkLabel: "View Details",
   },
-
+  
   {
     id: 6,
-    title: "Drone Zone",
-    logo: droneZoneLogo,
+    title: "Aqua Strike",
+    logo: aquaStrikeLogo,
     linkTo: "/events/6",
     linkLabel: "View Details",
   },
-
+  
   {
     id: 7,
-    title: "Machinist",
-    logo: machinistLogo,
+    title: "Senate Spar",
+    logo: senateSparLogo,
     linkTo: "/events/7",
     linkLabel: "View Details",
   },
 
   {
     id: 8,
-    title: "Pixel Perfect",
-    logo: pixelPerfectLogo,
+    title: "Stumble Guys",
+    logo: stumbleGuysLogo,
     linkTo: "/events/8",
     linkLabel: "View Details",
   },
@@ -155,43 +155,47 @@ export const allEvents = [
     linkTo: "/events/9",
     linkLabel: "View Details",
   },
-
+  
   {
     id: 10,
-    title: "Shape Shifters",
-    logo: shapeShiftersLogo,
+    title: "Pixel Perfect",
+    logo: pixelPerfectLogo,
     linkTo: "/events/10",
     linkLabel: "View Details",
   },
-
+  
   {
     id: 11,
-    title: "Stumble Guys",
-    logo: stumbleGuysLogo,
+    title: "3D Printing",
+    logo: tdPrintingLogo,
     linkTo: "/events/11",
     linkLabel: "View Details",
   },
+  
 
   {
     id: 12,
-    title: "Vr Cricket",
-    logo: vrCricketLogo,
+    title: "Drone Zone",
+    logo: droneZoneLogo,
     linkTo: "/events/12",
     linkLabel: "View Details",
   },
 
+
+
+
   {
     id: 13,
-    title: "Together We Can",
-    logo: sdgLogo,
+    title: "Vr Cricket",
+    logo: vrCricketLogo,
     linkTo: "/events/13",
     linkLabel: "View Details",
   },
 
   {
     id: 14,
-    title: "Senate Spar",
-    logo: senateSparLogo,
+    title: "Together We Can",
+    logo: sdgLogo,
     linkTo: "/events/14",
     linkLabel: "View Details",
   },
@@ -203,7 +207,7 @@ export const eventsById = allEvents.reduce((acc, event) => {
 }, {});
 
 export const tdPrintingWorkshop = {
-  id: 1,
+  id: 11,
   title: "3D Printing Workshop",
   logo: tdPrintingLogo,
   description: `Step into the future of technology at our immersive 3D Printing Workshop! Whether you're a tech enthusiast, a creative professional, or just curious about the world of 3D printing, this workshop is designed for you.
@@ -234,7 +238,7 @@ export const tdPrintingWorkshop = {
 };
 
 export const brainTeaseEvent = {
-  id: 3,
+  id: 2,
   title: "Brain Tease",
   logo: brainTeaseLogo,
   description:
@@ -263,7 +267,7 @@ export const brainTeaseEvent = {
 };
 
 export const droneZoneWorkshop = {
-  id: 6,
+  id: 12,
   title: "Drone Zone Workshop",
   logo: droneZoneLogo,
   description:
@@ -292,7 +296,7 @@ export const droneZoneWorkshop = {
 };
 
 export const machinistEvent = {
-  id: 7,
+  id: 4,
   title: "Machinist",
   logo: machinistLogo,
   description:
@@ -359,7 +363,7 @@ export const rcDaCorsaEvent = {
     "Each team is permitted to have a maximum of 2 penalties, after which the team will be disqualified.",
     "We will not be held responsible for any damage to the car during the race.",
     "Each team will be allowed one trial session.",
-    "Judge’s decision will be final.",
+    "Judge's decision will be final.",
   ],
   venue: "",
   timing: "",
@@ -376,7 +380,7 @@ export const rcDaCorsaEvent = {
 };
 
 export const senateSparEvent = {
-  id: 14,
+  id: 7,
   title: "Senate Spar: The Big Debate",
   logo: senateSparLogo,
   description: `Get ready for the battle of wits and ideas as the highest minds come together for a thrilling house of representative competition! This event promises to be an electrifying exchange of arguments, counterarguments, and perspectives on thought-provoking topics.`,
@@ -405,7 +409,7 @@ export const senateSparEvent = {
 
 
 export const aquaStrikeEvent = {
-  id: 2,
+  id: 6,
   title: "Aqua Strike",
   logo: aquaStrikeLogo,
   description:
@@ -434,7 +438,7 @@ export const aquaStrikeEvent = {
 
 
 export const pixelPerfectEvent = {
-  id: 8,
+  id: 10,
   title: "Pixel Perfect",
   logo: pixelPerfectLogo,
   description:
@@ -464,7 +468,7 @@ export const pixelPerfectEvent = {
 
 
 export const shapeShiftersEvent = {
-  id: 10,
+  id: 3,
   title: "Shape Shifters",
   logo: shapeShiftersLogo,
   description:
@@ -494,7 +498,7 @@ export const shapeShiftersEvent = {
 
 
 export const stumbleGuysEvent = {
-  id: 11,
+  id: 8,
   title: "Stumble Guys",
   logo: stumbleGuysLogo,
   description:
