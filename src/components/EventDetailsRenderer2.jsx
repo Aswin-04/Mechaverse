@@ -14,8 +14,8 @@ const EventDetailsRenderer2 = ({ event }) => {
                 className="w-full h-auto rounded-lg shadow-lg md:sticky md:top-0 border border-white/30"
               />
             </div>
-            <div className="flex-1 overflow-y-auto p-4 bg-card max-md:p-0 font-montserrat">
-              <h2 className="text-primary font-sans tracking-tight text-3xl font-bold my-8 max-xs:text-xl max-md:text-center">
+            <div className="flex-1 overflow-y-auto p-4 bg-card max-md:p-0 font-sans">
+              <h2 className="text-primary font-montserrat tracking-tight text-3xl font-bold my-8 max-xs:text-xl max-md:text-center">
                 {event.title}
               </h2>
 
