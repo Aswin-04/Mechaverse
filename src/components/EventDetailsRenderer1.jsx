@@ -87,6 +87,10 @@ const EventDetailsRenderer1 = ({ event }) => {
                   <li className="mb-2" style={{ listStylePosition: "outside" }}>
                     You can click{" "}
                     <span className="font-bold text-md font-montserrat text-lime-400 whitespace-nowrap">
+                      Go Back
+                    </span>{" "}
+                    to return to the events page and explore other events, or{" "}
+                    <span className="font-bold text-md font-montserrat text-lime-400 whitespace-nowrap">
                       Register Now
                     </span>{" "}
                     to proceed with registration.
