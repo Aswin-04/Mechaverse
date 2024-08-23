@@ -1,5 +1,4 @@
 import NavBar from "./NavBar";
-import Button from "./Button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 

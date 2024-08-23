@@ -90,7 +90,7 @@
 
 // export default EventDetailsPage;
 
-import EventDetailsRenderer1 from "../../components/EventDetailsRenderer2";
+import EventDetailsRenderer1 from "../../components/EventDetailsRenderer1";
 import { aquaStrikeEvent } from "../../constants";
 
 const AquaStrikeEvent = () => {
