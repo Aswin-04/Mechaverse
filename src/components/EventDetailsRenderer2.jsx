@@ -104,21 +104,24 @@ const EventDetailsRenderer2 = ({ event }) => {
               </div>
 
               <div className="flex mt-5 max-lg:flex-col gap-4">
-                {/* <div className="mb-5 lg:max-w-sm"> */}
-
-                <button className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group">
+                <Link
+                  to="/events"
+                  className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group"
+                  preventScrollReset
+                >
                   <ArrowLeft className="w-3 h-3 tracking-normal text-[#003f6c]-500 group-hover:-translate-x-1 transition-transform duration-150 ease-in-out mr-1" />
-                  <Link to="/events">Go Back</Link>
-                </button>
-                {/* </div> */}
+                  Go Back
+                </Link>
 
-                {/* <div className="mb-5"> */}
-                <button className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group">
-                  <Link to="/events">Register Now</Link>
+                <Link
+                  to="/events"
+                  className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group"
+                >
+                  Register Now
                   <ArrowRight className="w-3 h-3 tracking-normal text-[#003f6c]-500 group-hover:translate-x-1 transition-transform duration-150 ease-in-out ml-1" />
-                </button>
-                {/* </div> */}
+                </Link>
               </div>
+              
             </div>
           </div>
         </div>
