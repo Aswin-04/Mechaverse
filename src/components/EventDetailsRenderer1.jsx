@@ -1,4 +1,7 @@
 import NavBar from "./NavBar";
+import Button from "./Button";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const EventDetailsRenderer1 = ({ event }) => {
   return (
@@ -28,7 +31,11 @@ const EventDetailsRenderer1 = ({ event }) => {
                 <h3 className="h3-text">Guidelines</h3>
                 <ol className="list-decimal list-inside pl-4">
                   {event.guidelines.map((rule, index) => (
-                    <li className="mb-2" key={index} style={{ listStylePosition: "outside" }}>
+                    <li
+                      className="mb-2"
+                      key={index}
+                      style={{ listStylePosition: "outside" }}
+                    >
                       {rule}
                     </li>
                   ))}
@@ -63,6 +70,53 @@ const EventDetailsRenderer1 = ({ event }) => {
                     </div>
                   ))}
                 </div>
+              </div>
+
+              {/* Note Section for Registration */}
+              <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
+                <h3 className="h3-text">Note</h3>
+                <ul className="list-disc list-inside pl-4">
+                  <li className="mb-2" style={{ listStylePosition: "outside" }}>
+                    Please note that the registration for this event is handled
+                    through a common Google Form.
+                  </li>
+                  <li className="mb-2" style={{ listStylePosition: "outside" }}>
+                    You will be redirected to the same form regardless of the
+                    event you are registering for.
+                  </li>
+                  <li className="mb-2" style={{ listStylePosition: "outside" }}>
+                    You can click{" "}
+                    <span className="font-bold text-md font-montserrat text-lime-400 whitespace-nowrap">
+                      Go Back
+                    </span>{" "}
+                    to return to the events page and explore other events, or{" "}
+                    <span className="font-bold text-md font-montserrat text-lime-400 whitespace-nowrap">
+                      Register Now
+                    </span>{" "}
+                    to proceed with registration.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="flex mt-5 max-lg:flex-col gap-4">
+                {/* <div className="mb-5 lg:max-w-sm"> */}
+
+                  <button
+                    className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group"
+                  >
+                    <ArrowLeft className="w-3 h-3 tracking-normal text-[#003f6c]-500 group-hover:-translate-x-1 transition-transform duration-150 ease-in-out mr-1" />
+                    <Link to="/events">Go Back</Link>
+                  </button>
+                {/* </div> */}
+
+                {/* <div className="mb-5"> */}
+                  <button
+                    className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group"
+                  >
+                    <Link to="/events">Register Now</Link>
+                    <ArrowRight className="w-3 h-3 tracking-normal text-[#003f6c]-500 group-hover:translate-x-1 transition-transform duration-150 ease-in-out ml-1" />
+                  </button>
+                {/* </div> */}
               </div>
             </div>
           </div>

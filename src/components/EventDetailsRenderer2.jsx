@@ -34,7 +34,11 @@ const EventDetailsRenderer2 = ({ event }) => {
                 <h3 className="h3-text">Guidelines</h3>
                 <ol className="list-decimal list-inside pl-4">
                   {event.guidelines.map((rule, index) => (
-                    <li className="mb-2" key={index} style={{ listStylePosition: "outside" }}>
+                    <li
+                      className="mb-2"
+                      key={index}
+                      style={{ listStylePosition: "outside" }}
+                    >
                       {rule}
                     </li>
                   ))}
@@ -70,6 +74,33 @@ const EventDetailsRenderer2 = ({ event }) => {
                   ))}
                 </div>
               </div>
+
+              {/* Note Section for Registration */}
+              <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
+                <h3 className="h3-text">Note</h3>
+                <ul className="list-disc list-inside pl-4">
+                  <li className="mb-2" style={{ listStylePosition: "outside" }}>
+                    Please note that the registration for this event is handled
+                    through a common Google Form.
+                  </li>
+                  <li className="mb-2" style={{ listStylePosition: "outside" }}>
+                    You will be redirected to the same form regardless of the
+                    event you are registering for.
+                  </li>
+                  <li className="mb-2" style={{ listStylePosition: "outside" }}>
+                    You can click{" "}
+                    <span className="font-bold text-md font-montserrat text-lime-400 whitespace-nowrap">
+                      Go Back
+                    </span>{" "}
+                    to return to the events page and explore other events, or{" "}
+                    <span className="font-bold text-md font-montserrat text-lime-400 whitespace-nowrap">
+                      Register Now
+                    </span>{" "}
+                    to proceed with registration.
+                  </li>
+                </ul>
+              </div>
+              
             </div>
           </div>
         </div>
