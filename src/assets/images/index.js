@@ -24,6 +24,15 @@ import vrCricketLogo from './event-logos/vr-cricket.png'
 import senateSparLogo from './event-logos/senate-spar.png'
 
 import clgImg from './about-us-page/clg-img.jpg'
+import img_1 from './about-us-page/img_1.jpg'
+import img_2 from './about-us-page/img_2.jpg'
+import img_3 from './about-us-page/img_3.jpg'
+import img_4 from './about-us-page/img_4.jpg'
+import img_5 from './about-us-page/img_5.jpg'
+import img_6 from './about-us-page/img_6.jpg'
+import img_7 from './about-us-page/img_7.jpg'
+import img_8 from './about-us-page/img_8.jpg'
+
 
 
 
@@ -53,6 +62,14 @@ export {
   vrCricketLogo,
   senateSparLogo,
 
-  clgImg
+  clgImg,
+  img_1,
+  img_2,
+  img_3,
+  img_4,
+  img_5,
+  img_6,
+  img_7, 
+  img_8,
   
 }

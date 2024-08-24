@@ -115,4 +115,16 @@
     @apply text-xl mb-4 font-medium text-gray-200
   }
 
+  .swiper {
+    @apply w-full pt-12 pb-12;
+  }
+
+  .swiper-slide {
+    @apply bg-center bg-cover w-72 h-72 flex items-center justify-center;
+  }
+
+  .swiper-slide img {
+    @apply block w-full;
+  }
+
 }
