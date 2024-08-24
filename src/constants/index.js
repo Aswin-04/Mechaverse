@@ -19,6 +19,8 @@ import {
   senateSparLogo,
 } from "../assets/images";
 
+import { clgImg } from "../assets/images";
+
 export const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
@@ -91,7 +93,7 @@ export const allEvents = [
     linkTo: "/events/1",
     linkLabel: "View Details",
   },
-  
+
   {
     id: 2,
     title: "Brain Tease",
@@ -99,7 +101,7 @@ export const allEvents = [
     linkTo: "/events/2",
     linkLabel: "View Details",
   },
-  
+
   {
     id: 3,
     title: "Shape Shifters",
@@ -107,7 +109,7 @@ export const allEvents = [
     linkTo: "/events/3",
     linkLabel: "View Details",
   },
-  
+
   {
     id: 4,
     title: "Machinist",
@@ -115,7 +117,7 @@ export const allEvents = [
     linkTo: "/events/4",
     linkLabel: "View Details",
   },
-  
+
   {
     id: 5,
     title: "Cricket Auction",
@@ -123,7 +125,7 @@ export const allEvents = [
     linkTo: "/events/5",
     linkLabel: "View Details",
   },
-  
+
   {
     id: 6,
     title: "Aqua Strike",
@@ -131,7 +133,7 @@ export const allEvents = [
     linkTo: "/events/6",
     linkLabel: "View Details",
   },
-  
+
   {
     id: 7,
     title: "Senate Spar",
@@ -155,7 +157,7 @@ export const allEvents = [
     linkTo: "/events/9",
     linkLabel: "View Details",
   },
-  
+
   {
     id: 10,
     title: "Pixel Perfect",
@@ -163,7 +165,7 @@ export const allEvents = [
     linkTo: "/events/10",
     linkLabel: "View Details",
   },
-  
+
   {
     id: 11,
     title: "3D Printing",
@@ -171,7 +173,6 @@ export const allEvents = [
     linkTo: "/events/11",
     linkLabel: "View Details",
   },
-  
 
   {
     id: 12,
@@ -180,9 +181,6 @@ export const allEvents = [
     linkTo: "/events/12",
     linkLabel: "View Details",
   },
-
-
-
 
   {
     id: 13,
@@ -406,8 +404,6 @@ export const senateSparEvent = {
   ],
 };
 
-
-
 export const aquaStrikeEvent = {
   id: 6,
   title: "Aqua Strike",
@@ -436,7 +432,6 @@ export const aquaStrikeEvent = {
   ],
 };
 
-
 export const pixelPerfectEvent = {
   id: 10,
   title: "Pixel Perfect",
@@ -464,8 +459,6 @@ export const pixelPerfectEvent = {
     },
   ],
 };
-
-
 
 export const shapeShiftersEvent = {
   id: 3,
@@ -496,7 +489,6 @@ export const shapeShiftersEvent = {
   ],
 };
 
-
 export const stumbleGuysEvent = {
   id: 8,
   title: "Stumble Guys",
@@ -524,7 +516,6 @@ export const stumbleGuysEvent = {
     },
   ],
 };
-
 
 export const sdgAwarenessEvent = {
   id: 13,
@@ -554,4 +545,10 @@ export const sdgAwarenessEvent = {
   ],
 };
 
-
+export const aboutClg = {
+  title: "Our College",
+  img: clgImg,
+  imgAlt: "college img",
+  imgWidth: 500,
+  description: "Sri Sai ram Engineering College, Chennai, established in the year 1995 by MJF.Ln.Leo Muthu, Chairman of Sapthagiri Educational Trust, is a non-profitable and a non-minority institution. A welldefined vision, highly committed mission and a dedicated leadership facilitate Sri Sai ram Engineering College to be in the best of educational institutions in the country. The institution is situated in a sprawling campus with architecturally and aesthetically designed buildings, blocks, stadiums, auditoriums, hostels, gymnasium and the sports grounds. The institution is affiliated to Anna University and approved by the All India Council for Technical Education (AICTE), New Delhi.",
+};

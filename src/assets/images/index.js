@@ -23,6 +23,8 @@ import tdPrintingLogo from './event-logos/3d-printing.png'
 import vrCricketLogo from './event-logos/vr-cricket.png'
 import senateSparLogo from './event-logos/senate-spar.png'
 
+import clgImg from './about-us-page/clg-img.jpg'
+
 
 
 export {
@@ -50,5 +52,7 @@ export {
   tdPrintingLogo,
   vrCricketLogo,
   senateSparLogo,
+
+  clgImg
   
 }
