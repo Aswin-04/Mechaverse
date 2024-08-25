@@ -19,6 +19,17 @@ import {
   senateSparLogo,
 } from "../assets/images";
 
+import {
+  img_1,
+  img_2,
+  img_3,
+  img_4,
+  img_5,
+  img_6,
+  img_7, 
+  img_8,
+} from "../assets/images"
+
 import { clgImg } from "../assets/images";
 
 export const navLinks = [
@@ -552,3 +563,39 @@ export const aboutClg = {
   imgWidth: 500,
   description: "Sri Sai ram Engineering College, Chennai, established in the year 1995 by MJF.Ln.Leo Muthu, Chairman of Sapthagiri Educational Trust, is a non-profitable and a non-minority institution. A welldefined vision, highly committed mission and a dedicated leadership facilitate Sri Sai ram Engineering College to be in the best of educational institutions in the country. The institution is situated in a sprawling campus with architecturally and aesthetically designed buildings, blocks, stadiums, auditoriums, hostels, gymnasium and the sports grounds. The institution is affiliated to Anna University and approved by the All India Council for Technical Education (AICTE), New Delhi.",
 };
+
+
+export const motorSportsImages = [
+  {
+    img: img_1,
+    imgAlt: "img-1"
+  },
+  {
+    img: img_2,
+    imgAlt: "img-2"
+  },
+  {
+    img: img_3,
+    imgAlt: "img-3"
+  },
+  {
+    img: img_4,
+    imgAlt: "img-4"
+  },
+  {
+    img: img_5,
+    imgAlt: "img-5"
+  },
+  {
+    img: img_6,
+    imgAlt: "img-6"
+  },
+  {
+    img: img_7,
+    imgAlt: "img-7"
+  },
+  {
+    img: img_8,
+    imgAlt: "img-8"
+  }
+]
