@@ -615,3 +615,44 @@ export const motorSportsImages = [
     imgAlt: "img-8"
   }
 ]
+
+
+export const keyPersonsProfiles = [
+  {
+    img: aadhiImg,
+    imgAlt: "Aadhitya Varma A",
+    name: "Aadhitya Varma A",
+    year: "MECH - Third Year",
+    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/"
+  },
+
+  {
+    img: aadhiImg,
+    imgAlt: "Aadhitya Varma A",
+    name: "Aadhitya Varma A",
+    year: "MECH - Third Year",
+    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/"
+  },
+  {
+    img: aadhiImg,
+    imgAlt: "Aadhitya Varma A",
+    name: "Aadhitya Varma A",
+    year: "MECH - Third Year",
+    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/"
+  },
+  {
+    img: aadhiImg,
+    imgAlt: "Aadhitya Varma A",
+    name: "Aadhitya Varma A",
+    year: "MECH - Third Year",
+    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/"
+  },
+  // {
+  //   img: aadhiImg,
+  //   imgAlt: "Aadhitya Varma A",
+  //   name: "Aadhitya Varma A",
+  //   year: "MECH - Third Year",
+  //   linkedIn: "https://www.linkedin.com/in/aadhitya-varma/"
+  // },
+  
+]
