@@ -15,43 +15,43 @@ const OurTeam = () => {
         </div>
 
         <section className="padding-x py-12">
-          <div className="my-4">
-            <h2 className="text-3xl md:text-[36px] text-center uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
+          <div className="my-4 flex flex-col items-center text-center">
+            <h2 className="text-3xl md:text-[36px] uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-accent">
               Key Persons
             </h2>
           </div>
 
           <div className="flex gap-x-24 gap-y-8 flex-wrap justify-center">
             {keyPersonsProfiles.map((profile, index) => (
-              <ProfileCard profile={profile} />
+              <ProfileCard profile={profile} key={index}/>
             ))}
           </div>
         </section>
 
         <section className="padding-x py-12">
-          <div className="my-4">
-            <h2 className="text-3xl md:text-[36px] text-center uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
+          <div className="my-4 flex flex-col items-center text-center">
+            <h2 className="text-3xl md:text-[36px] uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-accent">
               Staff  <span className="whitespace-nowrap">Co-ordinators</span>
             </h2>
           </div>
 
           <div className="flex gap-x-24 gap-y-8 flex-wrap justify-center">
             {keyPersonsProfiles.map((profile, index) => (
-              <ProfileCard profile={profile} />
+              <ProfileCard profile={profile} key={index}/>
             ))}
           </div>
         </section>
 
         <section className="padding-x py-12">
-          <div className="my-4">
-            <h2 className="text-3xl md:text-[36px] text-center uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
+          <div className="my-4 flex flex-col items-center text-center">
+            <h2 className="text-3xl md:text-[36px] uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-accent">
               Student  <span className="whitespace-nowrap">Co-ordinators</span>
             </h2>
           </div>
 
           <div className="flex gap-x-24 gap-y-8 flex-wrap justify-center">
             {keyPersonsProfiles.map((profile, index) => (
-              <ProfileCard profile={profile} />
+              <ProfileCard profile={profile} key={index}/>
             ))}
           </div>
         </section>
