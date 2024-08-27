@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import NavBar from "../components/NavBar"
 import  {
   About,
@@ -7,7 +8,19 @@ import  {
   Hero
 } from '../sections'
 
+import AOS from "aos"
+import "aos/dist/aos.css"
+
 const HomePage = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out-cubic",
+      once: true,
+    })
+  })
+
   return (
 
     <main className="relative">
