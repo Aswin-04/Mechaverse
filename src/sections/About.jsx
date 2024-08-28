@@ -22,7 +22,7 @@ const About = () => {
               className="rounded-3xl"
             />
           </div>
-          <p className="font-montserrat leading-8 text-hc max-lg:max-w-xl max-md:max-w-md mt-8">
+          <p className="text-justify font-montserrat leading-8 text-hc max-lg:max-w-xl max-md:max-w-md mt-8">
             {aboutContent.description}
           </p>
           <div className="inline-flex max-w-sm mx-auto mt-6">
@@ -52,7 +52,7 @@ const About = () => {
           <h2 className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
             {aboutContent.title}
           </h2>
-          <p className="font-montserrat leading-8 text-hc max-w-4xl mt-6">
+          <p className="text-justify font-montserrat leading-8 text-hc max-w-4xl mt-6">
             {aboutContent.description}
           </p>
           <div className="inline-flex max-w-sm mx-auto mt-10">

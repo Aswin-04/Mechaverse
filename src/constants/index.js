@@ -84,7 +84,7 @@ export const navLinks = [
 export const eventsContent = {
   title: "Exciting Events",
   description:
-    "Explore the fascinating world of 3D printing with us! Our events focus on Mechanical Engineering, Robotics, and more, ensuring you gain a deep understanding of these cutting-edge fields. Secure your spot by filling out the registration form and embark on this exciting journey into innovation and creativity.",
+    "Join us to experience engineering excellence at SAIMECH'24- MECHAVERSE! Engage in cutting-edge workshops with hands-on demonstrations, Enthralling events of Tech Titans, Entertaining events of Techno fest along with immersive activites.",
   linkLabel: "Explore Events",
   linkTo: "/events",
   img: eventsImg,
@@ -98,7 +98,7 @@ export const aboutContent = {
   imgAlt: "events",
   imgWidth: 380,
   description:
-    "Sri Sairam Engineering College, Chennai, established by MJF.Ln.Leo Muthu, is a non-profit institution affiliated with Anna University and approved by AICTE. Spanning a vast campus, it features advanced facilities including labs, a digital library, and a sports complex. With top certifications and accreditations, the college is committed to providing quality technical education and nurturing leaders with a global perspective. The institution also includes Sri Sairam Institute of Management and has expanded into medical sciences and community services.",
+    "Sri Sai Ram Engineering College, Chennai, established in the year 1995 by MJF. Ln. Leo Muthu, Chairman of Sapthagiri Educational Trust, is a non-profitable and a non-minority institution.  The Department of Mechanical Engineering, accredited by the NBA is backed by teaching professionals, equipped laboratories and societies such as SAE. The SEC Motorsports includes The Rocketeer Racing (hBAJA), Evega Racing (eBAJA), Luaskart (Go-kart), Agrosters (TIFAN) & Revival Racing (SUPRA).",
   linkTo: "/about",
   linkLabel: "Learn More",
 };
