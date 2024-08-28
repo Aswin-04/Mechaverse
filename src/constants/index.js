@@ -64,6 +64,16 @@ import {
   aravindh_14,
 } from '../assets/images'
 
+import {
+  ceoImg,
+  principalImg,
+  rpImg,
+  rpImg1,
+  hodImg,
+  parswajinanImg,
+  rajaprasannaImg,
+} from '../assets/images'
+
 export const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
@@ -709,39 +719,54 @@ export const motorSportsImages = [
 
 export const keyPersonsProfiles = [
   {
-    img: aadhiImg,
-    imgAlt: "Aadhitya Varma A",
-    name: "Aadhitya Varma A",
-    year: "MECH - Third Year",
+    img: ceoImg,
+    imgAlt: "ceoSirImg",
+    name: "Dr. Sai Prakash Leomuthu",
+    year: "CEO - Sairam",
     linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
   },
 
   {
-    img: aadhiImg,
-    imgAlt: "Aadhitya Varma A",
-    name: "Aadhitya Varma A",
-    year: "MECH - Third Year",
+    img: principalImg,
+    imgAlt: "principalSirImg",
+    name: "Dr. J. Raja",
+    year: "Principal - SEC",
     linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
   },
   {
-    img: aadhiImg,
-    imgAlt: "Aadhitya Varma A",
-    name: "Aadhitya Varma A",
-    year: "MECH - Third Year",
+    img: rpImg,
+    imgAlt: "rpSirImg",
+    name: "Dr. A. Rajendra Prasad",
+    year: "Dean (Student Affairs)",
     linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
   },
   {
-    img: aadhiImg,
-    imgAlt: "Aadhitya Varma A",
-    name: "Aadhitya Varma A",
-    year: "MECH - Third Year",
+    img: hodImg,
+    imgAlt: "hodSirImg",
+    name: "Dr. B. Vijaya Ramnath",
+    year: "HOD - Mech",
     linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
   },
-  // {
-  //   img: aadhiImg,
-  //   imgAlt: "Aadhitya Varma A",
-  //   name: "Aadhitya Varma A",
-  //   year: "MECH - Third Year",
-  //   linkedIn: "https://www.linkedin.com/in/aadhitya-varma/"
-  // },
+
 ];
+
+export const staffCoordinatorsProfiles = [
+  {
+    img: parswajinanImg,
+    imgAlt: "parswajinanSirImg",
+    name: "Dr. C. Parswajinan",
+    year: "Professor",
+    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
+  },
+
+  {
+    img: rajaprasannaImg,
+    imgAlt: "rajaprasannaSirImg",
+    name: "Mr. R. Rajaprasanna",
+    year: "Associate Professor",
+    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
+  },
+
+
+];
+

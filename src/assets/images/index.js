@@ -63,7 +63,27 @@ import prasanna_12 from "./event-coordinators/12-prasanna.png";
 import roshan_13 from "./event-coordinators/13-roshan.jpg";
 import aravindh_14 from "./event-coordinators/14-aravindh.jpg";
 
+import ceoImg from "./staffs/ceo.png";
+import principalImg from "./staffs/Principal.jpeg";
+import rpImg from "./staffs/RP.jpeg";
+import rpImg1 from "./staffs/RP-1.jpg";
+import hodImg from "./staffs/Dr. B. Vijaya Ramnath.jpg";
+import parswajinanImg from "./staffs/Dr. C. Parswajinan.jpg";
+import rajaprasannaImg from "./staffs/Mr. R. Rajaprasanna.jpg";
+
+
+
 export {
+
+  ceoImg,
+  principalImg,
+  rpImg,
+  rpImg1,
+  hodImg,
+  parswajinanImg,
+  rajaprasannaImg,
+
+
   Logo,
   Logo2,
   Logo3,
