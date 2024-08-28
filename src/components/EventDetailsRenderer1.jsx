@@ -42,7 +42,7 @@ const EventDetailsRenderer1 = ({ event }) => {
                 </ol>
               </div>
 
-              <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
+              {/* <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
                 <h3 className="h3-text">Venue</h3>
                 <p>{event.venue || "To be announced"}</p>
               </div>
@@ -50,7 +50,7 @@ const EventDetailsRenderer1 = ({ event }) => {
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm">
                 <h3 className="h3-text">Timing</h3>
                 <p>{event.timing || "To be announced"}</p>
-              </div>
+              </div> */}
 
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Coordinators</h3>

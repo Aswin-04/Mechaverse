@@ -7,14 +7,14 @@ const Hero = () => {
       <div className="flex flex-col-reverse justify-center items-center gap-6 max-lg:text-center lg:flex-row lg:gap-20">
         <div className="lg:pt-12">
           <p className="font-montserrat text-lg text-tc" data-aos="fade-down" data-aos-delay="50">
-            Sri Sairam Engineering College Presents
+            Sri Sai Ram Engineering College Presents
           </p>
           <h1 className="h1 mt-2 text-transparent bg-clip-text bg-custom-gradient-120" data-aos="fade-down" data-aos-delay="100">
             Mechaverse
           </h1>
           <p className="mt-4 lg:max-w-lg md:max-w-md font-montserrat text-md leading-8 text-white-400" data-aos="fade-down" data-aos-delay="150">
             National level symposium brought forth by the Department of
-            Mechanical Engineering of Sri Sairam Engineering College
+            Mechanical Engineering of Sri Sai Ram Engineering College
           </p>
         </div>
 
