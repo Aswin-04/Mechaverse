@@ -20,7 +20,6 @@ const EventDetailsRenderer2 = ({ event }) => {
               <h2 className="text-primary font-montserrat tracking-tight text-3xl font-bold my-8 max-xs:text-xl max-md:text-center">
                 {event.title}
               </h2>
-
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
                 <h3 className="h3-text">Description</h3>
                 <p className="mb-4">
@@ -31,7 +30,6 @@ const EventDetailsRenderer2 = ({ event }) => {
                   ))}
                 </p>
               </div>
-
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
                 <h3 className="h3-text">Guidelines</h3>
                 <ol className="list-decimal list-inside pl-4">
@@ -46,7 +44,6 @@ const EventDetailsRenderer2 = ({ event }) => {
                   ))}
                 </ol>
               </div>
-
               {/* <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
                 <h3 className="h3-text">Venue</h3>
                 <p>{event.venue || "To be announced"}</p>
@@ -56,7 +53,11 @@ const EventDetailsRenderer2 = ({ event }) => {
                 <h3 className="h3-text">Timing</h3>
                 <p>{event.timing || "To be announced"}</p>
               </div> */}
-
+              
+              <div className="bg-gray-800 p-4 rounded-lg shadow-sm">
+                <h3 className="h3-text">Date</h3>
+                <p>18/09/24</p>
+              </div>{" "}
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Coordinators</h3>
                 <div className="flex gap-5">
@@ -76,7 +77,6 @@ const EventDetailsRenderer2 = ({ event }) => {
                   ))}
                 </div>
               </div>
-
               {/* Note Section for Registration */}
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Note</h3>
@@ -102,7 +102,6 @@ const EventDetailsRenderer2 = ({ event }) => {
                   </li>
                 </ul>
               </div>
-
               <div className="flex mt-5 max-lg:flex-col gap-4">
                 <Link
                   to="/events"
@@ -121,7 +120,6 @@ const EventDetailsRenderer2 = ({ event }) => {
                   <ArrowRight className="w-3 h-3 tracking-normal text-[#003f6c]-500 group-hover:translate-x-1 transition-transform duration-150 ease-in-out ml-1" />
                 </Link>
               </div>
-              
             </div>
           </div>
         </div>
