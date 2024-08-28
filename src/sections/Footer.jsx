@@ -30,7 +30,7 @@ const Footer = () => {
                 >
                   Sri Sai Ram Engineering College, <br />
                   Sai Leo Nagar, West Tambaram <br />
-                  Chennai 600044 <br />
+                  Chennai - 600 044 <br />
                   Tamilnadu <br />
                 </a>
               </p>

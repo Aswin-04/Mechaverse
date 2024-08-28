@@ -13,8 +13,7 @@ const Hero = () => {
             Mechaverse
           </h1>
           <p className="mt-4 lg:max-w-lg md:max-w-md font-montserrat text-md leading-8 text-white-400" data-aos="fade-down" data-aos-delay="150">
-            National level symposium brought forth by the Department of
-            Mechanical Engineering of Sri Sai Ram Engineering College
+          National Symposium by Mechanical Engineering at Sri Sai Ram Engineering College on September 18th, 2024.
           </p>
         </div>
 

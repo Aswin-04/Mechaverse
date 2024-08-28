@@ -722,30 +722,30 @@ export const keyPersonsProfiles = [
     img: ceoImg,
     imgAlt: "ceoSirImg",
     name: "Dr. Sai Prakash Leomuthu",
-    year: "CEO - Sairam",
-    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
+    year: `Chairman & CEO - Sairam Institutions`,
+    linkedIn: "https://www.linkedin.com/in/sairamceo/",
   },
 
   {
     img: principalImg,
     imgAlt: "principalSirImg",
     name: "Dr. J. Raja",
-    year: "Principal - SEC",
-    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
+    year: "Principal",
+    linkedIn: "https://www.linkedin.com/in/raja-j-32b44164/",
   },
   {
     img: rpImg,
     imgAlt: "rpSirImg",
     name: "Dr. A. Rajendra Prasad",
-    year: "Dean (Student Affairs)",
-    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
+    year: "Dean of Student Affairs",
+    linkedIn: "https://www.linkedin.com/in/arprasad225/",
   },
   {
     img: hodImg,
     imgAlt: "hodSirImg",
     name: "Dr. B. Vijaya Ramnath",
-    year: "HOD - Mech",
-    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
+    year: "Head of the Department",
+    linkedIn: "https://www.linkedin.com/in/dr-b-vijaya-ramnath-5bb11542/",
   },
 
 ];
@@ -755,15 +755,15 @@ export const staffCoordinatorsProfiles = [
     img: parswajinanImg,
     imgAlt: "parswajinanSirImg",
     name: "Dr. C. Parswajinan",
-    year: "Professor",
-    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
+    year: "Associate Professor",
+    linkedIn: "https://www.linkedin.com/in/parswajinan-c-163875143/",
   },
 
   {
     img: rajaprasannaImg,
     imgAlt: "rajaprasannaSirImg",
     name: "Mr. R. Rajaprasanna",
-    year: "Associate Professor",
+    year: "Assistant Professor",
     linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
   },
 
