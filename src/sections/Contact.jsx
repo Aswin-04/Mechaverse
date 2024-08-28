@@ -5,7 +5,7 @@ import { contactDetails } from "../constants";
 const Contact = () => {
   return (
     <section className="max-container">
-      <div className="flex flex-col gap-8 lg:hidden">
+      <div data-aos="fade-right" className="flex flex-col gap-8 lg:hidden">
         <div className="flex flex-col items-center">
           <p className="text-clr-100 leading-none text-sm font-sans ">
             Have any queries ?
@@ -17,6 +17,7 @@ const Contact = () => {
         <div className="rounded-xl bg-[#020809]/50 border-[1px] border-white/30 p-4 ">
           <div className="flex justify-center items-center">
             <img
+              data-aos="zoom-in"
               src={contactUsImg}
               alt="events"
               width={350}
@@ -36,9 +37,13 @@ const Contact = () => {
       </div>
 
       {/* for large screens */}
-      <div className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30 py-4 justify-center ">
+      <div
+        data-aos="fade-down"
+        className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30 py-4 justify-center "
+      >
         <div className="min-w-[40%] px-4 flex justify-center items-center">
           <img
+            data-aos="zoom-in"
             src={contactUsImg}
             alt="events"
             width={350}

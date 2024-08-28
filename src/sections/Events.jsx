@@ -16,9 +16,9 @@ const Events = () => {
   return (
     <section className="max-container ">
       {/* for small screens */}
-      <div data-aos="fade-down" className="flex flex-col gap-8 lg:hidden">
+      <div data-aos="fade-right" className="flex flex-col gap-8 lg:hidden">
         <div>
-          <h2 data-aos="fade-in" data-aos-delay="250" className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
+          <h2 className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
             {eventsContent.title}
           </h2>
         </div>
@@ -32,10 +32,10 @@ const Events = () => {
               className="rounded-3xl"
             />
           </div>
-          <p data-aos="fade-down" className="font-montserrat leading-8 text-hc max-lg:max-w-lg max-md:max-w-md mt-8">
+          <p className="font-montserrat leading-8 text-hc max-lg:max-w-lg max-md:max-w-md mt-8">
             {eventsContent.description}
           </p>
-          <div data-aos="zoom-in" className="inline-flex max-w-sm mx-auto mt-6">
+          <div className="inline-flex max-w-sm mx-auto mt-6">
             <button
               onClick={handleExploreClick}
               className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group"
@@ -59,13 +59,13 @@ const Events = () => {
           />
         </div>
         <div className="flex flex-col items-center px-8 py-8">
-          <h2 data-aos="fade-in" data-aos-delay="250" className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
+          <h2 className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
             {eventsContent.title}
           </h2>
-          <p data-aos="fade-down" className="font-montserrat leading-8 text-hc max-w-4xl mt-6">
+          <p className="font-montserrat leading-8 text-hc max-w-4xl mt-6">
             {eventsContent.description}
           </p>
-          <div data-aos="zoom-in" className="inline-flex max-w-sm mx-auto mt-10">
+          <div className="inline-flex max-w-sm mx-auto mt-10">
             <button
               onClick={handleExploreClick}
               className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group"

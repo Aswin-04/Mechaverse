@@ -5,7 +5,19 @@ import EventCard from "../components/EventCard";
 import NavBar from "../components/NavBar";
 import GradientHeader from "../components/GradientHeader";
 
+import AOS from "aos"
+import "aos/dist/aos.css"
+
 const EventsPage = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out-cubic",
+      once: true,
+    })
+  })
+
   useEffect(() => {
     // Retrieve the scroll position from sessionStorage
     const scrollPosition = sessionStorage.getItem("scrollPosition");
@@ -22,7 +34,7 @@ const EventsPage = () => {
     <section className="relative">
       <NavBar></NavBar>
       <div className="max-container pt-[6.688rem]">
-        <div className="flex justify-center items-center pt-12 lg:p-12">
+        <div data-aos="fade-down" className="flex justify-center items-center pt-12 lg:p-12">
           <GradientHeader label="Events" className="font-sans" />
         </div>
 
