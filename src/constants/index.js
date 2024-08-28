@@ -215,6 +215,44 @@ export const eventsById = allEvents.reduce((acc, event) => {
   return acc;
 }, {});
 
+export const colloquiumTalk = {
+  id: 1,
+  title: "Colloquium Talk",
+  logo: colloquiumTalkLogo, // Assuming you have a logo variable named colloquiumTalkLogo
+  description: `Inviting you to the forum of Colloquium Talk where you can present engineering solutions to the problems that prevail in society. Engaging presentations followed by interactive Q&A sessions provide networking opportunities with peers and professionals.
+  Topics (But not limited to):
+  - Sustainable engineering solutions
+  - Automotive advancements
+  - Robotics and automation
+  - New materials and manufacturing processes
+  - Energy sources
+  - Power system and power electronics
+  - Electronics & IoT
+  - Data science & Cloud computing
+  - Artificial Intelligence and Machine Learning
+  - Information & Communication Technologies`,
+  guidelines: [
+    "Teams can have a minimum of two and a maximum of three members.",
+    "Teams will have a presentation duration of 5 minutes and Q&A session of 3 minutes.",
+    "Participants must send their presentation PPT on or before 15.08.2024 to the mail ID (mechaverse24@sairam.edu.in).",
+    "Winning teams will be rewarded with cash prizes and certificates.",
+    "Participation certificates will be provided to all the participants.",
+  ],
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Raj Kumar", // Replace with actual coordinator name and image if different
+      img: aadhiImg, // Replace with actual image variable if different
+    },
+    {
+      name: "Praveen Kumar", // Replace with actual coordinator name and image if different
+      img: aadhiImg, // Replace with actual image variable if different
+    },
+  ],
+};
+
+
 export const tdPrintingWorkshop = {
   id: 11,
   title: "3D Printing Workshop",
