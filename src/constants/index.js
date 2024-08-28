@@ -32,6 +32,38 @@ import {
 
 import { clgImg } from "../assets/images";
 
+import {
+  meganathan_1,
+  sudarshan_1,
+  sakthivel_2,
+  srivari_2,
+  lokjith_3,
+  santhosh_3,
+  avinash_4,
+  sathappan_4,
+  aakash_5,
+  haresh_5,
+  jayasurya_5,
+  durga_6,
+  jayanthan_6,
+  asmathi_7,
+  madhan_7,
+  merlin_7,
+  haribabu_8,
+  vigneshwar_8,
+  mohanraj_9,
+  saravanan_9,
+  sakthivel_10,
+  arun_11,
+  ashwin_11,
+  srivatsan_11,
+  gohul_12,
+  jayasurya_12,
+  prasanna_12,
+  roshan_13,
+  aravindh_14,
+} from '../assets/images'
+
 export const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
@@ -203,7 +235,7 @@ export const allEvents = [
 
   {
     id: 14,
-    title: "Together We Can",
+    title: "SDG Awarness",
     logo: sdgLogo,
     linkTo: "/events/14",
     linkLabel: "View Details",
@@ -242,12 +274,12 @@ export const colloquiumTalk = {
   timing: "",
   coordinators: [
     {
-      name: "Raj Kumar",
-      img: aadhiImg,
+      name: "Sudarshan R",
+      img: sudarshan_1,
     },
     {
-      name: "Praveen Kumar",
-      img: aadhiImg,
+      name: "Meganathan D",
+      img: meganathan_1,
     },
   ],
 };
@@ -271,13 +303,13 @@ export const brainTeaseEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Shakthivel R",
+      img: sakthivel_2,
     },
 
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Srivari Balaji G",
+      img: srivari_2,
     },
   ],
 };
@@ -297,12 +329,12 @@ export const shapeShiftersEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Lokjith NSR",
+      img: lokjith_3,
     },
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Santhosh Chakravarthy E",
+      img: santhosh_3,
     },
   ],
 };
@@ -326,12 +358,12 @@ export const machinistEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Avinash S",
+      img: avinash_4,
     },
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Sathappan RM",
+      img: sathappan_4,
     },
   ],
 };
@@ -353,12 +385,17 @@ export const cricketAuctionEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Aakash A",
+      img: aakash_5,
     },
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Haresh Raj DJ",
+      img: haresh_5,
+    },
+
+    {
+      name: "Jayasurya K",
+      img: jayasurya_5,
     },
   ],
 };
@@ -380,12 +417,12 @@ export const aquaStrikeEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Durga Devi G",
+      img: durga_6,
     },
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Jayanthan D",
+      img: jayanthan_6,
     },
   ],
 };
@@ -407,12 +444,16 @@ export const senateSparEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Asmathi JS",
+      img: asmathi_7,
     },
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Merlin Priya J",
+      img: merlin_7,
+    },
+    {
+      name: "Madan K",
+      img: madhan_7,
     },
   ],
 };
@@ -435,12 +476,12 @@ export const stumbleGuysEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Haribabu S",
+      img: haribabu_8,
     },
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Vigneshwar P",
+      img: vigneshwar_8,
     },
   ],
 };
@@ -465,12 +506,12 @@ export const rcDaCorsaEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Mohan Raj M",
+      img: mohanraj_9,
     },
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Saravanan V",
+      img: saravanan_9,
     },
   ],
 };
@@ -493,12 +534,8 @@ export const pixelPerfectEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
-    },
-    {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Sakthivel R",
+      img: sakthivel_10,
     },
   ],
 };
@@ -524,12 +561,16 @@ export const tdPrintingWorkshop = {
   timing: "",
   coordinators: [
     {
-      name: "Raj Kumar",
-      img: aadhiImg,
+      name: "Arun M",
+      img: arun_11,
     },
     {
-      name: "Praveen Kumar",
-      img: aadhiImg,
+      name: "Srivatsan Babu",
+      img: srivatsan_11,
+    },
+    {
+      name: "Ashvin EJ",
+      img: ashwin_11,
     },
   ],
 };
@@ -550,12 +591,32 @@ export const droneZoneWorkshop = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
+      name: "Gohul RK",
+      img: gohul_12,
     },
     {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Jayasurya B",
+      img: jayasurya_12,
+    },
+    {
+      name: "Prasanna N",
+      img: prasanna_12,
+    },
+  ],
+};
+
+export const vrCricketEvent = {
+  id: 13,
+  title: "VR Cricket",
+  logo: vrCricketLogo, 
+  description: 
+    "VR Cricket is an immersive virtual reality experience that allows players to engage in the sport of cricket as if they were physically present on the field. In VR Cricket, you can take on the role of a batsman, bowler, or fielder, experiencing the game from a first-person perspective. With realistic graphics and motion tracking, VR Cricket simulates the sensation of batting against fast-paced deliveries, bowling with precision, and fielding in a stadium filled with cheering fans.",
+  venue: "",
+  timing: "",
+  coordinators: [
+    {
+      name: "Roshan JS", 
+      img: roshan_13, 
     },
   ],
 };
@@ -577,12 +638,8 @@ export const sdgAwarenessEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Nagaraj",
-      img: aadhiImg,
-    },
-    {
-      name: "Gopal",
-      img: aadhiImg,
+      name: "Aravindh M",
+      img: aravindh_14,
     },
   ],
 };

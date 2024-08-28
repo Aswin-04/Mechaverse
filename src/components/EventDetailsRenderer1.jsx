@@ -25,20 +25,23 @@ const EventDetailsRenderer1 = ({ event }) => {
                 <h3 className="h3-text">Description</h3>
                 <p className="mb-2">{event.description}</p>
               </div>
-              <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
-                <h3 className="h3-text">Guidelines</h3>
-                <ol className="list-decimal list-inside pl-4">
-                  {event.guidelines.map((rule, index) => (
-                    <li
-                      className="mb-2"
-                      key={index}
-                      style={{ listStylePosition: "outside" }}
-                    >
-                      {rule}
-                    </li>
-                  ))}
-                </ol>
-              </div>
+
+              {event.guidelines && (
+                <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
+                  <h3 className="h3-text">Guidelines</h3>
+                  <ol className="list-decimal list-inside pl-4">
+                    {event.guidelines.map((rule, index) => (
+                      <li
+                        className="mb-2"
+                        key={index}
+                        style={{ listStylePosition: "outside" }}
+                      >
+                        {rule}
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              )}
               {/* <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
                 <h3 className="h3-text">Venue</h3>
                 <p>{event.venue || "To be announced"}</p>
@@ -55,17 +58,17 @@ const EventDetailsRenderer1 = ({ event }) => {
               
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Coordinators</h3>
-                <div className="flex gap-5">
+                <div className="flex flex-wrap gap-x-4 gap-y-2">
                   {event.coordinators.map((coordinator, index) => (
                     <div className="flex flex-col items-center" key={index}>
-                      <div className="w-[120px] h-[120px] rounded-full overflow-hidden shadow-lg mt-4 mb-4 max-xxs:w-[85px] max-xxs:h-[85px]">
+                      <div className="w-[120px] h-[120px] rounded-full overflow-hidden shadow-lg mt-4 mb-4 max-xs:w-[85px] max-xs:h-[85px]">
                         <img
                           src={coordinator.img}
                           alt={coordinator.name}
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <p className="mb-2 max-xxs:text-sm text-center">
+                      <p className="mb-2 max-xs:text-sm text-center">
                         {coordinator.name}
                       </p>
                     </div>

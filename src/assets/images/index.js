@@ -34,6 +34,7 @@ import img_7 from "./about-us-page/img_7.jpg";
 import img_8 from "./about-us-page/img_8.jpg";
 
 import sudarshan_1 from "./event-coordinators/1-sudarshan.jpg";
+import meganathan_1 from "./event-coordinators/1-meganathan.png";
 import sakthivel_2 from "./event-coordinators/2-sakthivel.jpg";
 import srivari_2 from "./event-coordinators/2-srivari.jpg";
 import lokjith_3 from "./event-coordinators/3-lokjith.jpeg";
@@ -51,6 +52,7 @@ import merlin_7 from "./event-coordinators/7-merlin.jpg";
 import haribabu_8 from "./event-coordinators/8-haribabu.jpg";
 import vigneshwar_8 from "./event-coordinators/8-vigneshwar.jpg";
 import mohanraj_9 from "./event-coordinators/9-mohanraj.jpg";
+import saravanan_9 from "./event-coordinators/9-saravanan.jpeg";
 import sakthivel_10 from "./event-coordinators/10-sakthivel.jpg";
 import arun_11 from "./event-coordinators/11-arun.jpg";
 import ashwin_11 from "./event-coordinators/11-ashwin.jpg";
@@ -59,7 +61,7 @@ import gohul_12 from "./event-coordinators/12-gohul.jpg";
 import jayasurya_12 from "./event-coordinators/12-jayasurya.png";
 import prasanna_12 from "./event-coordinators/12-prasanna.png";
 import roshan_13 from "./event-coordinators/13-roshan.jpg";
-import sudarshan_14 from "./event-coordinators/14-aravindh.jpg";
+import aravindh_14 from "./event-coordinators/14-aravindh.jpg";
 
 export {
   Logo,
@@ -94,6 +96,8 @@ export {
   img_6,
   img_7,
   img_8,
+  
+  meganathan_1,
   sudarshan_1,
   sakthivel_2,
   srivari_2,
@@ -112,6 +116,7 @@ export {
   haribabu_8,
   vigneshwar_8,
   mohanraj_9,
+  saravanan_9,
   sakthivel_10,
   arun_11,
   ashwin_11,
@@ -120,5 +125,5 @@ export {
   jayasurya_12,
   prasanna_12,
   roshan_13,
-  sudarshan_14,
+  aravindh_14,
 };

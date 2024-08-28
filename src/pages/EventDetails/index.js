@@ -9,8 +9,8 @@ import PixelPerfectEvent from "./PixelPerfectEvent";
 import RcDaCorsaEvent from "./RcDaCorsaEvent";
 import ShapeShiftersEvent from "./ShapeShiftersEvent";
 import StumbleGuysEvent from "./StumbleGuysEvent";
-import EventDetails12 from "./EventDetails12";
-import EventDetails13 from "./EventDetails13";
+import VrCricketEvent from "./VrCricketEvent";
+import SdgAwarenessEvent from "./SdgAwarenessEvent ";
 import SenateSparEvent from "./SenateSparEvent";
 
 // export const eventDetailRoutes = {
@@ -44,7 +44,7 @@ export const eventDetailRoutes = {
   10: PixelPerfectEvent,
   11: TDPrintingWorkshop,
   12: DroneZoneWorkshop,
-  13: EventDetails13, 
-  14: EventDetails12,
+  13: VrCricketEvent, 
+  14: SdgAwarenessEvent,
 };
 
