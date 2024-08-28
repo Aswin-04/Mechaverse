@@ -1,40 +1,65 @@
-import Logo from './logo.png'
-import Logo2 from './logo2.png'
-import Logo3 from './logo3.svg'
-import menu from './menu.svg'
-import close from './close.svg'
-import eventsImg from './events.svg'
-import aboutUsImg from './about-us.svg'
-import contactUsImg from './contact-us.svg'
-import rightArrow from './right-arrow.svg'
+import Logo from "./logo.png";
+import Logo2 from "./logo2.png";
+import Logo3 from "./logo3.svg";
+import menu from "./menu.svg";
+import close from "./close.svg";
+import eventsImg from "./events.svg";
+import aboutUsImg from "./about-us.svg";
+import contactUsImg from "./contact-us.svg";
+import rightArrow from "./right-arrow.svg";
 
-import aquaStrikeLogo from './event-logos/aqua-strike.png'
-import brainTeaseLogo from './event-logos/brain-tease.png'
-import colloquiumTalkLogo from './event-logos/colloquium-talk.png'
-import cricketAuctionLogo from './event-logos/cricket-auction.png'
-import droneZoneLogo from './event-logos/drone-zone.png'
-import machinistLogo from './event-logos/machinist.png'
-import pixelPerfectLogo from './event-logos/pixel-perfect.png'
-import rcDaCorsaLogo from './event-logos/rc-da-corsa.png'
-import shapeShiftersLogo from './event-logos/shape-shifters.png'
-import stumbleGuysLogo from './event-logos/stumble-guys.png'
-import sdgLogo from './event-logos/together-we-can.png'
-import tdPrintingLogo from './event-logos/3d-printing.png'
-import vrCricketLogo from './event-logos/vr-cricket.png'
-import senateSparLogo from './event-logos/senate-spar.png'
+import aquaStrikeLogo from "./event-logos/aqua-strike.png";
+import brainTeaseLogo from "./event-logos/brain-tease.png";
+import colloquiumTalkLogo from "./event-logos/colloquium-talk.png";
+import cricketAuctionLogo from "./event-logos/cricket-auction.png";
+import droneZoneLogo from "./event-logos/drone-zone.png";
+import machinistLogo from "./event-logos/machinist.png";
+import pixelPerfectLogo from "./event-logos/pixel-perfect.png";
+import rcDaCorsaLogo from "./event-logos/rc-da-corsa.png";
+import shapeShiftersLogo from "./event-logos/shape-shifters.png";
+import stumbleGuysLogo from "./event-logos/stumble-guys.png";
+import sdgLogo from "./event-logos/together-we-can.png";
+import tdPrintingLogo from "./event-logos/3d-printing.png";
+import vrCricketLogo from "./event-logos/vr-cricket.png";
+import senateSparLogo from "./event-logos/senate-spar.png";
 
-import clgImg from './about-us-page/clg-img.jpg'
-import img_1 from './about-us-page/img_1.jpg'
-import img_2 from './about-us-page/img_2.jpg'
-import img_3 from './about-us-page/img_3.jpg'
-import img_4 from './about-us-page/img_4.jpg'
-import img_5 from './about-us-page/img_5.jpg'
-import img_6 from './about-us-page/img_6.jpg'
-import img_7 from './about-us-page/img_7.jpg'
-import img_8 from './about-us-page/img_8.jpg'
+import clgImg from "./about-us-page/clg-img.jpg";
+import img_1 from "./about-us-page/img_1.jpg";
+import img_2 from "./about-us-page/img_2.jpg";
+import img_3 from "./about-us-page/img_3.jpg";
+import img_4 from "./about-us-page/img_4.jpg";
+import img_5 from "./about-us-page/img_5.jpg";
+import img_6 from "./about-us-page/img_6.jpg";
+import img_7 from "./about-us-page/img_7.jpg";
+import img_8 from "./about-us-page/img_8.jpg";
 
-
-
+import sudarshan_1 from "./event-coordinators/1-sudarshan.jpg";
+import sakthivel_2 from "./event-coordinators/2-sakthivel.jpg";
+import srivari_2 from "./event-coordinators/2-srivari.jpg";
+import lokjith_3 from "./event-coordinators/3-lokjith.jpeg";
+import santhosh_3 from "./event-coordinators/3-santhosh.jpeg";
+import avinash_4 from "./event-coordinators/4-avinash.jpg";
+import sathappan_4 from "./event-coordinators/4-sathappan.jpg";
+import aakash_5 from "./event-coordinators/5-aakash.jpg";
+import haresh_5 from "./event-coordinators/5-haresh.jpg";
+import jayasurya_5 from "./event-coordinators/5-jayasurya.jpg";
+import durga_6 from "./event-coordinators/6-durga.jpg";
+import jayanthan_6 from "./event-coordinators/6-jayanthan.jpg";
+import asmathi_7 from "./event-coordinators/7-asmathi.jpg";
+import madhan_7 from "./event-coordinators/7-madhan.jpg";
+import merlin_7 from "./event-coordinators/7-merlin.jpg";
+import haribabu_8 from "./event-coordinators/8-haribabu.jpg";
+import vigneshwar_8 from "./event-coordinators/8-vigneshwar.jpg";
+import mohanraj_9 from "./event-coordinators/9-mohanraj.jpg";
+import sakthivel_10 from "./event-coordinators/10-sakthivel.jpg";
+import arun_11 from "./event-coordinators/11-arun.jpg";
+import ashwin_11 from "./event-coordinators/11-ashwin.jpg";
+import srivatsan_11 from "./event-coordinators/11-srivatsan.jpg";
+import gohul_12 from "./event-coordinators/12-gohul.jpg";
+import jayasurya_12 from "./event-coordinators/12-jayasurya.png";
+import prasanna_12 from "./event-coordinators/12-prasanna.png";
+import roshan_13 from "./event-coordinators/13-roshan.jpg";
+import sudarshan_14 from "./event-coordinators/14-aravindh.jpg";
 
 export {
   Logo,
@@ -46,7 +71,6 @@ export {
   aboutUsImg,
   contactUsImg,
   rightArrow,
-
   aquaStrikeLogo,
   brainTeaseLogo,
   colloquiumTalkLogo,
@@ -61,7 +85,6 @@ export {
   tdPrintingLogo,
   vrCricketLogo,
   senateSparLogo,
-
   clgImg,
   img_1,
   img_2,
@@ -69,7 +92,33 @@ export {
   img_4,
   img_5,
   img_6,
-  img_7, 
+  img_7,
   img_8,
-  
-}
+  sudarshan_1,
+  sakthivel_2,
+  srivari_2,
+  lokjith_3,
+  santhosh_3,
+  avinash_4,
+  sathappan_4,
+  aakash_5,
+  haresh_5,
+  jayasurya_5,
+  durga_6,
+  jayanthan_6,
+  asmathi_7,
+  madhan_7,
+  merlin_7,
+  haribabu_8,
+  vigneshwar_8,
+  mohanraj_9,
+  sakthivel_10,
+  arun_11,
+  ashwin_11,
+  srivatsan_11,
+  gohul_12,
+  jayasurya_12,
+  prasanna_12,
+  roshan_13,
+  sudarshan_14,
+};
