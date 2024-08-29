@@ -63,7 +63,7 @@ import prasanna_12 from "./event-coordinators/12-prasanna.png";
 import roshan_13 from "./event-coordinators/13-roshan.jpg";
 import aravindh_14 from "./event-coordinators/14-aravindh.jpg";
 
-import ceoImg from "./staffs/ceo.png";
+import ceoImg from "./staffs/ceo.jpg";
 import principalImg from "./staffs/Principal.jpeg";
 import rpImg from "./staffs/RP.jpeg";
 import rpImg1 from "./staffs/RP-1.jpg";
