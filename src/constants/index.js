@@ -160,14 +160,6 @@ export const quickLinks = {
   ],
 };
 
-export const reachUs = {
-  title: "Reach Us",
-  links: [
-    { name: "Instagram", linkTo: "mailto:customer@nike.com" },
-    
-    { name: "Email", linkTo: "tel:+92554862354" },
-  ],
-};
 
 export const allEvents = [
   {

@@ -1,18 +1,21 @@
 import { Link } from "react-router-dom";
 import sairamIcon from "../assets/icons/sairam-icon.png";
-import { quickLinks, reachUs } from "../constants/";
-
+import { quickLinks } from "../constants/";
+import { Mail } from "lucide-react";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Footer = () => {
 
   return (
-
     <section className="padding bg-card">
-
       <footer className="max-container">
         <div className="flex flex-col gap-16 lg:flex-row lg:justify-between lg:gap-0 wide:justify-around">
           <div className="bg-white w-[160px] h-[56px] rounded lg:self-center ">
-            <img src={sairamIcon} alt="sairam-icon"  className="object-contain" />
+            <img
+              src={sairamIcon}
+              alt="sairam-icon"
+              className="object-contain"
+            />
           </div>
 
           <div className="flex flex-col gap-6">
@@ -42,7 +45,10 @@ const Footer = () => {
             </h4>
             <ul className="font-sans">
               {quickLinks.links.map((link) => (
-                <li key={link.name} className="mt-2 text-white-400  hover:text-primary transition duration-250 ease-in-out">
+                <li
+                  key={link.name}
+                  className="mt-2 text-white-400  hover:text-primary transition duration-250 ease-in-out"
+                >
                   <Link to={link.linkTo}>{link.name}</Link>
                 </li>
               ))}
@@ -51,21 +57,27 @@ const Footer = () => {
 
           <div className="flex flex-col gap-6">
             <h4 className="text-tc font-montserrat text-2xl leading-normal">
-              {reachUs.title}
+              Reach Us
             </h4>
-            <ul className="font-sans">
-              {reachUs.links.map((link) => (
-                <li key={link.name} className="mt-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
-                  <a href={link.linkTo} target="blank">
-                    {link.name}
-                  </a>
 
-                </li>
-              ))}
+            <ul className="font-sans">
+              <li className="mb-2 flex items-center gap-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
+                <InstagramIcon fontSize="medium" />
+                <a
+                  href="https://www.instagram.com/sairam_mech?igsh=Zzh1dmMzbjNlYjd3"
+                  target="_blank"
+                  className="leading-8"
+                >
+                  @sairam_mech
+                </a>
+              </li>
+              <li className="pl-[1px] flex items-center gap-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
+                <Mail size={22} />
+                <p>mechavers@sairam.edu.in</p>
+              </li>
             </ul>
           </div>
         </div>
-
       </footer>
     </section>
   );
