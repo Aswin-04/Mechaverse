@@ -74,7 +74,7 @@ import hodImg from "./staffs/Dr. B. Vijaya Ramnath.jpg";
 import parswajinanImg from "./staffs/Dr. C. Parswajinan.jpg";
 import rajaprasannaImg from "./staffs/Mr. R. Rajaprasanna.jpg";
 
-import sheshathImg from './media/1-sheshath.jpeg'
+import sheshathImg from './media/1-sheshath.jpg'
 import sanjayImg from './media/2-sanjay.jpg'
 import kowshikImg from './media/3-kowshik.jpg'
 import karthiImg from './media/4-karthi.jpg'
@@ -90,7 +90,7 @@ import priyankaImg from './student-commitee/2-priyanka.jpg'
 import ajayImg from './student-commitee/3-ajay.jpg'
 import lakshmanImg from './student-commitee/4-lakshman.jpg'
 import nithishImg from './student-commitee/5-nithish.jpg'
-import aswinImg from './student-commitee/aswin-.jpg'
+import aswinImg from './student-commitee/aswin.jpg'
 
 
 export {
