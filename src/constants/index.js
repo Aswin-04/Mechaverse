@@ -483,14 +483,14 @@ export const aquaStrikeEvent = {
   timing: "",
   coordinators: [
     {
-      name: "Durga Devi G",
-      img: durga_6,
-      phoneNumber: "+91 63697 36949"
-    },
-    {
       name: "Jayanthan D",
       img: jayanthan_6,
       phoneNumber: "+91 70924 95863"
+    },
+    {
+      name: "Durga Devi G",
+      img: durga_6,
+      phoneNumber: "+91 63697 36949"
     },
   ],
 };
@@ -517,14 +517,14 @@ export const senateSparEvent = {
       phoneNumber: "+91 89404 33994"
     },
     {
-      name: "Merlin Priya J",
-      img: merlin_7,
-      phoneNumber: "+91 91502 57608"
-    },
-    {
       name: "Madan K",
       img: madhan_7,
       phoneNumber: "+91 75399 18920"
+    },
+    {
+      name: "Merlin Priya J",
+      img: merlin_7,
+      phoneNumber: "+91 91502 57608"
     },
   ],
 };
