@@ -3,12 +3,13 @@ import sairamIcon from "../assets/icons/sairam-icon.png";
 import { quickLinks } from "../constants/";
 import { Mail } from "lucide-react";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
-
+  // sm:px-16 px-8 sm:py-24 py-12
   return (
-    <section className="padding bg-card">
-      <footer className="max-container">
+    <section className="bg-card">
+      <footer className="max-container padding-x pt-12 sm:pt-24 pb-12">
         <div className="flex flex-col gap-16 lg:flex-row lg:justify-between lg:gap-0 wide:justify-around">
           <div className="bg-white w-[160px] h-[56px] rounded lg:self-center ">
             <img
@@ -79,6 +80,19 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div className="flex flex-col md:justify-center md:items-center border padding-x py-8 border-x-0 border-slate-gray/20 md:text-center ">
+        <div className="mb-4 text-tc">
+          Stay updated with the latest events and more..
+        </div>
+        <div className="flex gap-2">
+          <a href="https://www.instagram.com/sairam_mech/" target="_blank">
+            <InstagramIcon fontSize="large" />
+          </a>
+          <a href="https://www.linkedin.com/company/sairam-mechanical-engineering/posts/?feedView=all" target="_blank">
+            <LinkedInIcon fontSize="large" />
+          </a>
+        </div>
+      </div>
     </section>
   );
 };
