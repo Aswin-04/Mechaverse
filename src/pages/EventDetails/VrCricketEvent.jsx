@@ -1,9 +1,9 @@
 import EventDetailsRenderer1 from "../../components/EventDetailsRenderer1";
-import { sdgAwarenessEvent } from "../../constants";
+import { vrCricketEvent } from "../../constants";
 
 const VrCricketEvent = () => {
 
-  return <EventDetailsRenderer1 event={sdgAwarenessEvent} />;
+  return <EventDetailsRenderer1 event={vrCricketEvent} />;
 
 }
 
