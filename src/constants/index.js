@@ -386,10 +386,12 @@ export const shapeShiftersEvent = {
     {
       name: "Lokjith NSR",
       img: lokjith_3,
+      phoneNumber: "+1234567890"
     },
     {
       name: "Santhosh Chakravarthy E",
       img: santhosh_3,
+      phoneNumber: "+1234567890"
     },
   ],
 };

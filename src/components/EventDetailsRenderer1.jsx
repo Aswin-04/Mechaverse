@@ -55,12 +55,12 @@ const EventDetailsRenderer1 = ({ event }) => {
                 <h3 className="h3-text">Date</h3>
                 <p>18/09/24</p>
               </div>{" "} */}
-              
+
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Coordinators</h3>
                 <div className="flex flex-wrap gap-x-4 gap-y-2">
                   {event.coordinators.map((coordinator, index) => (
-                    <div className="flex flex-col items-center" key={index}>
+                    <div className="flex flex-col items-start md:items-start lg:items-center" key={index}>
                       <div className="w-[120px] h-[120px] rounded-full overflow-hidden shadow-lg mt-4 mb-4 max-xs:w-[85px] max-xs:h-[85px]">
                         <img
                           src={coordinator.img}
@@ -68,13 +68,30 @@ const EventDetailsRenderer1 = ({ event }) => {
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <p className="mb-2 max-xs:text-sm text-center">
+                      <p className="mb-2 max-xs:text-sm text-center self-center">
                         {coordinator.name}
                       </p>
                     </div>
                   ))}
                 </div>
               </div>
+
+              {/* Contact Section */}
+              <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
+                <h3 className="h3-text">Contact</h3>
+                <div className="flex flex-col gap-4">
+                  {event.coordinators.map((coordinator, index) => (
+                    <div key={index} className="flex flex-col  max-sm:text-xxs">
+                      <p className="mb-1 whitespace-nowrap">{coordinator.name}</p>
+                      <p className="text-bold text-primary">
+                        {coordinator.phoneNumber ||
+                          "Phone number not available"}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               {/* Note Section for Registration */}
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Note</h3>
