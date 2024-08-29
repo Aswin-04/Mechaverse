@@ -331,10 +331,12 @@ export const colloquiumTalk = {
     {
       name: "Sudarshan R",
       img: sudarshan_1,
+      phoneNumber: "+91 80566 05946"
     },
     {
       name: "Meganathan D",
       img: meganathan_1,
+      phoneNumber: "+91 63831 64562"
     },
   ],
 };
@@ -360,11 +362,13 @@ export const brainTeaseEvent = {
     {
       name: "Shakthivel R",
       img: sakthivel_2,
+      phoneNumber: "+91 88254 57499"
     },
 
     {
       name: "Srivari Balaji G",
       img: srivari_2,
+      phoneNumber: "+91 98401 61202"
     },
   ],
 };
@@ -386,12 +390,12 @@ export const shapeShiftersEvent = {
     {
       name: "Lokjith NSR",
       img: lokjith_3,
-      phoneNumber: "+1234567890"
+      phoneNumber: "+91 98401 98984"
     },
     {
       name: "Santhosh Chakravarthy E",
       img: santhosh_3,
-      phoneNumber: "+1234567890"
+      phoneNumber: "+91 93427 52881"
     },
   ],
 };
@@ -417,10 +421,12 @@ export const machinistEvent = {
     {
       name: "Avinash S",
       img: avinash_4,
+      phoneNumber: "+91 99415 92128"
     },
     {
       name: "Sathappan RM",
       img: sathappan_4,
+      phoneNumber: "+91 86100 33625"
     },
   ],
 };
@@ -444,15 +450,18 @@ export const cricketAuctionEvent = {
     {
       name: "Aakash A",
       img: aakash_5,
+      phoneNumber: "+91 81480 10430"
     },
     {
       name: "Haresh Raj DJ",
       img: haresh_5,
+      phoneNumber: "+91 73977 55505"
     },
 
     {
       name: "Jayasurya K",
       img: jayasurya_5,
+      phoneNumber: "+91 63856 69322"
     },
   ],
 };
@@ -476,10 +485,12 @@ export const aquaStrikeEvent = {
     {
       name: "Durga Devi G",
       img: durga_6,
+      phoneNumber: "+91 63697 36949"
     },
     {
       name: "Jayanthan D",
       img: jayanthan_6,
+      phoneNumber: "+91 70924 95863"
     },
   ],
 };
@@ -503,14 +514,17 @@ export const senateSparEvent = {
     {
       name: "Asmathi JS",
       img: asmathi_7,
+      phoneNumber: "+91 89404 33994"
     },
     {
       name: "Merlin Priya J",
       img: merlin_7,
+      phoneNumber: "+91 91502 57608"
     },
     {
       name: "Madan K",
       img: madhan_7,
+      phoneNumber: "+91 75399 18920"
     },
   ],
 };
@@ -535,10 +549,12 @@ export const stumbleGuysEvent = {
     {
       name: "Haribabu S",
       img: haribabu_8,
+      phoneNumber: "+91 90254 08596"
     },
     {
       name: "Vigneshwar P",
       img: vigneshwar_8,
+      phoneNumber: "+91 93459 62776"
     },
   ],
 };
@@ -565,10 +581,12 @@ export const rcDaCorsaEvent = {
     {
       name: "Mohan Raj M",
       img: mohanraj_9,
+      phoneNumber: "+91 93630 48463"
     },
     {
       name: "Saravanan V",
       img: saravanan_9,
+      phoneNumber: "+91 89393 48707"
     },
   ],
 };
@@ -593,6 +611,7 @@ export const pixelPerfectEvent = {
     {
       name: "Sakthivel R",
       img: sakthivel_10,
+      phoneNumber: "+91 94426 18495"
     },
   ],
 };
@@ -620,14 +639,17 @@ export const tdPrintingWorkshop = {
     {
       name: "Arun M",
       img: arun_11,
+      phoneNumber: "+91 72009 28706"
     },
     {
       name: "Srivatsan Babu",
       img: srivatsan_11,
+      phoneNumber: "+91 63804 21788"
     },
     {
       name: "Ashvin EJ",
       img: ashwin_11,
+      phoneNumber: "+91 63745 21686"
     },
   ],
 };
@@ -650,14 +672,17 @@ export const droneZoneWorkshop = {
     {
       name: "Gohul RK",
       img: gohul_12,
+      phoneNumber: "+91 86376 51338"
     },
     {
       name: "Jayasurya B",
       img: jayasurya_12,
+      phoneNumber: "+91 63848 95174"
     },
     {
       name: "Prasanna N",
       img: prasanna_12,
+      phoneNumber: "+91 97913 95384"
     },
   ],
 };
@@ -674,6 +699,7 @@ export const vrCricketEvent = {
     {
       name: "Roshan JS",
       img: roshan_13,
+      phoneNumber: "+91 96267 12389"
     },
   ],
 };
@@ -697,6 +723,7 @@ export const sdgAwarenessEvent = {
     {
       name: "Aravindh M",
       img: aravindh_14,
+      phoneNumber: "+91 94436 65209"
     },
   ],
 };
