@@ -17,7 +17,7 @@ const DetailsRenderer = ({ details }) => {
               className="rounded-3xl"
             />
           </div>
-          <p className="font-montserrat leading-8 text-hc max-lg:max-w-lg max-md:max-w-md mt-8">
+          <p className="text-justify font-montserrat leading-8 text-hc max-lg:max-w-lg max-md:max-w-md mt-8">
             {details.description}
           </p>
         </div>
@@ -37,7 +37,7 @@ const DetailsRenderer = ({ details }) => {
           <h2 className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
             {details.title}
           </h2>
-          <p className="font-montserrat leading-8 text-hc max-w-4xl mt-6">
+          <p className="text-justify font-montserrat leading-8 text-hc max-w-4xl mt-6">
             {details.description}
           </p>
         </div>

@@ -10,9 +10,9 @@ const Contact = () => {
     <section className="max-container">
       <div data-aos="fade-right" className="flex flex-col gap-8 lg:hidden">
         <div className="flex flex-col items-center">
-          <p className="text-clr-100 leading-none text-sm font-sans ">
+          {/* <p className="text-clr-100 leading-none text-sm font-sans ">
             Have any queries ?
-          </p>
+          </p> */}
           <h2 className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
             Contact Us
           </h2>
@@ -50,9 +50,9 @@ const Contact = () => {
         </div>
         <div className=" py-8 px-4">
           <div className="flex flex-col items-center">
-            <p className="text-clr-100 leading-none text-sm font-sans ">
+            {/* <p className="text-clr-100 leading-none text-sm font-sans ">
               Have any queries ?
-            </p>
+            </p> */}
             <h2 className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
               Contact Us
             </h2>
