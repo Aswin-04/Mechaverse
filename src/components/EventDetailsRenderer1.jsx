@@ -110,13 +110,14 @@ const EventDetailsRenderer1 = ({ event }) => {
                   Go Back
                 </Link>
 
-                <Link
-                  to="/events"
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeTk20UsqPw8VIEcU6d1e8wsyXtaLJ7QMfdN8QBbeXZRUCAuA/viewform?pli=1"
+                  target="_blank"
                   className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group"
                 >
                   Register Now
                   <ArrowRight className="w-3 h-3 tracking-normal text-[#003f6c]-500 group-hover:translate-x-1 transition-transform duration-150 ease-in-out ml-1" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>
