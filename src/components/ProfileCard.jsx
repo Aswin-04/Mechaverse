@@ -4,7 +4,7 @@ import { blue } from '@mui/material/colors';
 
 const ProfileCard = ({profile}) => {
   return (
-    <div className="profile-card relative font-sans flex flex-col items-center mt-10 w-[320px] pt-6 pb-8 rounded-3xl text-center bg-card backdrop-blur-lg shadow-inner">
+    <div data-aos="fade-in" className="profile-card relative font-sans flex flex-col items-center mt-10 w-[320px] pt-6 pb-8 rounded-3xl text-center bg-card backdrop-blur-lg shadow-inner">
       <div className="bg-card mb-4  rounded-full w-[170px] h-[170px] flex items-center justify-center">
         <img src={profile.img} alt={profile.imgAlt}  className="rounded-full w-[160px] h-[160px]"/>
       </div>

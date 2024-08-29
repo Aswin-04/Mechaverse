@@ -10,7 +10,7 @@ import GradientHeader from "../components/GradientHeader";
 const ImageSlider = () => {
   return (
     <div className="h-screen w-full pt-[6.688rem] flex flex-col">
-      <div className="flex justify-center items-center pt-12 lg:p-12">
+      <div data-aos="fade-down" className="flex justify-center items-center pt-12 lg:p-12">
         <GradientHeader label="About Us" className="font-sans" />
       </div>
       <div className="flex-grow">
