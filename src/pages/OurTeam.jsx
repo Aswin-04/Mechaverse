@@ -5,6 +5,8 @@ import {
   keyPersonsProfiles,
   staffCoordinatorsProfiles,
   mediaTeamProfiles,
+  studentCoordinatorsProfiles,
+  webDeveloperProfile,
 } from "../constants";
 import GradientHeader from "../components/GradientHeader";
 
@@ -46,19 +48,33 @@ const OurTeam = () => {
           </div>
         </section>
 
-        {/* <section className="padding-x py-12">
+        <section className="padding-x py-12">
           <div className="my-4 flex flex-col items-center text-center">
             <h2 className="text-3xl md:text-[36px] uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-accent">
-              Student  <span className="whitespace-nowrap">Co-ordinators</span>
+              Student <span className="whitespace-nowrap">Co-ordinators</span>
             </h2>
           </div>
 
           <div className="flex gap-x-24 gap-y-8 flex-wrap justify-center">
-            {keyPersonsProfiles.map((profile, index) => (
-              <ProfileCard profile={profile} key={index}/>
+            {studentCoordinatorsProfiles.map((profile, index) => (
+              <ProfileCard profile={profile} key={index} />
             ))}
           </div>
-        </section> */}
+        </section>
+
+        <section className="padding-x py-12">
+          <div className="my-4 flex flex-col items-center text-center">
+            <h2 className="text-3xl md:text-[36px] uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-accent">
+              Web <span className="whitespace-nowrap">Developer</span>
+            </h2>
+          </div>
+
+          <div className="flex gap-x-24 gap-y-8 flex-wrap justify-center">
+            {webDeveloperProfile.map((profile, index) => (
+              <ProfileCard profile={profile} key={index} />
+            ))}
+          </div>
+        </section>
 
         <section className="padding-x py-12">
           <div className="my-4 flex flex-col items-center text-center">
@@ -73,6 +89,9 @@ const OurTeam = () => {
             ))}
           </div>
         </section>
+
+
+
       </section>
 
       <section className="mt-8">

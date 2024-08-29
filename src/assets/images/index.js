@@ -81,11 +81,16 @@ import karthiImg from './media/4-karthi.jpg'
 import aadhiImg from './media/5-aadhi.jpg'
 import viwinImg from './media/6-viwin.png'
 import dineshImg from './media/7-dinesh.jpg'
-import salmanImg from './media/8-salman.jpg'
-import sudarshanImg from './media/9-sudharshan.png'
+import salmanImg from './media/8-salman.jpeg'
 import harishImg from './media/10-harish.jpeg'
 import vishalImg from './media/11-vishal.jpeg'
 
+import keerthanaImg from './student-commitee/1-keerthana.jpg'
+import priyankaImg from './student-commitee/2-priyanka.jpg'
+import ajayImg from './student-commitee/3-ajay.jpg'
+import lakshmanImg from './student-commitee/4-lakshman.jpg'
+import nithishImg from './student-commitee/5-nithish.jpg'
+import aswinImg from './student-commitee/aswin-.jpg'
 
 
 export {
@@ -173,7 +178,13 @@ export {
   viwinImg,
   dineshImg,
   salmanImg,
-  sudarshanImg,
   harishImg,
   vishalImg,
+
+  keerthanaImg,
+  priyankaImg,
+  ajayImg,
+  lakshmanImg,
+  nithishImg,
+  aswinImg,
 };
