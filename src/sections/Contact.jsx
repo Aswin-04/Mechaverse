@@ -1,8 +1,11 @@
 import { contactUsImg } from "../assets/images";
 import ContactDetails from "../components/ContactDetails";
-import { contactDetails } from "../constants";
+import { contactDetails, contactDetails1 } from "../constants";
 
 const Contact = () => {
+
+  const [firstGroup, secondGroup] = contactDetails1;
+
   return (
     <section className="max-container">
       <div data-aos="fade-right" className="flex flex-col gap-8 lg:hidden">
@@ -25,13 +28,8 @@ const Contact = () => {
             />
           </div>
           <div className="flex py-12 px-4 gap-20 justify-center max-sm:flex-col max-sm:text-center max-md:gap-10">
-            {contactDetails.map((section, index) => (
-              <ContactDetails
-                key={section.title}
-                title={section.title}
-                contacts={section.contacts}
-              />
-            ))}
+            <ContactDetails contacts={firstGroup} />
+            <ContactDetails contacts={secondGroup} />
           </div>
         </div>
       </div>
@@ -60,13 +58,8 @@ const Contact = () => {
             </h2>
           </div>
           <div className="flex py-12 px-4 gap-10 justify-center wide:gap-20">
-            {contactDetails.map((section, index) => (
-              <ContactDetails
-                key={section.title}
-                title={section.title}
-                contacts={section.contacts}
-              />
-            ))}
+            <ContactDetails contacts={firstGroup} />
+            <ContactDetails contacts={secondGroup} />
           </div>
         </div>
       </div>

@@ -120,6 +120,36 @@ export const contactDetails = [
   },
 ];
 
+export const contactDetails1 = [
+  // Group 1: First three details
+  [
+    {
+      name: "Sakthi Keerthana MH",
+      phone: "+91 95660 15395"
+    },
+    {
+      name: "Priyanka AN",
+      phone: "+91 90255 87486"
+    },
+    {
+      name: "Ajay Kumar A",
+      phone: "+91 98847 17979"
+    }
+  ],
+
+  // Group 2: Last two details
+  [
+    {
+      name: "Lakshman G",
+      phone: "+91 97908 17205"
+    },
+    {
+      name: "Nithish Anand A",
+      phone: "+91 80560 88096"
+    }
+  ]
+];
+
 export const quickLinks = {
   title: "Quick Links",
   links: [
