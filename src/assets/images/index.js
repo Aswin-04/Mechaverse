@@ -74,6 +74,18 @@ import hodImg from "./staffs/Dr. B. Vijaya Ramnath.jpg";
 import parswajinanImg from "./staffs/Dr. C. Parswajinan.jpg";
 import rajaprasannaImg from "./staffs/Mr. R. Rajaprasanna.jpg";
 
+import sheshathImg from './media/1-sheshath.jpeg'
+import sanjayImg from './media/2-sanjay.jpg'
+import kowshikImg from './media/3-kowshik.jpg'
+import karthiImg from './media/4-karthi.jpg'
+import aadhiImg from './media/5-aadhi.jpg'
+import viwinImg from './media/6-viwin.png'
+import dineshImg from './media/7-dinesh.jpg'
+import salmanImg from './media/8-salman.jpg'
+import sudarshanImg from './media/9-sudharshan.png'
+import harishImg from './media/10-harish.jpeg'
+import vishalImg from './media/11-vishal.jpeg'
+
 
 
 export {
@@ -152,4 +164,16 @@ export {
   prasanna_12,
   roshan_13,
   aravindh_14,
+
+  sheshathImg,
+  sanjayImg,
+  kowshikImg,
+  karthiImg,
+  aadhiImg,
+  viwinImg,
+  dineshImg,
+  salmanImg,
+  sudarshanImg,
+  harishImg,
+  vishalImg,
 };

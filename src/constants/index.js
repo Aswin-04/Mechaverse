@@ -1,6 +1,6 @@
 import { eventsImg } from "../assets/images";
 import { aboutUsImg } from "../assets/images";
-import aadhiImg from "../assets/icons/aadhi-Img.jpeg";
+// import aadhiImg from "../assets/icons/aadhi-Img.jpeg";
 
 import {
   aquaStrikeLogo,
@@ -62,7 +62,7 @@ import {
   prasanna_12,
   roshan_13,
   aravindh_14,
-} from '../assets/images'
+} from "../assets/images";
 
 import {
   ceoImg,
@@ -72,6 +72,21 @@ import {
   hodImg,
   parswajinanImg,
   rajaprasannaImg,
+} from "../assets/images";
+
+import {
+  sheshathImg,
+  sanjayImg,
+  kowshikImg,
+  karthiImg,
+  aadhiImg,
+  viwinImg,
+  dineshImg,
+  salmanImg,
+  sudarshanImg,
+  harishImg,
+  vishalImg,
+
 } from '../assets/images'
 
 export const navLinks = [
@@ -125,29 +140,29 @@ export const contactDetails1 = [
   [
     {
       name: "Sakthi Keerthana MH",
-      phone: "+91 95660 15395"
+      phone: "+91 95660 15395",
     },
     {
       name: "Priyanka AN",
-      phone: "+91 90255 87486"
+      phone: "+91 90255 87486",
     },
     {
       name: "Ajay Kumar A",
-      phone: "+91 98847 17979"
-    }
+      phone: "+91 98847 17979",
+    },
   ],
 
   // Group 2: Last two details
   [
     {
       name: "Lakshman G",
-      phone: "+91 97908 17205"
+      phone: "+91 97908 17205",
     },
     {
       name: "Nithish Anand A",
-      phone: "+91 80560 88096"
-    }
-  ]
+      phone: "+91 80560 88096",
+    },
+  ],
 ];
 
 export const quickLinks = {
@@ -159,7 +174,6 @@ export const quickLinks = {
     { name: "Our Team", linkTo: "/our-team" },
   ],
 };
-
 
 export const allEvents = [
   {
@@ -641,15 +655,15 @@ export const droneZoneWorkshop = {
 export const vrCricketEvent = {
   id: 13,
   title: "VR Cricket",
-  logo: vrCricketLogo, 
-  description: 
+  logo: vrCricketLogo,
+  description:
     "VR Cricket is an immersive virtual reality experience that allows players to engage in the sport of cricket as if they were physically present on the field. In VR Cricket, you can take on the role of a batsman, bowler, or fielder, experiencing the game from a first-person perspective. With realistic graphics and motion tracking, VR Cricket simulates the sensation of batting against fast-paced deliveries, bowling with precision, and fielding in a stadium filled with cheering fans.",
   venue: "",
   timing: "",
   coordinators: [
     {
-      name: "Roshan JS", 
-      img: roshan_13, 
+      name: "Roshan JS",
+      img: roshan_13,
     },
   ],
 };
@@ -769,7 +783,6 @@ export const keyPersonsProfiles = [
     year: "Head of the Department",
     linkedIn: "https://www.linkedin.com/in/dr-b-vijaya-ramnath-5bb11542/",
   },
-
 ];
 
 export const staffCoordinatorsProfiles = [
@@ -786,9 +799,107 @@ export const staffCoordinatorsProfiles = [
     imgAlt: "rajaprasannaSirImg",
     name: "Mr. R. Rajaprasanna",
     year: "Assistant Professor",
-    linkedIn: "https://www.linkedin.com/in/aadhitya-varma/",
+    linkedIn: "https://www.linkedin.com/in/ramanujam-rajaprasanna/?originalSubdomain=in",
   },
-
-
 ];
 
+export const mediaTeamProfiles = [
+  {
+    id: 1,
+    img: sheshathImg,
+    imgAlt: "sheshathImg",
+    name: "Sheshath P",
+    year: "Mech - Final Year",
+    linkedIn: "https://www.linkedin.com/in/sheshath-p-419774288/",
+  },
+
+  {
+    id: 2,
+    img: sanjayImg,
+    imgAlt: "sanjayImg",
+    name: "Sanjay K",
+    year: "Mech - Final year",
+    linkedIn: "https://www.linkedin.com/in/sanjay-k-73b43731b/",
+  },
+
+  {
+    id: 3,
+    img: kowshikImg,
+    imgAlt: "kowshikImg",
+    name: "Kowshik K",
+    year: "Mech - Third year",
+    linkedIn: "https://www.linkedin.com/in/kowshik-sk-251881247/",
+  },
+
+  {
+    id: 4,
+    img: karthiImg,
+    imgAlt: "karthiImg",
+    name: "Karthick Raja V",
+    year: "Mech - Third year",
+    linkedIn: "https://www.linkedin.com/in/karthick-raja-427294257/",
+  },
+
+  {
+    id: 5,
+    img: aadhiImg,
+    imgAlt: "aadhiImg",
+    name: "Arul Adithan R",
+    year: "Mech - Third Year",
+    linkedIn: "https://www.linkedin.com/in/arul-adithan-r-336167257/",
+  },
+
+  {
+    id: 6,
+    img: viwinImg,
+    imgAlt: "viwinImg",
+    name: "Viwin M",
+    year: "Mech - Third Year",
+    linkedIn: "https://www.linkedin.com/in/viwin-baskaran-b575aa25b/",
+  },
+
+  {
+    id: 7,
+    img: dineshImg,
+    imgAlt: "dineshImg",
+    name: "Dinesh D",
+    year: "Mech - 2nd year",
+    linkedIn: "https://www.linkedin.com/in/dinesh1306/",
+  },
+
+  {
+    id: 8,
+    img: salmanImg,
+    imgAlt: "salmanImg",
+    name: "Salman L",
+    year: "Mech - 2nd year",
+    linkedIn: "https://www.linkedin.com/in/salman-l-0163412a2/",
+  },
+
+  {
+    id: 9,
+    img: sudarshanImg,
+    imgAlt: "sudarshanImg",
+    name: "Sudarshan R",
+    year: "Mech - Final year",
+    linkedIn: "https://www.linkedin.com/in/sudarshan-r-01b532288/",
+  },
+
+  {
+    id: 10,
+    img: harishImg,
+    imgAlt: "harishImg",
+    name: "Harish A",
+    year: "Mech - Third year",
+    linkedIn: "https://www.linkedin.com/in/harish-a-787506257/",
+  },
+
+  {
+    id: 11,
+    img: vishalImg,
+    imgAlt: "vishalImg",
+    name: "Vishal VB",
+    year: "Mech - Second Year",
+    linkedIn: "https://www.linkedin.com/in/vb-vishal-726305295/",
+  },
+];
