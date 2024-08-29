@@ -53,10 +53,10 @@ const EventDetailsRenderer2 = ({ event }) => {
                 <h3 className="h3-text">Timing</h3>
                 <p>{event.timing || "To be announced"}</p>
               </div> */}
-              <div className="bg-gray-800 p-4 rounded-lg shadow-sm">
+              {/* <div className="bg-gray-800 p-4 rounded-lg shadow-sm">
                 <h3 className="h3-text">Date</h3>
                 <p>18/09/24</p>
-              </div>{" "}
+              </div>{" "} */}
               <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Coordinators</h3>
                 <div className="flex flex-wrap gap-x-4 gap-y-2">
