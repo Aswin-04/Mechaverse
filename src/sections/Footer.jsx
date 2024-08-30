@@ -4,7 +4,7 @@ import { quickLinks } from "../constants/";
 import { Mail } from "lucide-react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import YouTubeIcon from '@mui/icons-material/YouTube';
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const Footer = () => {
   // sm:px-16 px-8 sm:py-24 py-12
@@ -86,14 +86,51 @@ const Footer = () => {
           Stay updated with the latest events and more..
         </div>
         <div className="flex gap-2">
-          <a href="https://www.instagram.com/sairam_mech/" target="_blank">
-            <InstagramIcon fontSize="large" />
+          <a
+            href="https://www.instagram.com/sairam_mech/"
+            target="_blank"
+            className="hover:text-primary transition duration-250 ease-in-out"
+          >
+            <InstagramIcon
+              fontSize="large"
+              sx={{
+                transition: "color 0.25s ease-in-out",
+                "&:hover": {
+                  color: "#90e7e9",
+                },
+              }}
+            />
           </a>
-          <a href="https://www.linkedin.com/company/sairam-mechanical-engineering/posts/?feedView=all" target="_blank">
-            <LinkedInIcon fontSize="large" />
+          <a
+            href="https://www.linkedin.com/company/sairam-mechanical-engineering/posts/?feedView=all"
+            target="_blank"
+            className="hover:text-primary transition duration-250 ease-in-out"
+          >
+            <LinkedInIcon
+              fontSize="large"
+              sx={{
+                transition: "color 0.25s ease-in-out",
+                "&:hover": {
+                  color: "#90e7e9",
+                },
+              }}
+            />
           </a>
-          <a className="" href="https://www.youtube.com/" target="_blank">
-            <YouTubeIcon sx={{ fontSize: 42 }} />
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            className="hover:text-primary transition duration-250 ease-in-out"
+          >
+            <YouTubeIcon
+              sx={{
+                fontSize: 46,
+                paddingBottom: 1,
+                transition: "color 0.25s ease-in-out",
+                "&:hover": {
+                  color: "#90e7e9",
+                },
+              }}
+            />
           </a>
         </div>
       </div>
