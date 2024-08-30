@@ -844,7 +844,7 @@ export const mediaTeamProfiles = [
     img: sheshathImg,
     imgAlt: "sheshathImg",
     name: "Sheshath P",
-    year: "Mech - Final Year",
+    // year: "Mech - Final Year",
     linkedIn: "https://www.linkedin.com/in/sheshath-p-419774288/",
   },
 
@@ -853,7 +853,7 @@ export const mediaTeamProfiles = [
     img: sanjayImg,
     imgAlt: "sanjayImg",
     name: "Sanjay K",
-    year: "Mech - Final Year",
+    // year: "Mech - Final Year",
     linkedIn: "https://www.linkedin.com/in/sanjay-k-73b43731b/",
   },
 
@@ -862,7 +862,7 @@ export const mediaTeamProfiles = [
     img: kowshikImg,
     imgAlt: "kowshikImg",
     name: "Kowshik K",
-    year: "Mech - Third Year",
+    // year: "Mech - Third Year",
     linkedIn: "https://www.linkedin.com/in/kowshik-sk-251881247/",
   },
 
@@ -871,7 +871,7 @@ export const mediaTeamProfiles = [
     img: karthiImg,
     imgAlt: "karthiImg",
     name: "Karthick Raja V",
-    year: "Mech - Third Year",
+    // year: "Mech - Third Year",
     linkedIn: "https://www.linkedin.com/in/karthick-raja-427294257/",
   },
 
@@ -880,7 +880,7 @@ export const mediaTeamProfiles = [
     img: aadhiImg,
     imgAlt: "aadhiImg",
     name: "Arul Adithan R",
-    year: "Mech - Third Year",
+    // year: "Mech - Third Year",
     linkedIn: "https://www.linkedin.com/in/arul-adithan-r-336167257/",
   },
 
@@ -889,7 +889,7 @@ export const mediaTeamProfiles = [
     img: viwinImg,
     imgAlt: "viwinImg",
     name: "Viwin M",
-    year: "Mech - Third Year",
+    // year: "Mech - Third Year",
     linkedIn: "https://www.linkedin.com/in/viwin-baskaran-b575aa25b/",
   },
 
@@ -898,7 +898,7 @@ export const mediaTeamProfiles = [
     img: dineshImg,
     imgAlt: "dineshImg",
     name: "Dinesh D",
-    year: "Mech - Second Year",
+    // year: "Mech - Second Year",
     linkedIn: "https://www.linkedin.com/in/dinesh1306/",
   },
 
@@ -907,7 +907,7 @@ export const mediaTeamProfiles = [
     img: salmanImg,
     imgAlt: "salmanImg",
     name: "Salman L",
-    year: "Mech - Second Year",
+    // year: "Mech - Second Year",
     linkedIn: "https://www.linkedin.com/in/salman-l-0163412a2/",
   },
 
@@ -925,7 +925,7 @@ export const mediaTeamProfiles = [
     img: harishImg,
     imgAlt: "harishImg",
     name: "Harish A",
-    year: "Mech - Third Year",
+    // year: "Mech - Third Year",
     linkedIn: "https://www.linkedin.com/in/harish-a-787506257/",
   },
 
@@ -934,7 +934,7 @@ export const mediaTeamProfiles = [
     img: vishalImg,
     imgAlt: "vishalImg",
     name: "Vishal VB",
-    year: "Mech - Second Year",
+    // year: "Mech - Second Year",
     linkedIn: "https://www.linkedin.com/in/vb-vishal-726305295/",
   },
 ];
@@ -992,7 +992,7 @@ export const webDeveloperProfile = [
     img: aswinImg,
     imgAlt: "aswinImg",
     name: "Aswin E",
-    year: "Mech- Third Year",
+    // year: "Mech- Third Year",
     linkedIn: "https://www.linkedin.com/in/aswin04/",
   },
 ];
