@@ -1,4 +1,4 @@
-import { Logo3 } from "../assets/images";
+import { Logo3, Logo, realLogo } from "../assets/images";
 import CountDown from "../components/CountDown";
 
 const Hero = () => {

@@ -1,6 +1,8 @@
 import Logo from "./logo.png";
 import Logo2 from "./logo2.png";
 import Logo3 from "./logo3.svg";
+import realLogo from "./logo-cropped-1.svg";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 import eventsImg from "./events.svg";
@@ -103,10 +105,11 @@ export {
   parswajinanImg,
   rajaprasannaImg,
 
-
   Logo,
   Logo2,
   Logo3,
+  realLogo,
+
   menu,
   close,
   eventsImg,
