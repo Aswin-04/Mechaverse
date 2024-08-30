@@ -4,6 +4,7 @@ import { quickLinks } from "../constants/";
 import { Mail } from "lucide-react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
   // sm:px-16 px-8 sm:py-24 py-12
@@ -90,6 +91,9 @@ const Footer = () => {
           </a>
           <a href="https://www.linkedin.com/company/sairam-mechanical-engineering/posts/?feedView=all" target="_blank">
             <LinkedInIcon fontSize="large" />
+          </a>
+          <a className="" href="https://www.youtube.com/" target="_blank">
+            <YouTubeIcon sx={{ fontSize: 42 }} />
           </a>
         </div>
       </div>
