@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import { Logo3, menu, close } from "../assets/images"
+import { Logo3, Logo, menu, close } from "../assets/images"
 import { navLinks } from "../constants"
 import { useState } from "react"
 
@@ -14,7 +14,7 @@ const NavBar = () => {
       <nav className="max-container flex">
 
         <NavLink to='/' className="flex items-center mr-auto">
-          <img src={Logo3} alt="logo" width={90} height={90} className="object-contain"/>
+          <img src={Logo} alt="logo" width={90} height={90} className="object-contain"/>
         </NavLink>
 
         <ul className="flex justify-center items-center gap-16 max-lg:hidden text-lg font-montserrat font-medium">

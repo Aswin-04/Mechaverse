@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
 
         <div className="" data-aos="fade-down">
-          <img src={Logo3} alt="logo" width={420} />
+          <img src={Logo} alt="logo" width={420} />
         </div>
       </div>
 
