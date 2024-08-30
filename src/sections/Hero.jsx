@@ -6,14 +6,27 @@ const Hero = () => {
     <section className="flex flex-col  max-container min-h-screen w-full pt-[6.688rem]">
       <div className="flex flex-col-reverse justify-center items-center gap-6 max-lg:text-center lg:flex-row lg:gap-20">
         <div className="lg:pt-12">
-          <p className="font-montserrat text-lg text-tc" data-aos="fade-down" data-aos-delay="50">
+          <p
+            className="font-montserrat text-lg text-tc"
+            data-aos="fade-down"
+            data-aos-delay="50"
+          >
             Sri Sai Ram Engineering College Presents
           </p>
-          <h1 className="h1 mt-2 text-transparent bg-clip-text bg-custom-gradient-120" data-aos="fade-down" data-aos-delay="100">
+          <h1
+            className="h1 mt-2 text-transparent bg-clip-text bg-custom-gradient-120"
+            data-aos="fade-down"
+            data-aos-delay="100"
+          >
             Mechaverse
           </h1>
-          <p className="mt-4 lg:max-w-lg md:max-w-md font-montserrat text-md leading-8 text-white-400" data-aos="fade-down" data-aos-delay="150">
-          National Symposium by Mechanical Engineering at Sri Sai Ram Engineering College on September 18th, 2024.
+          <p
+            className="text-justify mt-4 lg:max-w-lg md:max-w-md font-montserrat text-md leading-8 text-white-400"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            National Level Symposium by Department of Mechanical Engineering,
+            Sri Sai Ram Engineering College on September 18th, 2024.{" "}
           </p>
         </div>
 
@@ -23,12 +36,18 @@ const Hero = () => {
       </div>
 
       <div className="w-full flex flex-col justify-center items-center mt-32 lg:mt-12 ">
-        <h2 className="text-center h3 font-grotesk font-bold  tracking-tighter uppercase text-transparent bg-clip-text bg-gradient-to-b from-primary to-hc"
-        data-aos="fade-out" data-aos-delay="200" 
+        <h2
+          className="text-center h3 font-grotesk font-bold  tracking-tighter uppercase text-transparent bg-clip-text bg-gradient-to-b from-primary to-hc"
+          data-aos="fade-out"
+          data-aos-delay="200"
         >
           countdown
         </h2>
-        <div className="w-full grid grid-cols-counter-card justify-center items-center md:max-w-3xl self-center mt-8  gap-2 md:gap-3" data-aos="fade-out" data-aos-delay="250">
+        <div
+          className="w-full grid grid-cols-counter-card justify-center items-center md:max-w-3xl self-center mt-8  gap-2 md:gap-3"
+          data-aos="fade-out"
+          data-aos-delay="250"
+        >
           <CountDown />
         </div>
       </div>

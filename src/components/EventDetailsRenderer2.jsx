@@ -20,7 +20,7 @@ const EventDetailsRenderer2 = ({ event }) => {
               <h2 className="text-primary font-montserrat tracking-tight text-3xl font-bold my-8 max-xs:text-xl max-md:text-center">
                 {event.title}
               </h2>
-              <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
+              <div className="text-justify bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
                 <h3 className="h3-text">Description</h3>
                 <p className="mb-4">
                   {event.description.split("\n").map((text, index) => (
@@ -30,7 +30,7 @@ const EventDetailsRenderer2 = ({ event }) => {
                   ))}
                 </p>
               </div>
-              <div className="bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
+              <div className="text-justify bg-gray-800 p-4 rounded-lg shadow-sm mb-5">
                 <h3 className="h3-text">Guidelines</h3>
                 <ol className="list-decimal list-inside pl-4">
                   {event.guidelines.map((rule, index) => (
@@ -94,7 +94,7 @@ const EventDetailsRenderer2 = ({ event }) => {
               </div>
 
               {/* Note Section for Registration */}
-              <div className="bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
+              <div className="text-justify bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Note</h3>
                 <ul className="list-disc list-inside pl-4">
                   <li className="mb-2" style={{ listStylePosition: "outside" }}>
