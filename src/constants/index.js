@@ -489,7 +489,7 @@ export const aquaStrikeEvent = {
     {
       name: "Durga Devi G",
       img: durga_6,
-      phoneNumber: "+91 63697 36949",
+      // phoneNumber: "+91 63697 36949",
     },
   ],
 };
@@ -513,7 +513,7 @@ export const senateSparEvent = {
     {
       name: "Asmathi JS",
       img: asmathi_7,
-      phoneNumber: "+91 89404 33994",
+      // phoneNumber: "+91 89404 33994",
     },
     {
       name: "Madan K",
@@ -523,7 +523,7 @@ export const senateSparEvent = {
     {
       name: "Merlin Priya J",
       img: merlin_7,
-      phoneNumber: "+91 91502 57608",
+      // phoneNumber: "+91 91502 57608",
     },
   ],
 };
