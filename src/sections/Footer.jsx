@@ -5,6 +5,7 @@ import { Mail } from "lucide-react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 const Footer = () => {
   // sm:px-16 px-8 sm:py-24 py-12
@@ -137,6 +138,24 @@ const Footer = () => {
               sx={{
                 fontSize: 46,
                 paddingBottom: 1,
+                transition: "color 0.25s ease-in-out",
+                "&:hover": {
+                  color: "#90e7e9",
+                },
+              }}
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/sairamecmech?mibextid=qi2Omg&rdid=6tTnLAW1kU7pwNuO&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FmPf3KkcC7Kqgxpet%2F%3Fmibextid%3Dqi2Omg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-primary transition duration-250 ease-in-out"
+          >
+            <FacebookIcon
+              fontSize="large"
+              sx={{
+                // fontSize: 46,
+                // paddingBottom: 1,
                 transition: "color 0.25s ease-in-out",
                 "&:hover": {
                   color: "#90e7e9",
