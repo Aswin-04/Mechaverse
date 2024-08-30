@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import sairamIcon from "../assets/icons/sairam-icon.png";
+import sairamIcon from "../assets/images/icons/sairam-icon.png";
 import { quickLinks } from "../constants/";
 import { Mail } from "lucide-react";
 import InstagramIcon from "@mui/icons-material/Instagram";

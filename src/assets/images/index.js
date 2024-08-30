@@ -1,14 +1,14 @@
-import Logo from "./logo.png";
-import Logo2 from "./logo2.png";
-import Logo3 from "./logo3.svg";
-import realLogo from "./logo-cropped-1.svg";
+import Logo from "./icons/logo.png";
+import Logo2 from "./icons/logo2.png";
+import Logo3 from "./icons/logo3.svg";
+import realLogo from "./icons/logo-cropped-1.svg";
 
-import menu from "./menu.svg";
-import close from "./close.svg";
-import eventsImg from "./events.svg";
-import aboutUsImg from "./about-us.svg";
-import contactUsImg from "./contact-us.svg";
-import rightArrow from "./right-arrow.svg";
+import menu from "./icons/menu.svg";
+import close from "./icons/close.svg";
+import eventsImg from "./icons/events.svg";
+import aboutUsImg from "./icons/about-us.svg";
+import contactUsImg from "./icons/contact-us.svg";
+import rightArrow from "./icons/right-arrow.svg";
 
 import aquaStrikeLogo from "./event-logos/aqua-strike.png";
 import brainTeaseLogo from "./event-logos/brain-tease.png";
