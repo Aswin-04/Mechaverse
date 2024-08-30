@@ -85,8 +85,7 @@ import {
   salmanImg,
   harishImg,
   vishalImg,
-
-} from '../assets/images'
+} from "../assets/images";
 
 import {
   keerthanaImg,
@@ -95,7 +94,7 @@ import {
   lakshmanImg,
   nithishImg,
   aswinImg,
-} from '../assets/images'
+} from "../assets/images";
 
 export const navLinks = [
   { to: "/", label: "Home" },
@@ -331,12 +330,12 @@ export const colloquiumTalk = {
     {
       name: "Sudarshan R",
       img: sudarshan_1,
-      phoneNumber: "+91 80566 05946"
+      phoneNumber: "+91 80566 05946",
     },
     {
       name: "Meganathan D",
       img: meganathan_1,
-      phoneNumber: "+91 63831 64562"
+      phoneNumber: "+91 63831 64562",
     },
   ],
 };
@@ -362,13 +361,13 @@ export const brainTeaseEvent = {
     {
       name: "Shakthivel R",
       img: sakthivel_2,
-      phoneNumber: "+91 88254 57499"
+      phoneNumber: "+91 88254 57499",
     },
 
     {
       name: "Srivari Balaji G",
       img: srivari_2,
-      phoneNumber: "+91 98401 61202"
+      phoneNumber: "+91 98401 61202",
     },
   ],
 };
@@ -390,12 +389,12 @@ export const shapeShiftersEvent = {
     {
       name: "Lokjith NSR",
       img: lokjith_3,
-      phoneNumber: "+91 98401 98984"
+      phoneNumber: "+91 98401 98984",
     },
     {
       name: "Santhosh Chakravarthy E",
       img: santhosh_3,
-      phoneNumber: "+91 93427 52881"
+      phoneNumber: "+91 93427 52881",
     },
   ],
 };
@@ -421,12 +420,12 @@ export const machinistEvent = {
     {
       name: "Avinash S",
       img: avinash_4,
-      phoneNumber: "+91 99415 92128"
+      phoneNumber: "+91 99415 92128",
     },
     {
       name: "Sathappan RM",
       img: sathappan_4,
-      phoneNumber: "+91 86100 33625"
+      phoneNumber: "+91 86100 33625",
     },
   ],
 };
@@ -450,18 +449,18 @@ export const cricketAuctionEvent = {
     {
       name: "Aakash A",
       img: aakash_5,
-      phoneNumber: "+91 81480 10430"
+      phoneNumber: "+91 81480 10430",
     },
     {
       name: "Haresh Raj DJ",
       img: haresh_5,
-      phoneNumber: "+91 73977 55505"
+      phoneNumber: "+91 73977 55505",
     },
 
     {
       name: "Jayasurya K",
       img: jayasurya_5,
-      phoneNumber: "+91 63856 69322"
+      phoneNumber: "+91 63856 69322",
     },
   ],
 };
@@ -485,12 +484,12 @@ export const aquaStrikeEvent = {
     {
       name: "Jayanthan D",
       img: jayanthan_6,
-      phoneNumber: "+91 70924 95863"
+      phoneNumber: "+91 70924 95863",
     },
     {
       name: "Durga Devi G",
       img: durga_6,
-      phoneNumber: "+91 63697 36949"
+      phoneNumber: "+91 63697 36949",
     },
   ],
 };
@@ -514,17 +513,17 @@ export const senateSparEvent = {
     {
       name: "Asmathi JS",
       img: asmathi_7,
-      phoneNumber: "+91 89404 33994"
+      phoneNumber: "+91 89404 33994",
     },
     {
       name: "Madan K",
       img: madhan_7,
-      phoneNumber: "+91 75399 18920"
+      phoneNumber: "+91 75399 18920",
     },
     {
       name: "Merlin Priya J",
       img: merlin_7,
-      phoneNumber: "+91 91502 57608"
+      phoneNumber: "+91 91502 57608",
     },
   ],
 };
@@ -549,12 +548,12 @@ export const stumbleGuysEvent = {
     {
       name: "Haribabu S",
       img: haribabu_8,
-      phoneNumber: "+91 90254 08596"
+      phoneNumber: "+91 90254 08596",
     },
     {
       name: "Vigneshwar P",
       img: vigneshwar_8,
-      phoneNumber: "+91 93459 62776"
+      phoneNumber: "+91 93459 62776",
     },
   ],
 };
@@ -581,12 +580,12 @@ export const rcDaCorsaEvent = {
     {
       name: "Mohan Raj M",
       img: mohanraj_9,
-      phoneNumber: "+91 93630 48463"
+      phoneNumber: "+91 93630 48463",
     },
     {
       name: "Saravanan V",
       img: saravanan_9,
-      phoneNumber: "+91 89393 48707"
+      phoneNumber: "+91 89393 48707",
     },
   ],
 };
@@ -611,7 +610,7 @@ export const pixelPerfectEvent = {
     {
       name: "Sakthivel R",
       img: sakthivel_10,
-      phoneNumber: "+91 94426 18495"
+      phoneNumber: "+91 94426 18495",
     },
   ],
 };
@@ -639,17 +638,17 @@ export const tdPrintingWorkshop = {
     {
       name: "Arun M",
       img: arun_11,
-      phoneNumber: "+91 72009 28706"
+      phoneNumber: "+91 72009 28706",
     },
     {
       name: "Srivatsan Babu",
       img: srivatsan_11,
-      phoneNumber: "+91 63804 21788"
+      phoneNumber: "+91 63804 21788",
     },
     {
       name: "Ashvin EJ",
       img: ashwin_11,
-      phoneNumber: "+91 63745 21686"
+      phoneNumber: "+91 63745 21686",
     },
   ],
 };
@@ -672,17 +671,17 @@ export const droneZoneWorkshop = {
     {
       name: "Gohul RK",
       img: gohul_12,
-      phoneNumber: "+91 86376 51338"
+      phoneNumber: "+91 86376 51338",
     },
     {
       name: "Jayasurya B",
       img: jayasurya_12,
-      phoneNumber: "+91 63848 95174"
+      phoneNumber: "+91 63848 95174",
     },
     {
       name: "Prasanna N",
       img: prasanna_12,
-      phoneNumber: "+91 97913 95384"
+      phoneNumber: "+91 97913 95384",
     },
   ],
 };
@@ -699,7 +698,7 @@ export const vrCricketEvent = {
     {
       name: "Roshan JS",
       img: roshan_13,
-      phoneNumber: "+91 96267 12389"
+      phoneNumber: "+91 96267 12389",
     },
   ],
 };
@@ -723,7 +722,7 @@ export const sdgAwarenessEvent = {
     {
       name: "Aravindh M",
       img: aravindh_14,
-      phoneNumber: "+91 94436 65209"
+      phoneNumber: "+91 94436 65209",
     },
   ],
 };
@@ -744,6 +743,8 @@ export const aboutSecMotorSports = {
   imgWidth: 500,
   description:
     "SEC Motorsports is a club from the Mechanical Engineering Department of Sri Sairam Engineering College(SEC).This club is established to be the hub of all motorsport's events under one banner. This club includes The Rocketeer Racing (mBAJA), Team Evega Racing (eBAJA), Team Luaskart (Go-kart), Team Agrosters (Tifan), Racing Rois (Efficycle), Green Pyora (Ebike), Black Squad (Dirtbike) & Revival Racing (SUPRA) various events under the Society of Automotive Engineers(SAE). The listed teams are participating in all national level motorsports events. These teams are the club's pride as they won various prestigious awards under different categories in different core events and also overall ranks all over India. SEC Motorsports encourages students to enroll and enlighten in all those events to get, hands on experience and gain knowledge on their core engineering.",
+
+  linkTo: "https://www.instagram.com/sec_motorsports/",
 };
 
 export const aboutDepartment = {
@@ -836,7 +837,8 @@ export const staffCoordinatorsProfiles = [
     imgAlt: "rajaprasannaSirImg",
     name: "Mr. R. Rajaprasanna",
     year: "Assistant Professor",
-    linkedIn: "https://www.linkedin.com/in/ramanujam-rajaprasanna/?originalSubdomain=in",
+    linkedIn:
+      "https://www.linkedin.com/in/ramanujam-rajaprasanna/?originalSubdomain=in",
   },
 ];
 
@@ -985,8 +987,8 @@ export const studentCoordinatorsProfiles = [
     name: "Nithish Anand A",
     year: "Sponsorship",
     linkedIn: "https://www.linkedin.com/in/nithish-anand-2a144821b/",
-  }
-]
+  },
+];
 
 export const webDeveloperProfile = [
   {
@@ -996,7 +998,5 @@ export const webDeveloperProfile = [
     name: "Aswin E",
     year: "Mech- Third Year",
     linkedIn: "https://www.linkedin.com/in/aswin04/",
-  }
-]
-
-
+  },
+];
