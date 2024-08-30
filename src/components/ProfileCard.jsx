@@ -1,4 +1,3 @@
-import aadhiImg from "../assets/icons/aadhi-Img.jpeg";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { blue } from '@mui/material/colors';
 
@@ -10,7 +9,7 @@ const ProfileCard = ({profile}) => {
       </div>
       <h3 className="h3-text">{profile.name}</h3>
       <p className="mb-4 text-sm text-white-400">{profile.year}</p>
-      <a href={profile.linkedIn} target="_blank">
+      <a href={profile.linkedIn} target="_blank" rel="noopener noreferrer">
         <LinkedInIcon sx={{ color: blue[500] }} fontSize="large"/>
       </a>
 

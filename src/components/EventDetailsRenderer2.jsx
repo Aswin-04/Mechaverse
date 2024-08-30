@@ -131,6 +131,7 @@ const EventDetailsRenderer2 = ({ event }) => {
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSeTk20UsqPw8VIEcU6d1e8wsyXtaLJ7QMfdN8QBbeXZRUCAuA/viewform?pli=1"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full flex justify-center items-center whitespace-nowrap transition duration-150 ease-in-out font-medium rounded px-4 py-1.5 text-zinc-950 bg-gradient-to-r from-tc/80 via-tc to-tc/80 hover:bg-hc group"
                 >
                   Register Now
