@@ -26,14 +26,14 @@ import vrCricketLogo from "./event-logos/vr-cricket.png";
 import senateSparLogo from "./event-logos/senate-spar.png";
 
 import clgImg from "./about-us-page/clg-img.jpg";
-import secMotorsportsImg from './about-us-page/sec-motorsports-logo.jpeg'
-import departmentImg from './about-us-page/department.jpeg'
+import secMotorsportsImg from "./about-us-page/sec-motorsports-logo.jpeg";
+import departmentImg from "./about-us-page/department.jpeg";
 
-import img_1 from "./about-us-page/img_1.jpeg";
+import img_1 from "./about-us-page/img_1.jpg";
 import img_2 from "./about-us-page/img_2.jpg";
 import img_3 from "./about-us-page/img_3.jpg";
 import img_4 from "./about-us-page/img_4.jpg";
-import img_5 from "./about-us-page/img_5.jpeg";
+import img_5 from "./about-us-page/img_5.jpg";
 import img_6 from "./about-us-page/img_6.jpg";
 import img_7 from "./about-us-page/img_7.jpg";
 import img_8 from "./about-us-page/img_8.jpg";
@@ -76,27 +76,25 @@ import hodImg from "./staffs/Dr. B. Vijaya Ramnath.jpg";
 import parswajinanImg from "./staffs/Dr. C. Parswajinan.jpg";
 import rajaprasannaImg from "./staffs/Mr. R. Rajaprasanna.jpg";
 
-import sheshathImg from './media/1-sheshath.jpg'
-import sanjayImg from './media/2-sanjay.jpg'
-import kowshikImg from './media/3-kowshik.jpg'
-import karthiImg from './media/4-karthi.jpg'
-import aadhiImg from './media/5-aadhi.jpg'
-import viwinImg from './media/6-viwin.png'
-import dineshImg from './media/7-dinesh.jpg'
-import salmanImg from './media/8-salman.jpeg'
-import harishImg from './media/10-harish.jpeg'
-import vishalImg from './media/11-vishal.jpeg'
+import sheshathImg from "./media/1-sheshath.jpg";
+import sanjayImg from "./media/2-sanjay.jpg";
+import kowshikImg from "./media/3-kowshik.jpg";
+import karthiImg from "./media/4-karthi.jpg";
+import aadhiImg from "./media/5-aadhi.jpg";
+import viwinImg from "./media/6-viwin.png";
+import dineshImg from "./media/7-dinesh.jpg";
+import salmanImg from "./media/8-salman.jpeg";
+import harishImg from "./media/10-harish.jpeg";
+import vishalImg from "./media/11-vishal.jpeg";
 
-import keerthanaImg from './student-commitee/1-keerthana.jpg'
-import priyankaImg from './student-commitee/2-priyanka.jpg'
-import ajayImg from './student-commitee/3-ajay.jpg'
-import lakshmanImg from './student-commitee/4-lakshman.jpg'
-import nithishImg from './student-commitee/5-nithish.jpg'
-import aswinImg from './student-commitee/aswin.jpg'
-
+import keerthanaImg from "./student-commitee/1-keerthana.jpg";
+import priyankaImg from "./student-commitee/2-priyanka.jpg";
+import ajayImg from "./student-commitee/3-ajay.jpg";
+import lakshmanImg from "./student-commitee/4-lakshman.jpg";
+import nithishImg from "./student-commitee/5-nithish.jpg";
+import aswinImg from "./student-commitee/aswin.jpg";
 
 export {
-
   ceoImg,
   principalImg,
   rpImg,
@@ -104,12 +102,10 @@ export {
   hodImg,
   parswajinanImg,
   rajaprasannaImg,
-
   Logo,
   Logo2,
   Logo3,
   realLogo,
-
   menu,
   close,
   eventsImg,
@@ -130,7 +126,6 @@ export {
   tdPrintingLogo,
   vrCricketLogo,
   senateSparLogo,
-
   clgImg,
   secMotorsportsImg,
   departmentImg,
@@ -142,7 +137,6 @@ export {
   img_6,
   img_7,
   img_8,
-  
   meganathan_1,
   sudarshan_1,
   sakthivel_2,
@@ -172,7 +166,6 @@ export {
   prasanna_12,
   roshan_13,
   aravindh_14,
-
   sheshathImg,
   sanjayImg,
   kowshikImg,
@@ -183,7 +176,6 @@ export {
   salmanImg,
   harishImg,
   vishalImg,
-
   keerthanaImg,
   priyankaImg,
   ajayImg,
