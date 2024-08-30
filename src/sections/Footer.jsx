@@ -31,6 +31,7 @@ const Footer = () => {
                 <a
                   href="https://www.google.com/maps/place/Sri+Sairam+Engineering+College/@12.9606025,80.0563133,17.72z/data=!4m6!3m5!1s0x3a52f596c7fb72c9:0x8e7a30529f9ef227!8m2!3d12.9602171!4d80.0574071!16s%2Fm%2F02ppmyg?entry=ttu"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="leading-8"
                 >
                   Sri Sai Ram Engineering College, <br />
@@ -68,6 +69,7 @@ const Footer = () => {
                 <a
                   href="https://www.instagram.com/sairam_mech?igsh=Zzh1dmMzbjNlYjd3"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="leading-8"
                 >
                   @sairam_mech
@@ -89,6 +91,7 @@ const Footer = () => {
           <a
             href="https://www.instagram.com/sairam_mech/"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-primary transition duration-250 ease-in-out"
           >
             <InstagramIcon
@@ -104,6 +107,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/company/sairam-mechanical-engineering/posts/?feedView=all"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-primary transition duration-250 ease-in-out"
           >
             <LinkedInIcon
@@ -119,6 +123,7 @@ const Footer = () => {
           <a
             href="https://www.youtube.com/@sairammechanicalofficial8424"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-primary transition duration-250 ease-in-out"
           >
             <YouTubeIcon
