@@ -83,7 +83,7 @@ const EventDetailsRenderer2 = ({ event }) => {
                 <div className="flex flex-col gap-4">
                   {event.coordinators.map((coordinator, index) => (
                     <div key={index} className="flex flex-col  max-sm:text-xxs">
-                      <p className="mb-1 whitespace-nowrap">{coordinator.name}</p>
+                      {/* <p className="mb-1 whitespace-nowrap">{coordinator.name}</p> */}
                       <p className="text-bold text-primary">
                         {coordinator.phoneNumber ||
                           "Phone number not available"}
