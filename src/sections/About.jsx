@@ -13,9 +13,8 @@ const About = () => {
           </h2>
         </div>
         <div className="flex flex-col items-center  px-4 py-8 rounded-xl  bg-[#020809]/50 border-[1px] border-white/30">
-          <div className="">
+          <div data-aos="zoom-in" className="">
             <img
-              data-aos="zoom-in"
               src={aboutContent.img}
               alt={aboutContent.imgAlt}
               width={aboutContent.imgWidth}
@@ -39,9 +38,8 @@ const About = () => {
 
       {/* for large screens */}
       <div data-aos="fade-down" className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30">
-        <div className="min-w-[45%] pl-8 flex justify-center items-center">
+        <div data-aos="zoom-in" className="min-w-[45%] pl-8 flex justify-center items-center">
           <img
-            data-aos="zoom-in"
             src={aboutContent.img}
             alt={aboutContent.imgAlt}
             width={aboutContent.imgWidth}

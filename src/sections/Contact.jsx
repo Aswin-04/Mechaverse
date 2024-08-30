@@ -18,9 +18,8 @@ const Contact = () => {
           </h2>
         </div>
         <div className="rounded-xl bg-[#020809]/50 border-[1px] border-white/30 p-4 ">
-          <div className="flex justify-center items-center">
+          <div data-aos="zoom-in" className="flex justify-center items-center">
             <img
-              data-aos="zoom-in"
               src={contactUsImg}
               alt="events"
               width={350}
@@ -39,9 +38,8 @@ const Contact = () => {
         data-aos="fade-down"
         className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30 py-4 justify-center "
       >
-        <div className="min-w-[40%] px-4 flex justify-center items-center">
+        <div data-aos="zoom-in" className="min-w-[40%] px-4 flex justify-center items-center">
           <img
-            data-aos="zoom-in"
             src={contactUsImg}
             alt="events"
             width={350}

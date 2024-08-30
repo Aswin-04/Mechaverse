@@ -23,9 +23,8 @@ const Events = () => {
           </h2>
         </div>
         <div className="flex flex-col items-center px-4 py-8 rounded-xl bg-[#020809]/50 border-[1px] border-white/30">
-          <div>
+          <div data-aos="zoom-in">
             <img
-              data-aos="zoom-in"
               src={eventsContent.img}
               alt={eventsContent.imgAlt}
               width={eventsContent.imgWidth}
@@ -49,9 +48,8 @@ const Events = () => {
 
       {/* for large screens */}
       <div data-aos="fade-down" className="flex max-lg:hidden rounded-xl bg-[#020809]/50 border-[1px] border-white/30 py-4">
-        <div className="min-w-[45%] pl-8 flex justify-center items-center">
+        <div data-aos="zoom-in" className="min-w-[45%] pl-8 flex justify-center items-center">
           <img
-            data-aos="zoom-in"
             src={eventsContent.img}
             alt={eventsContent.imgAlt}
             width={eventsContent.imgWidth}
