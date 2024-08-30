@@ -40,9 +40,9 @@ const HomePage = () => {
       </section>
 
 
-      <section className="padding">
+      {/* <section className="padding">
         <Contact/>
-      </section>
+      </section> */}
 
       <section>
         <Footer/>

@@ -75,10 +75,17 @@ const Footer = () => {
                   @sairam_mech
                 </a>
               </li>
-              <li className="pl-[1px] flex items-center gap-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
+              <li className="mb-2 pl-[1px] flex items-center gap-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
                 <Mail size={22} />
                 <p>mechavers@sairam.edu.in</p>
               </li>
+              <li className="text-start text-sm text-white-400 font-poppins tracking-normal flex flex-col justify-normal gap-2 mt-3">
+                <p className="mb-1 hover:text-primary transition duration-250 ease-in-out">+91 98847 17979</p>
+                <p className="mb-1 hover:text-primary transition duration-250 ease-in-out">+91 97908 17205</p>
+                <p className=" hover:text-primary transition duration-250 ease-in-out">+91 80560 88096</p>
+
+              </li>
+
             </ul>
           </div>
         </div>

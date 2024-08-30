@@ -1,18 +1,16 @@
 import { contactUsImg } from "../assets/images";
-import ContactDetails from "../components/ContactDetails";
-import { contactDetails, contactDetails1 } from "../constants";
+
+const phoneNumbers = [
+  "+91 98847 17979",
+  "+91 97908 17205",
+  "+91 80560 88096",
+];
 
 const Contact = () => {
-
-  const [firstGroup, secondGroup] = contactDetails1;
-
   return (
     <section className="max-container">
       <div data-aos="fade-right" className="flex flex-col gap-8 lg:hidden">
         <div className="flex flex-col items-center">
-          {/* <p className="text-clr-100 leading-none text-sm font-sans ">
-            Have any queries ?
-          </p> */}
           <h2 className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
             Contact Us
           </h2>
@@ -26,9 +24,12 @@ const Contact = () => {
               className="rounded-3xl"
             />
           </div>
-          <div className="flex py-12 px-4 gap-20 justify-center max-sm:flex-col max-sm:text-center max-md:gap-10">
-            <ContactDetails contacts={firstGroup} />
-            <ContactDetails contacts={secondGroup} />
+          <div className="flex flex-col items-center py-12 px-4 gap-6 justify-center max-sm:text-center">
+            {phoneNumbers.map((phone, index) => (
+              <p key={index} className="underline underline-offset-8 decoration-primary text-clr-500">
+                {phone}
+              </p>
+            ))}
           </div>
         </div>
       </div>
@@ -36,7 +37,7 @@ const Contact = () => {
       {/* for large screens */}
       <div
         data-aos="fade-down"
-        className="flex max-lg:hidden rounded-xl  bg-[#020809]/50 border-[1px] border-white/30 py-4 justify-center "
+        className="flex max-lg:hidden rounded-xl bg-[#020809]/50 border-[1px] border-white/30 py-4 justify-center"
       >
         <div data-aos="zoom-in" className="min-w-[40%] px-4 flex justify-center items-center">
           <img
@@ -46,18 +47,18 @@ const Contact = () => {
             className="rounded-3xl"
           />
         </div>
-        <div className=" py-8 px-4">
+        <div className="py-8 px-4">
           <div className="flex flex-col items-center">
-            {/* <p className="text-clr-100 leading-none text-sm font-sans ">
-              Have any queries ?
-            </p> */}
             <h2 className="h3 text-center uppercase font-palanquin font-bold tracking-tight text-transparent bg-clip-text bg-radial-primary-secondary">
               Contact Us
             </h2>
           </div>
-          <div className="flex py-12 px-4 gap-10 justify-center wide:gap-20">
-            <ContactDetails contacts={firstGroup} />
-            <ContactDetails contacts={secondGroup} />
+          <div className="flex flex-col items-center py-12 px-4 gap-6 justify-center">
+            {phoneNumbers.map((phone, index) => (
+              <p key={index} className="text-lg underline underline-offset-8 decoration-primary text-clr-500">
+                {phone}
+              </p>
+            ))}
           </div>
         </div>
       </div>
