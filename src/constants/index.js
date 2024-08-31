@@ -595,7 +595,7 @@ export const pixelPerfectEvent = {
   title: "Pixel Perfect",
   logo: pixelPerfectLogo,
   description:
-    "Join us for 'Pixel Perfect,' a premier photography contest where creativity meets precision. This event invites photographers of all skill levels to capture the essence of life through their lenses. Whether it's a breathtaking landscape, an evocative portrait, or a striking abstract, we're looking for images that tell compelling stories. Participants can showcase their talents, compete for exciting prizes, and receive feedback from a panel of esteemed judges. Unleash your imagination, sharpen your focus, and make every pixel count in this celebration of visual artistry!",
+    "Join us for 'Pixel Perfect', a premier photography contest where creativity meets precision. This event invites photographers of all skill levels to capture the essence of life through their lenses. Whether it's a breathtaking landscape, an evocative portrait, or a striking abstract, we're looking for images that tell compelling stories. Participants can showcase their talents, compete for exciting prizes, and receive feedback from a panel of esteemed judges. Unleash your imagination, sharpen your focus, and make every pixel count in this celebration of visual artistry!",
 
   guidelines: [
     "Each participant is instructed to upload their photo in the Google Form for the first round with the theme 'Urban Life.'",

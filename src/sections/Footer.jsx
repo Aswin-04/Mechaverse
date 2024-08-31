@@ -81,7 +81,7 @@ const Footer = () => {
               <li className="mb-1 pl-[1px] text-white-400 hover:text-primary transition duration-250 ease-in-out">
                 <a
                   className="flex items-center gap-x-2 cursor-pointer"
-                  href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRQSXXDFnnFDjJCkgxFZcGPNlFLrFVTHjlLjkZvJzMCqBVprhbMQrwQcFxjXCwsJRgfmxG"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=mechaverse@sairam.edu.in"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
