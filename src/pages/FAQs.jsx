@@ -3,8 +3,13 @@ import NavBar from "../components/NavBar";
 import GradientHeader from "../components/GradientHeader";
 import { Footer } from "../sections";
 import { faqContent } from "../constants";
+import { useState } from "react";
 
 const FAQs = () => {
+  const [openIndex, setOpenIndex] = useState(null);
+  const handleToggle = (index) => {
+    setOpenIndex((currentIndex) => (currentIndex === index ? null : index));
+  };
   return (
     <section className="relative">
       <NavBar />
@@ -15,7 +20,12 @@ const FAQs = () => {
         <div className="grow w-full">
           <ul className=" bg-gray-800 flex-col flex gap-[1px]">
             {faqContent.map((content, index) => (
-              <Accordion content={content} key={index} />
+              <Accordion
+                content={content}
+                key={index}
+                isOpen={openIndex === index}
+                onToggle={() => handleToggle(index)}
+              />
             ))}
           </ul>
         </div>
