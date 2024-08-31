@@ -30,7 +30,7 @@ const FAQs = () => {
           </ul>
         </div>
       </section>
-      <section className="mt-32 max-sm:mt-24">
+      <section className="mt-24">
         <Footer />
       </section>
     </section>
