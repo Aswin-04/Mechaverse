@@ -996,3 +996,27 @@ export const webDeveloperProfile = [
     linkedIn: "https://www.linkedin.com/in/aswin04/",
   },
 ];
+
+
+export const faqContent = [
+  {
+    question: "When and where will the events be conducted?",
+    answer: "The events will be conducted at Sri Sairam Engineering College on September 18th, 2024.",
+  },
+  {
+    question: "Will lunch be provided to the students?",
+    answer: "Yes, lunch will be provided for all event participants.",
+  },
+  {
+    question: "What is the entry fee to participate in the events?",
+    answer: "There is no entry fee required.",
+  },
+  {
+    question: "I have more questions regarding the event.",
+    answer: "You can reach our event coordinator, the contact information is provided below.",
+  },
+  {
+    question: "Can I participate in more than one event?",
+    answer: "No, a participant should register for only one event.",
+  },
+];

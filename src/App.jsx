@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import EventsPage from "./pages/EventsPage";
 import AboutUs from "./pages/AboutUs";
 import OurTeam from "./pages/OurTeam";
+import FAQs from "./pages/FAQs";
 import { eventDetailRoutes } from "./pages/EventDetails";
 
 // Root Layout Component
@@ -50,6 +51,14 @@ const routes = [
     element: (
       <RootLayout>
         <OurTeam />
+      </RootLayout>
+    ),
+  },
+  {
+    path: "/faqs",
+    element: (
+      <RootLayout>
+        <FAQs />
       </RootLayout>
     ),
   },
