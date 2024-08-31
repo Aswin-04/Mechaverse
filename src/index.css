@@ -124,7 +124,7 @@
   }
 
   .swiper-slide img {
-    @apply block w-full ;
+    @apply block w-full h-full;
   }
 
   .swiper-pagination .swiper-pagination-bullet {
