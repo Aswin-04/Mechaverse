@@ -44,7 +44,7 @@ const Accordion = ({ content, isOpen, onToggle }) => {
           isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="max-xs:px-4 p-8 max-xs:text-base text-lg text-[#2dd2c7]">{content.answer}</div>
+        <div className="max-xs:px-4 p-8 max-xs:text-base text-lg text-white">{content.answer}</div>
       </div>
     </div>
   );

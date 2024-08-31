@@ -42,7 +42,7 @@ const NavBar = () => {
           <img
             src={isSidebarOpen ? close : menu}
             alt="menu"
-            className={`w-[30px] h-[30px] object-contain cursor-pointer transition-transform duration-700 ease-in-out transform ${
+            className={`w-[30px] h-[30px] object-contain cursor-pointer transition-transform duration-500 ease-in-out transform ${
               isSidebarOpen ? "rotate-90 scale-100" : "rotate-0 scale-100"
             }`}
             onClick={() => setSidebarOpen((perv) => !perv)}
@@ -52,7 +52,7 @@ const NavBar = () => {
         <div
           className={`${
             isSidebarOpen ? " translate-x-0 opacity-100" : "translate-x-full opacity-0"
-          }  flex absolute h-screen top-[6.7rem] right-0  w-full  pb-20  bg-black/90 backdrop-blur-sm lg:hidden transition-all duration-700 ease-in-out`}
+          }  flex absolute h-screen top-[6.7rem] right-0  w-full  pb-20  bg-black/90 backdrop-blur-sm lg:hidden transition-all duration-500 ease-in-out`}
         >
           <ul className="flex flex-col justify-center items-center gap-16 text-xl font-montserrat font-medium m-auto ">
             {navLinks.map((item) => (
