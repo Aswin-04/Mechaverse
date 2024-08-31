@@ -101,6 +101,7 @@ export const navLinks = [
   { to: "/about", label: "About Us" },
   { to: "/events", label: "Events" },
   { to: "/our-team", label: "Our Team" },
+  { to: "/faqs", label: "FAQs" },
 ];
 
 export const eventsContent = {
@@ -125,55 +126,6 @@ export const aboutContent = {
   linkLabel: "Learn More",
 };
 
-// export const contactDetails = [
-//   {
-//     title: "Event Coordinators",
-//     contacts: [
-//       { name: "Lakshman G", phone: "+91 97908 17205" },
-//       { name: "Ajay Kumar A", phone: "+91 98847 17979" },
-//     ],
-//   },
-//   {
-//     title: "Help Desk",
-//     contacts: [
-//       { name: "Nithish Anand A", phone: "+91 80560 88096" },
-//       { name: "Karthick Raja V", phone: "+91 93440 02325" },
-//     ],
-//   },
-// ];
-
-// export const contactDetails1 = [
-//   // Group 1: First three details
-//   // [
-//   //   {
-//   //     name: "Sakthi Keerthana MH",
-//   //     phone: "+91 95660 15395",
-//   //   },
-//   //   {
-//   //     name: "Priyanka AN",
-//   //     phone: "+91 90255 87486",
-//   //   },
-
-//   // ],
-
-//   // Group 2: Last two details
-//   [
-//     {
-//       name: "Ajay Kumar A",
-//       phone: "+91 98847 17979",
-//     },
-
-//     {
-//       name: "Lakshman G",
-//       phone: "+91 97908 17205",
-//     },
-//     {
-//       name: "Nithish Anand A",
-//       phone: "+91 80560 88096",
-//     },
-//   ],
-// ];
-
 export const quickLinks = {
   title: "Quick Links",
   links: [
@@ -181,6 +133,7 @@ export const quickLinks = {
     { name: "Events", linkTo: "/events" },
     { name: "About Us", linkTo: "/about" },
     { name: "Our Team", linkTo: "/our-team" },
+    { name: "FAQs", linkTo: "/faqs" },
   ],
 };
 
@@ -997,11 +950,11 @@ export const webDeveloperProfile = [
   },
 ];
 
-
 export const faqContent = [
   {
     question: "When and where will the events be conducted?",
-    answer: "The events will be conducted at Sri Sairam Engineering College on September 18th, 2024.",
+    answer:
+      "The events will be conducted at Sri Sairam Engineering College on September 18th, 2024.",
   },
   {
     question: "Will lunch be provided to the students?",
@@ -1013,7 +966,8 @@ export const faqContent = [
   },
   {
     question: "I have more questions regarding the event.",
-    answer: "You can reach our event coordinator, the contact information is provided below.",
+    answer:
+      "You can reach our event coordinator, the contact information is provided below.",
   },
   {
     question: "Can I participate in more than one event?",
