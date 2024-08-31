@@ -78,16 +78,9 @@ const Footer = () => {
                   @sairam_mech
                 </a>
               </li>
-              <li className="mb-1 pl-[1px] text-white-400 hover:text-primary transition duration-250 ease-in-out">
-                <a
-                  className="flex items-center gap-x-2 cursor-pointer"
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=mechaverse@sairam.edu.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Mail size={22} />
-                  <p>mechaverse@sairam.edu.in</p>
-                </a>
+              <li className="mb-1 pl-[1px] flex items-center gap-x-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
+                <Mail size={22} />
+                <p>mechaverse@sairam.edu.in</p>
               </li>
               <li className="pl-[2px] text-start text-sm text-white-400 font-poppins tracking-normal flex flex-col justify-normal gap-2 mt-3">
                 <p className=" mb-1 flex items-center gap-2 hover:text-primary transition duration-250 ease-in-out">
