@@ -6,7 +6,7 @@ export const customizedOptions = {
   },
   clear: true,
   detectRetina: true,
-  fpsLimit: 60, 
+  fpsLimit: 120, 
   fullScreen: {
     enable: true,
     zIndex: 0
