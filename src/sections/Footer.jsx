@@ -5,7 +5,9 @@ import { Mail } from "lucide-react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import FacebookIcon from '@mui/icons-material/Facebook';
+import FacebookIcon from "@mui/icons-material/Facebook";
+import PhoneIcon from "@mui/icons-material/Phone";
+import { Phone } from "lucide-react";
 
 const Footer = () => {
   // sm:px-16 px-8 sm:py-24 py-12
@@ -65,7 +67,7 @@ const Footer = () => {
             </h4>
 
             <ul className="font-sans">
-              <li className="mb-2 flex items-center gap-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
+              <li className="mb-1 flex items-center gap-2 text-white-400 hover:text-primary transition duration-250 ease-in-out cursor-pointer">
                 <InstagramIcon fontSize="medium" />
                 <a
                   href="https://www.instagram.com/sairam_mech?igsh=Zzh1dmMzbjNlYjd3"
@@ -76,17 +78,31 @@ const Footer = () => {
                   @sairam_mech
                 </a>
               </li>
-              <li className="mb-2 pl-[1px] flex items-center gap-2 text-white-400 hover:text-primary transition duration-250 ease-in-out">
-                <Mail size={22} />
-                <p>mechavers@sairam.edu.in</p>
+              <li className="mb-1 pl-[1px] text-white-400 hover:text-primary transition duration-250 ease-in-out">
+                <a
+                  className="flex items-center gap-x-2 cursor-pointer"
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRQSXXDFnnFDjJCkgxFZcGPNlFLrFVTHjlLjkZvJzMCqBVprhbMQrwQcFxjXCwsJRgfmxG"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Mail size={22} />
+                  <p>mechaverse@sairam.edu.in</p>
+                </a>
               </li>
-              <li className="text-start text-sm text-white-400 font-poppins tracking-normal flex flex-col justify-normal gap-2 mt-3">
-                <p className="mb-1 hover:text-primary transition duration-250 ease-in-out">+91 98847 17979</p>
-                <p className="mb-1 hover:text-primary transition duration-250 ease-in-out">+91 97908 17205</p>
-                <p className=" hover:text-primary transition duration-250 ease-in-out">+91 80560 88096</p>
-
+              <li className="pl-[2px] text-start text-sm text-white-400 font-poppins tracking-normal flex flex-col justify-normal gap-2 mt-3">
+                <p className=" mb-1 flex items-center gap-2 hover:text-primary transition duration-250 ease-in-out">
+                  <Phone size={20} />
+                  <span>+91 98847 17979</span>
+                </p>
+                <p className="mb-1 flex items-center gap-2 hover:text-primary transition duration-250 ease-in-out">
+                  <Phone size={20} />
+                  <span>+91 97908 17205</span>
+                </p>
+                <p className="flex items-center gap-2 hover:text-primary transition duration-250 ease-in-out">
+                  <Phone size={20} />
+                  <span>+91 80560 88096</span>
+                </p>
               </li>
-
             </ul>
           </div>
         </div>
