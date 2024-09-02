@@ -99,8 +99,8 @@ import {
 
 export const navLinks = [
   { to: "/", label: "Home" },
-  { to: "/events", label: "Events" },
   { to: "/about", label: "About Us" },
+  { to: "/events", label: "Events" },
   { to: "/our-team", label: "Our Team" },
   { to: "/faqs", label: "FAQs" },
 ];
@@ -131,8 +131,8 @@ export const quickLinks = {
   title: "Quick Links",
   links: [
     { name: "Home", linkTo: "/" },
-    { name: "Events", linkTo: "/events" },
     { name: "About Us", linkTo: "/about" },
+    { name: "Events", linkTo: "/events" },
     { name: "Our Team", linkTo: "/our-team" },
     { name: "FAQs", linkTo: "/faqs" },
   ],
