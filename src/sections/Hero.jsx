@@ -15,7 +15,7 @@ const Hero = () => {
             className="mt-6 flex flex-col"
           >
             <p className="font-poppins font-semibold text-xl text-transparent bg-clip-text bg-custom-gradient-120 self-start max-lg:self-center">
-              Sai-Mech'24
+              SAIMECH'24
             </p>
             <h1 className="h1 text-transparent bg-clip-text bg-custom-gradient-120">
               Mechaverse
