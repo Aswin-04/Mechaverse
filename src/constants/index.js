@@ -98,8 +98,8 @@ import {
 
 export const navLinks = [
   { to: "/", label: "Home" },
-  { to: "/about", label: "About Us" },
   { to: "/events", label: "Events" },
+  { to: "/about", label: "About Us" },
   { to: "/our-team", label: "Our Team" },
   { to: "/faqs", label: "FAQs" },
 ];
@@ -121,7 +121,7 @@ export const aboutContent = {
   imgAlt: "events",
   imgWidth: 380,
   description:
-    "Sri Sai Ram Engineering College, Chennai, established in the year 1995 by MJF. Ln. Leo Muthu, Chairman of Sapthagiri Educational Trust, is a non-profitable and a non-minority institution.  The Department of Mechanical Engineering, accredited by the NBA is backed by teaching professionals, equipped laboratories and societies such as SAE, IEI, ISHRAE. The SEC Motorsports includes The Rocketeer Racing, Team Evega Racing, Team Luaskart, Team Agrosters & Revival Racing.",
+    "Sri Sai Ram Engineering College, Chennai, established in the year 1995 by MJF. Ln. Leo Muthu, Chairman of Sapthagiri Educational Trust, is a non-profitable and a non-minority institution.  The Department of Mechanical Engineering, accredited by the NBA(4 times) is backed by a well experienced teaching professionals, state of art laboratories and professional societies such as SAE, IEEE, IEI, ISHRAE, IWS, etc.,. The SEC Motorsports includes The Rocketeer Racing, Team Evega Racing, Team Luaskart, Team Agrosters & Revival Racing.",
   linkTo: "/about",
   linkLabel: "Learn More",
 };
@@ -691,7 +691,7 @@ export const aboutSecMotorSports = {
   imgAlt: "SecMotorsports img",
   imgWidth: 500,
   description:
-    "SEC Motorsports is a club from the Mechanical Engineering Department of Sri Sai Ram Engineering College. This club is established to be the hub of all motorsport's events under one banner. This club includes The Rocketeer Racing, Team Evega Racing, Team Luaskart, Team Agrosters, Racing Rois, Green Pyora, Black Squad & Revival Racing various events under the Society of Automotive Engineers (SAE). The listed teams are participating in all national level motorsports events. These teams are the club's pride as they won various prestigious awards under different categories in different core events and also overall ranks all over India. SEC Motorsports encourages students to enroll and enlighten in all those events to get, hands on experience and gain knowledge on their core engineering.",
+    "SEC Motorsports is a club from the Mechanical Engineering Department of Sri Sai Ram Engineering College. This club is the hub of all motorsport's events under one banner. This club includes The Rocketeer Racing, Team Evega Racing, Team Luaskart, Team Agrosters, Racing Rois, Green Pyora, Black Squad & Revival Racing various events under the Society of Automotive Engineers (SAE). The listed teams are participating in all national level motorsports events. These teams are the club's pride as they won various prestigious awards under different categories in different core events and also overall ranks all over India. SEC Motorsports encourages students to enroll and enlighten in all those events to get, hands on experience and gain knowledge on their core engineering.",
 
   linkTo: "https://www.instagram.com/sec_motorsports/",
 };
@@ -702,7 +702,7 @@ export const aboutDepartment = {
   imgAlt: "department img",
   imgWidth: 500,
   description:
-    "Established in the year 1995, the Department of Mechanical Engineering has excelled in its infrastructural facilities keeping pace with the latest development in technologies. The Department is accredited by the National board of accreditation and is backed by professionally experienced and highly qualified faculty and supporting staff. More than 600 students have enrolled in the Mechanical Engineering branch. The Department has well developed laboratories equipped with latest equipment. Society of Automotive Engineers (SAE) is very vibrant. The Association of mechanical engineering is regularly conducting seminars, workshops and guest lectures by eminent personalities in various streams of mechanical engineering. CII-AICTE survey of industry linked technical institutions 2015 has placed the Department of Mechanical Engineering in the first position at all India level. Students are encouraged to actively participate in professional society activities.",
+    "Established in the year 1995, the Department of Mechanical Engineering has excelled in its infrastructural facilities keeping pace with the latest development in technologies. The Department is accredited by the National board of accreditation and is backed by professionally experienced and highly qualified faculty and supporting staff. More than 350 students have enrolled in the Mechanical Engineering branch. The Department has well developed laboratories equipped with latest equipment. Society of Automotive Engineers (SAE) is very vibrant. The Association of mechanical engineering is regularly conducting seminars, workshops and guest lectures by eminent personalities in various streams of mechanical engineering. CII-AICTE survey of industry linked technical institutions 2015 and 2020 has placed the Department of Mechanical Engineering in the first position at all India level. Students are encouraged to actively participate in professional society activities.",
 };
 
 export const motorSportsImages = [
@@ -934,7 +934,7 @@ export const studentCoordinatorsProfiles = [
     img: nithishImg,
     imgAlt: "nithishImg",
     name: "Nithish Anand A",
-    year: "Sponsorship",
+    year: "Out",
     linkedIn: "https://www.linkedin.com/in/nithish-anand-2a144821b/",
   },
 ];

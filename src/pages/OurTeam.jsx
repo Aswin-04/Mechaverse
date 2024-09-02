@@ -50,7 +50,7 @@ const OurTeam = () => {
         <section className="padding-x py-12">
           <div data-aos="fade-in" className="my-4 flex flex-col items-center text-center">
             <h2 className="text-3xl md:text-[36px] uppercase font-sans font-semibold tracking-tight text-transparent bg-clip-text bg-radial-primary-accent">
-              Staff <span className="whitespace-nowrap">Co-ordinators</span>
+              Faculty <span className="whitespace-nowrap">Co-ordinators</span>
             </h2>
           </div>
 
