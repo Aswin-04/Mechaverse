@@ -24,7 +24,7 @@ import sdgLogo from "./event-logos/together-we-can.png";
 import tdPrintingLogo from "./event-logos/3d-printing.png";
 import vrCricketLogo from "./event-logos/vr-cricket.png";
 import senateSparLogo from "./event-logos/senate-spar.png";
-
+import surpriseEventLogo from "./event-logos/surprise-event.png"
 import clgImg from "./about-us-page/clg-img.jpg";
 import secMotorsportsImg from "./about-us-page/sec-motorsports-logo.jpeg";
 import departmentImg from "./about-us-page/department.jpeg";
@@ -80,7 +80,7 @@ import sheshathImg from "./media/1-sheshath.jpg";
 import sanjayImg from "./media/2-sanjay.jpg";
 import kowshikImg from "./media/3-kowshik.jpg";
 import karthiImg from "./media/4-karthi.jpg";
-import aadhiImg from "./media/5-aadhi.jpg";
+import aadhiImg from "./media/5-aadhi.jpeg";
 import viwinImg from "./media/6-viwin.png";
 import dineshImg from "./media/7-dinesh.jpg";
 import salmanImg from "./media/8-salman.jpeg";
@@ -126,6 +126,8 @@ export {
   tdPrintingLogo,
   vrCricketLogo,
   senateSparLogo,
+  surpriseEventLogo,
+
   clgImg,
   secMotorsportsImg,
   departmentImg,

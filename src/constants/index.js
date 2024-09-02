@@ -17,6 +17,7 @@ import {
   tdPrintingLogo,
   vrCricketLogo,
   senateSparLogo,
+  surpriseEventLogo,
 } from "../assets/images";
 
 import {
@@ -236,9 +237,9 @@ export const allEvents = [
 
   {
     id: 13,
-    title: "Vr Cricket",
-    logo: vrCricketLogo,
-    linkTo: "/events/13",
+    title: "Surprise Event",
+    logo: surpriseEventLogo,
+    // linkTo: "/events/13",
     linkLabel: "View Details",
   },
 
@@ -246,7 +247,7 @@ export const allEvents = [
     id: 14,
     title: "SDG Awarness",
     logo: sdgLogo,
-    linkTo: "/events/14",
+    // linkTo: "/events/14",
     linkLabel: "View Details",
   },
 ];
@@ -934,7 +935,7 @@ export const studentCoordinatorsProfiles = [
     img: nithishImg,
     imgAlt: "nithishImg",
     name: "Nithish Anand A",
-    year: "Out",
+    year: "Outreach",
     linkedIn: "https://www.linkedin.com/in/nithish-anand-2a144821b/",
   },
 ];
@@ -953,22 +954,22 @@ export const webDeveloperProfile = [
 export const faqContent = [
   {
     question: "What is the dress code for the participants?",
-    answer: "Formals only. No jeans or t-shirt allowed (both boys and girls)."
+    answer: "Formal Dress Code. Jeans, T-shirts, Casuals are not allowed (both boys and girls)."
   }, 
 
   {
     question: "Is transport facilities available for participants?",
-    answer: "College Bus: Boarding point - Viveks Showroom, Rajaji road, West Tambaram at 8:15 A.M."
+    answer: "College Bus: Boarding point - Viveks Showroom, Rajaji road, West Tambaram at 8:00 A.M."
   },
 
   {
     question: "When and where will the events be conducted?",
     answer:
-      "Events will be conducted as per the program agenda will be given in that day",
+      "Events will be conducted as per the program agenda will be given on the day of symposium",
   },
   {
     question: "Will lunch be provided to the students?",
-    answer: "Yes, lunch will be provided for all event participants.",
+    answer: "Yes, lunch will be provided for all participants.",
   },
   {
     question: "Is there any registration fee to participate in the events?",
@@ -977,7 +978,7 @@ export const faqContent = [
   {
     question: "I have more questions regarding the event.",
     answer:
-      "You can reach our event coordinator, the contact information is provided in the footer.",
+      "You can reach our event coordinator, the contact information is provided in the respective events page",
   },
   {
     question: "Can I participate in more than one event?",

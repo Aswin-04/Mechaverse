@@ -13,9 +13,11 @@ const EventCard = ({event}) => {
     <div className="px-6 py-4">
       <div className="font-bold text-xl mb-2 text-center text-hc font-montserrat max-xs:text-lg whitespace-nowrap">{event.title}</div>
     </div>
-    <div className="w-[80%] mb-8 mx-auto" onClick={handleLinkClick}>
-      <Button linkTo={event.linkTo} linkLabel={event.linkLabel}/>
-    </div>
+    {event.linkTo && (
+      <div className="w-[80%] mb-8 mx-auto" onClick={handleLinkClick}>
+        <Button linkTo={event.linkTo} linkLabel={event.linkLabel}/>
+      </div>
+    )}
   </div>
   );
 };
