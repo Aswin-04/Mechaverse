@@ -247,7 +247,7 @@ export const allEvents = [
     id: 14,
     title: "SDG Awarness",
     logo: sdgLogo,
-    // linkTo: "/events/14",
+    linkTo: "/events/14",
     linkLabel: "View Details",
   },
 ];
@@ -674,7 +674,10 @@ export const sdgAwarenessEvent = {
       img: aravindh_14,
       phoneNumber: "+91 94436 65209",
     },
+  
   ],
+  hideNote: true,
+  hideRegistration: true,
 };
 
 export const aboutClg = {
