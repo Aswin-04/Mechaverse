@@ -237,16 +237,16 @@ export const allEvents = [
 
   {
     id: 13,
-    title: "Surprise Event",
-    logo: surpriseEventLogo,
-    // linkTo: "/events/13",
+    title: "SDG Awarness",
+    logo: sdgLogo,
+    linkTo: "/events/13",
     linkLabel: "View Details",
   },
 
   {
     id: 14,
-    title: "SDG Awarness",
-    logo: sdgLogo,
+    title: "Surprise Event",
+    logo: surpriseEventLogo,
     linkTo: "/events/14",
     linkLabel: "View Details",
   },
@@ -636,25 +636,8 @@ export const droneZoneWorkshop = {
   ],
 };
 
-export const vrCricketEvent = {
-  id: 13,
-  title: "VR Cricket",
-  logo: vrCricketLogo,
-  description:
-    "VR Cricket is an immersive virtual reality experience that allows players to engage in the sport of cricket as if they were physically present on the field. In VR Cricket, you can take on the role of a batsman, bowler, or fielder, experiencing the game from a first-person perspective. With realistic graphics and motion tracking, VR Cricket simulates the sensation of batting against fast-paced deliveries, bowling with precision, and fielding in a stadium filled with cheering fans.",
-  venue: "",
-  timing: "",
-  coordinators: [
-    {
-      name: "Roshan JS",
-      img: roshan_13,
-      phoneNumber: "+91 96267 12389",
-    },
-  ],
-};
-
 export const sdgAwarenessEvent = {
-  id: 14,
+  id: 13,
   title: "SDG Awareness",
   logo: sdgLogo,
   description:
@@ -674,10 +657,29 @@ export const sdgAwarenessEvent = {
       img: aravindh_14,
       phoneNumber: "+91 94436 65209",
     },
-  
   ],
   hideNote: true,
   hideRegistration: true,
+};
+
+export const vrCricketEvent = {
+  id: 14,
+  title: "Surprise Event",
+  logo: surpriseEventLogo,
+  description:
+    "Get ready to experience the thrill of the unknown! As part of our symposium, we're bringing you a surprise event that promises to be as exciting as it is mysterious. Expect the unexpected and prepare yourself for a challenge that will keep you on your toes!",
+  venue: "",
+  timing: "",
+  hideNote: true,
+  hideRegistration: true,
+
+  // coordinators: [
+  //   {
+  //     name: "Roshan JS",
+  //     img: roshan_13,
+  //     phoneNumber: "+91 96267 12389",
+  //   },
+  // ],
 };
 
 export const aboutClg = {
@@ -957,12 +959,14 @@ export const webDeveloperProfile = [
 export const faqContent = [
   {
     question: "What is the dress code for the participants?",
-    answer: "Formal Dress Code. Jeans, T-shirts, Casuals are not allowed (both boys and girls)."
-  }, 
+    answer:
+      "Formal Dress Code. Jeans, T-shirts, Casuals are not allowed (both boys and girls).",
+  },
 
   {
     question: "Is transport facilities available for participants?",
-    answer: "College Bus: Boarding point - Viveks Showroom, Rajaji road, West Tambaram at 8:00 A.M."
+    answer:
+      "College Bus: Boarding point - Viveks Showroom, Rajaji road, West Tambaram at 8:00 A.M.",
   },
 
   {
@@ -987,5 +991,4 @@ export const faqContent = [
     question: "Can I participate in more than one event?",
     answer: "No, a participant should register for only one event.",
   },
-
 ];

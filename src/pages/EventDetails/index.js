@@ -44,7 +44,7 @@ export const eventDetailRoutes = {
   10: PixelPerfectEvent,
   11: TDPrintingWorkshop,
   12: DroneZoneWorkshop,
-  13: VrCricketEvent, 
-  14: SdgAwarenessEvent,
+  13: SdgAwarenessEvent,
+  14: VrCricketEvent, 
 };
 
