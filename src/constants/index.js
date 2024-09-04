@@ -658,8 +658,8 @@ export const sdgAwarenessEvent = {
       phoneNumber: "+91 94436 65209",
     },
   ],
-  hideNote: true,
-  hideRegistration: true,
+  // hideNote: true,
+  // hideRegistration: true,
 };
 
 export const vrCricketEvent = {
