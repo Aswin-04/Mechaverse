@@ -27,7 +27,7 @@ const Hero = () => {
             data-aos-delay="150"
           >
             A National Level Technical Symposium organized by Department of Mechanical
-            Engineering, Sri Sai Ram Engineering College on September 18/09/2024.{" "}
+            Engineering, Sri Sai Ram Engineering College on 18/09/2024.{" "}
           </p>
         </div>
 
