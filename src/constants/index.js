@@ -624,7 +624,7 @@ export const droneZoneWorkshop = {
       phoneNumber: "+91 86376 51338",
     },
     {
-      name: "Jayasurya B",
+      name: "Jeyasurya B",
       img: jayasurya_12,
       phoneNumber: "+91 63848 95174",
     },
