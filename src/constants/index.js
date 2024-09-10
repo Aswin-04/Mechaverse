@@ -332,10 +332,11 @@ export const shapeShiftersEvent = {
   description:
     "The 3D CAD Modeling Competition is a platform for aspiring engineers and designers to showcase their proficiency in creating detailed and accurate digital models. Participants will be tasked with designing a complex object or assembly within a specified time frame, using any CAD software of their choice. The competition will test their technical skills, creativity, and ability to adhere to design specifications.",
   guidelines: [
-    "A maximum of 12 teams can participate in the event, and spots are filled on a first-come, first-served basis.",
-    "A total of two rounds will be held, with each round lasting 30 minutes.",
-    "Modeling should be performed using Solid Works 2014 on the system provided to you.",
-    "The team which completes the given model with the steps and in the shortest time will advance to the next round.",
+    "A maximum of 12 teams can participate in the event. Selection criteria will be intimated later.",
+    "The duration of the competition will be 1 hour.",
+    "Modeling should be done using SolidWorks software on the system provided to you.",
+    "Top 3 teams will be awarded based on uniqueness, duration, product feasibility, etc.",
+    "Designing should be done on the given topic on the spot.",
   ],
   venue: "",
   timing: "",
