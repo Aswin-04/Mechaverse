@@ -61,7 +61,10 @@ const EventDetailsRenderer2 = ({ event }) => {
                 <h3 className="h3-text">Coordinators</h3>
                 <div className="flex flex-wrap gap-x-4 gap-y-2">
                   {event.coordinators.map((coordinator, index) => (
-                    <div className="flex flex-col items-start md:items-start lg:items-center" key={index}>
+                    <div
+                      className="flex flex-col items-start md:items-start lg:items-center"
+                      key={index}
+                    >
                       <div className="w-[120px] h-[120px] rounded-full overflow-hidden shadow-lg mt-4 mb-4 max-xs:w-[85px] max-xs:h-[85px]">
                         <img
                           src={coordinator.img}
@@ -97,6 +100,13 @@ const EventDetailsRenderer2 = ({ event }) => {
               <div className="text-justify bg-gray-800 p-4 rounded-lg shadow-sm mt-5">
                 <h3 className="h3-text">Note</h3>
                 <ul className="list-disc list-inside pl-4">
+                  <li
+                    className="mb-2 text-orange-300"
+                    style={{ listStylePosition: "outside" }}
+                  >
+                    The confirmation email will be sent to participants, and
+                    they will be added to a WhatsApp group for communication.{" "}
+                  </li>
                   <li className="mb-2" style={{ listStylePosition: "outside" }}>
                     Please note that the registration for this event is handled
                     through a common Google Form.
