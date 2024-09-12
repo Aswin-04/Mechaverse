@@ -275,8 +275,10 @@ export const colloquiumTalk = {
   - Information & Communication Technologies`,
   guidelines: [
     "Teams can have a minimum of two and a maximum of three members.",
+    "Selection will be on a first-come, first-served basis.",
     "Teams will have a presentation duration of 5 minutes and Q&A session of 3 minutes.",
-    "Participants must send their presentation PPT on or before 15.08.2024 to the mail ID (mechaverse24@sairam.edu.in).",
+    "Participants must send their presentation PPT on or before 15.09.2024 to the mail ID: mechaverse@sairam.edu.in.",
+    "Participants must assemble in the CAD Laboratory on time.",
   ],
   venue: "",
   timing: "",

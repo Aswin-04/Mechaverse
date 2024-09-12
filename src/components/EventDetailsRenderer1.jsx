@@ -112,10 +112,10 @@ const EventDetailsRenderer1 = ({ event }) => {
                   <h3 className="h3-text">Note</h3>
                   <ul className="list-disc list-inside pl-4">
                     <li
-                      className="mb-2 text-orange-300"
+                      className="mb-2 text-clr-500"
                       style={{ listStylePosition: "outside" }}
                     >
-                      The confirmation email will be sent to participants, and
+                      The confirmation mail will be sent to participants, and
                       they will be added to a WhatsApp group for communication.{" "}
                     </li>
                     <li

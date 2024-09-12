@@ -101,10 +101,10 @@ const EventDetailsRenderer2 = ({ event }) => {
                 <h3 className="h3-text">Note</h3>
                 <ul className="list-disc list-inside pl-4">
                   <li
-                    className="mb-2 text-orange-300"
+                    className="mb-2 text-clr-500"
                     style={{ listStylePosition: "outside" }}
                   >
-                    The confirmation email will be sent to participants, and
+                    The confirmation mail will be sent to participants, and
                     they will be added to a WhatsApp group for communication.{" "}
                   </li>
                   <li className="mb-2" style={{ listStylePosition: "outside" }}>
@@ -117,11 +117,11 @@ const EventDetailsRenderer2 = ({ event }) => {
                   </li>
                   <li className="mb-2" style={{ listStylePosition: "outside" }}>
                     You can click{" "}
-                    <span className="font-bold text-md font-montserrat text-lime-400 whitespace-nowrap">
+                    <span className="font-bold text-md font-montserrat whitespace-nowrap">
                       Go Back
                     </span>{" "}
                     to return to the events page and explore other events, or{" "}
-                    <span className="font-bold text-md font-montserrat text-lime-400 whitespace-nowrap">
+                    <span className="font-bold text-md font-montserrat whitespace-nowrap">
                       Register Now
                     </span>{" "}
                     to proceed with registration.
