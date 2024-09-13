@@ -304,12 +304,12 @@ export const brainTeaseEvent = {
     "Ready to test-drive your brain? Buckle up for our automotive quiz! Whether you're a gearhead who dreams in horsepower or someone who thinks a spark plug is a new dance move, this quiz is the pit stop for laughs and learning. Let's see if you can steer clear of wrong answers or if you'll need a tow truck by the end!",
 
   guidelines: [
-    "Teams can consist of a minimum of 2 members and a maximum of 3 members.",
-    "Teams can have between 2 and 3 members.",
+    "Teams can have a maximum of two members.",
+    "Selection will be on a first-come, first-served basis.",
     "Question type is multiple choice.",
-    "Number of rounds: 3.",
+    "Number of rounds: 2.",
     "Each question will have a 30-second time limit for answering.",
-    "Seven teams will advance to round 2, and five teams will be shortlisted.",
+    "Shortlisted teams will advance for Round 2.",
   ],
   venue: "",
   timing: "",
@@ -334,11 +334,11 @@ export const shapeShiftersEvent = {
   description:
     "The 3D CAD Modeling Competition is a platform for aspiring engineers and designers to showcase their proficiency in creating detailed and accurate digital models. Participants will be tasked with designing a complex object or assembly within a specified time frame, using any CAD software of their choice. The competition will test their technical skills, creativity, and ability to adhere to design specifications.",
   guidelines: [
-    "A maximum of 12 teams can participate in the event. Selection criteria will be intimated later.",
-    "The duration of the competition will be 1 hour.",
-    "Modeling should be done using SolidWorks software on the system provided to you.",
-    "Top 3 teams will be awarded based on uniqueness, duration, product feasibility, etc.",
-    "Designing should be done on the given topic on the spot.",
+    "Selection will be on a first-come, first-served basis.",
+    "Duration of the competition will be 1 hour.",
+    "The modeling should be done in SolidWorks software in the system provided to you.",
+    "Top 3 teams will be awarded based on uniqueness, duration, and product feasibility.",
+    "Designing should be done on the model given.",
   ],
   venue: "",
   timing: "",
@@ -363,7 +363,7 @@ export const machinistEvent = {
     "Join us for Machinist (Lathe Machining), a fundamental process in mechanical engineering primarily used for shaping materials, typically metals, by removing excess material. The workpiece is rotated about its axis, while a cutting tool is applied to it to create cylindrical, conical, or even complex shapes with high precision. Participants can showcase their talents, compete for exciting prizes, and receive feedback from a panel of esteemed judges at our mechanical symposium. This event offers attendees insights into both the fundamental principles and the latest innovations in the field.",
 
   guidelines: [
-    "Each team can have a maximum of 2 to 3 members.",
+    "Teams can have a maximum of two members. Selection will be on a first-come, first-served basis.",
     "Each team will have a specific timeframe of 30 minutes to complete their task.",
     "The material to be machined will be supplied.",
     "All participants are required to wear leather shoes.",
@@ -371,6 +371,7 @@ export const machinistEvent = {
     "Participants will be given a specific design and set of dimensions.",
     "Judging will be based on accuracy, surface finish, and time management.",
   ],
+
   venue: "",
   timing: "",
   coordinators: [
@@ -395,10 +396,11 @@ export const cricketAuctionEvent = {
     "Experience the ultimate high-stakes fantasy cricket showdown, where fortunes are won or lost in a heartbeat. Fierce bidders compete for top players as the auctioneer’s rapid-fire calls fuel the excitement. Get ready for a thrilling game where every decision counts.",
 
   guidelines: [
+    "Selection will be on a first-come, first-served basis.",
     "The team should consist of at least 2 players and no more than 3 players.",
-    "Each team must choose 7 players, comprising 2 batsmen, 2 bowlers, 1 wicketkeeper, and 2 all-rounders.",
-    "There will be three tiers: Legendary, Epic, and Rare with points varying according to each tier.",
-    "The judges' decisions are final.",
+    "Each team must choose 7 players comprising 2 batsmen, 2 bowlers, 2 all-rounders, and 1 wicket keeper.",
+    "There will be three tiers - Legendary, Epic, and Rare, with points varying according to each tier.",
+    "The judges decisions are final.",
   ],
   venue: "",
   timing: "",
@@ -430,7 +432,7 @@ export const aquaStrikeEvent = {
     "BLAST OFF INTO HYDRO-MADNESS! Where creativity meets propulsion and innovation meets fun. Compete against rival rocketeers in a battle of wits, skill, and water pressure, and experience the THRILL OF LIFTOFF and the agony of defeat. Don't miss this SPLASH-TACULAR event, where you'll go HYDRO-WILD and make a splash with fellow rocket enthusiasts. Register now and get ready for liftoff!",
 
   guidelines: [
-    "The first 16 teams will be considered for participation.",
+    "Selection will be on a first-come, first-served basis.",
     "Every team must consist of two members.",
     "The event takes place over 2 rounds.",
     "Teams eligible for the second round will be determined by the number of points scored in the first round.",
@@ -457,12 +459,12 @@ export const senateSparEvent = {
   logo: senateSparLogo,
   description: `Get ready for the battle of wits and ideas as the highest minds come together for a thrilling house of representative competition! This event promises to be an electrifying exchange of arguments, counterarguments, and perspectives on thought-provoking topics.`,
   guidelines: [
-    "Teams of two or three students will be permitted.",
+    "Teams of two or three students will be permitted. Selection will be on a first-come, first-served basis.",
     "Each team will represent a different state.",
-    "The states assigned to each team will be announced two days prior to the event.",
+    "States assigned to each team will be announced two days prior to the event.",
     "Each team should introduce their state's history, culture, and unique features within one minute.",
     "The debate will start after the introduction, covering topics like current affairs, state politics, disaster management, women empowerment, tourism, and job opportunities in the states.",
-    "The judges' decisions are final, and no appeals will be considered.",
+    "The judges decisions are final and no appeals will be considered.",
   ],
   venue: "",
   timing: "",
@@ -493,7 +495,7 @@ export const stumbleGuysEvent = {
     "Welcome to Stumble Guys! Experience a thrilling sequence of chaotic obstacle courses and mini-games as part of our action-packed 'Stumble Guys' tournament! Inspired by the viral sensation, this event promises lots of laughter, fast-paced excitement, and unforeseen obstacles. This tournament is the ideal way to demonstrate your abilities, take on other fans, and have some friendly competition—regardless of your level of experience. Don't miss the opportunity to become the Stumble Guys champion!",
   guidelines: [
     "The event only requires individual participation.",
-    "Selection will be on a first-come, first-served basis, with only the first 60 members being chosen.",
+    "Selection will be on a first-come, first-served basis.",
     "A total of 5 rounds will be held, with the first four rounds consisting of 15 members per game.",
     "Players in each of the 4 games will be considered as finalists.",
     "Emotes and skills will not be permitted during the game.",
@@ -521,15 +523,11 @@ export const rcDaCorsaEvent = {
   logo: rcDaCorsaLogo,
   description: `RC Racing for cars specifically involves racing remote-controlled vehicles designed to mimic full-sized cars. These RC cars come in various types, including on-road cars for smooth surfaces and off-road cars for dirt tracks, grass, and other rugged terrains.\n\nRC car racing requires skillful handling as drivers must maneuver their cars through tight turns, high-speed straights, and sometimes over jumps, all while competing against other racers. The cars are powered by electric motors offering different speeds and performance characteristics.\n\nRaces can range from short sprints to longer endurance events, with some competitions incorporating time trials or knockout rounds.`,
   guidelines: [
-    "A maximum of 10 teams can participate in the event based on first-come, first-served, and a team can have up to 2 members.",
-    "Participants are required to bring their own RC cars.",
-    "An initial inspection will be conducted.",
-    "The race track will feature a dirt surface with hairpin bends and S-shaped curves.",
-    "Each team is allowed up to two penalties; beyond that, the team will be disqualified.",
-    "We will not be responsible for any damage to the car during the race.",
-    "Each team will be granted a single trial session.",
-    "The judge's decision will be final.",
-    "Shortlisted teams will be notified by email four days before the event.",
+    "Teams can have a minimum of one and a maximum of two members.",
+    "Selection will be on a first-come, first-served basis.",
+    "Participants must bring their own RC cars, whose initial inspection will be done to race in the dirt track.",
+    "A maximum of 2 penalties is permitted, after which the team will be disqualified.",
+    "Note: Participants are responsible in case of any damage to RC cars.",
   ],
   venue: "",
   timing: "",
@@ -555,9 +553,10 @@ export const pixelPerfectEvent = {
     "Join us for 'Pixel Perfect', a premier photography contest where creativity meets precision. This event invites photographers of all skill levels to capture the essence of life through their lenses. Whether it's a breathtaking landscape, an evocative portrait, or a striking abstract, we're looking for images that tell compelling stories. Participants can showcase their talents, compete for exciting prizes, and receive feedback from a panel of esteemed judges. Unleash your imagination, sharpen your focus, and make every pixel count in this celebration of visual artistry!",
 
   guidelines: [
-    "Each participant is instructed to upload their photo in the Google Form for the first round with the theme 'Urban Life.'",
-    "Out of those, the top 20 are selected for the second round, where photos are submitted under the theme 'Environmental Issues.'",
+    "Participants have to upload a photograph for the first round with the theme 'Urban Life' in the Google Form only.",
+    "The top 20 are selected for the second round, which will be intimated through mail along with the theme for the second round.",
     "Participants are instructed not to take photos inside the college premises.",
+    "Note: Pixel Perfect is an open event to both Tech Titans and Techno Fun Fest participants.",
   ],
   venue: "",
   timing: "",
@@ -580,10 +579,9 @@ export const tdPrintingWorkshop = {
   - Hands-On Demonstrations: Watch live demonstrations of different 3D printers and materials in action.
   - Interactive Sessions: Engage in interactive activities to understand the design process and how to create your own 3D models.`,
   guidelines: [
-    "Each participant is instructed to register through Google Form provided.",
-    "First come first served (Only first 30 members are expected).",
-    "After the workshop, a quiz will be conducted to test your knowledge.",
-    "No team participation is allowed for the quiz, only individual participation.",
+    "Individual participation is only expected.",
+    "Selection will be on a first-come, first-served basis.",
+    "After the workshop, an individual quiz will be conducted to test your knowledge.",
   ],
   venue: "",
   timing: "",
@@ -614,7 +612,7 @@ export const droneZoneWorkshop = {
     "Welcome to Drone Zone, brought to you by LMES (Let's Make Education Simple)! Get ready for an exciting adventure where you'll dive into the world of drones. Today, you'll learn how these amazing flying machines work, build your very own drone, and master the art of flying. With LMES, our expert instructors make complex concepts easy to understand through fun, hands-on activities. Whether you're a beginner or have some experience, Drone Zone is the perfect place to unleash your creativity, learn safely, and have a blast all while LMES simplifies your educational journey!",
 
   guidelines: [
-    "A maximum of 30 members is permitted.",
+    "Selection will be on a first-come, first-served basis.",
     "Participants are chosen on a first-come, first-served basis.",
     "Participants are asked to complete the feedback form provided.",
   ],
@@ -647,9 +645,10 @@ export const sdgAwarenessEvent = {
     "An engaging experience that combines knowledge with impact! In this exciting event, we welcome you to journey through layers of knowledge and creativity, with each step bringing you closer to understanding and advocating the Sustainable Development Goals (SDGs). Prepare to engage your thoughts as we embark on a series of engaging exercises meant to raise your understanding of global identities and long-term change.",
 
   guidelines: [
-    "Engineering students from any discipline and year can participate individually.",
-    "Participants must adhere to the time limit of 6 minutes.",
-    "General knowledge and basic knowledge of SDG goals are required.",
+    "Selection will be on a first-come, first-served basis.",
+    "Engineering students from any discipline and any year can participate.",
+    "Participants must adhere to the time limits of 6 minutes.",
+    "General knowledge and basic knowledge on SDG goals are required.",
     "Smartphones and other electronic gadgets are prohibited.",
   ],
   venue: "",
