@@ -11,7 +11,7 @@ const NavBar = () => {
       <nav className="max-container flex">
         <NavLink to="/" className="flex items-center mr-auto">
           <img
-            src={Logo}
+            src={Logo3}
             alt="logo"
             width={90}
             height={90}

@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
 
         <div  data-aos="fade-down">
-          <img src={Logo} alt="logo" width={400}/>
+          <img src={Logo3} alt="logo" width={400}/>
         </div>
       </div>
 
